@@ -1,16 +1,21 @@
-## Hi there 👋
+# Hi there, I'm JT 👋 (@trencinodin-stack)
 
-<!--
-**trencinodin-stack/trencinodin-stack** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Founder & Researcher focusing on computational frameworks, knowledge synthesis, and decision governance systems.
 
-Here are some ideas to get you started:
+## 🔬 Core Focus Areas
+- **Scientific Architectures** — Developing structures for data and knowledge frameworks.
+- **Computational Spines** — Building core underlying logic systems.
+- **Decision Governance** — Ensuring authorization-first rules apply across technical layers.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Technologies & Toolkit
+- **Languages:** Python, Rust, Go, TypeScript
+- **Systems & Frameworks:** Graph Theory, Distributed Networks, Agent Frameworks
+- **Tools:** Git, Linux, Docker, Model Context Protocol (MCP)
+
+## 📁 Featured Projects (Coming Soon)
+*Keep an eye out! Private repositories are currently being audited and will be phased into open-source soon.*
+
+## 📬 Connect with Me
+- **LinkedIn:** [Jesse T.](https://linkedin.com)
+- **Website:** [Arcstone Adaptive Science Systems](https://arcstoneos.com)
+- **ORCID ID:** [0009-0008-4661-1540](https://orcid.org)
