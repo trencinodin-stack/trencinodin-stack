@@ -15,7 +15,11 @@ Founder & Researcher focusing on computational frameworks, knowledge synthesis, 
 ## 📁 Featured Projects (Coming Soon)
 *Keep an eye out! Private repositories are currently being audited and will be phased into open-source soon.*
 
-## 📬 Connect with Me
+## 📬 Connect & Framework Anchors
+- **Substack:** [Arcstone OS](https://substack.com/@founderarcstoneos)
+- **YouTube:** [@admissibilityscience](https://www.youtube.com/@admissibilityscience)
+- **Reddit:** [u/AdmissibilityScience](https://www.reddit.com/user/AdmissibilityScience/)
 - **LinkedIn:** [Jesse T.](https://linkedin.com)
-- **Website:** [Arcstone Adaptive Science Systems](https://arcstoneos.com)
+- **Institutional Portal:** [Arcstone Adaptive Science Systems](https://arcstoneos.com)
+- **Science Authority:** [Arcstone Science Authority](https://arcstonescienceauthority.org)
 - **ORCID ID:** [0009-0008-4661-1540](https://orcid.org)
