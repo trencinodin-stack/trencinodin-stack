@@ -1,6 +1,6 @@
 # Hi there, I'm Jesse Tuohy 👋 (@trencinodin-stack)
 
-Founder & Principal Invariant Architect at **Arcstone Adaptive Science Systems, Inc. (Delaware PBC)**. 
+Founder & Principal Invariant Architect at **Arcstone Adaptive Science Systems, Inc**. 
 
 Focusing on deterministic computational spines, eBPF Ring 0 kernel pre-filters, $C_{\text{ops}} = 0$ runtime control planes, and autonomic decision governance infrastructure for high-stakes environments.
 
