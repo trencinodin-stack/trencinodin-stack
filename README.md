@@ -1,4 +1,4 @@
-# Hi there, I'm JT 👋 (@trencinodin-stack)
+# Hi there, I'm Jesse Tuohy 👋 (@trencinodin-stack)
 
 Founder & Researcher focusing on computational frameworks, knowledge synthesis, and decision governance systems.
 
