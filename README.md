@@ -7,7 +7,7 @@ Focusing on deterministic computational spines, eBPF Ring 0 kernel pre-filters, 
 ## 🔬 Core Focus Areas
 - **Deterministic Systems Architecture** — Building the Arcstone Computational Spine (ACS) to enforce sub-12ms temporal execution limits ($\tau_{\text{override}} \le 11.99\text{ms}$) and zero operational drag ($C_{\text{ops}} = 0$).
 - **Bare-Metal & Edge Engineering** — Developing eBPF Ring 0 kernel introspection probes, Cloudflare L7 edge sanitizer gates, and bare-metal `#![no_std]` Rust HAL membranes for Continuity Field Nodes (CFN).
-- **Autonomic Governance & IP** — Establishing authorization-first execution frameworks and dual-trust corporate architectures (12 Del. C. § 3556 & § 3570).
+- **Autonomic Governance & IP** — Establishing authorization-first execution frameworks and long-term intellectual property protection architectures.
 
 ## 🛠️ Technologies & Toolkit
 - **Languages:** Rust, C/C++, Python, Go, TypeScript, SQL
