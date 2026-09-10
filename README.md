@@ -59,7 +59,7 @@ The **Arcstone Continuity Core & Admissible Computation Suite** is officially re
 
 ## 📬 Connect & Framework Anchors
 - **Institutional & Systems Portal:** [Arcstone OS — Admissibility & Governance Infrastructure](https://arcstoneos.com)
-- **Theoretical Authority:** [Arcstone Science Authority — Canonical Registry of Fields, Domains & Laws](https://arcstoneos.com/science)
+- **Theoretical Authority:** [Arcstone Science Authority — Canonical Registry of Fields, Domains & Laws](https://arcstonescienceauthority.org)
 - **Live Edge Gateway:** [Arcstone L7 Edge Gateway](https://gate.arcstoneos.com)
 - **LinkedIn:** [Jesse Tuohy](https://www.linkedin.com/in/jesse-tuohy/)
 - **X (Twitter):** [@founderarcstone](https://x.com/founderarcstone)
