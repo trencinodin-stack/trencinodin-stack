@@ -12,7 +12,7 @@ The **Arcstone Continuity Core & Admissible Computation Suite** is officially re
 * **Primary Master Anchor (Zenodo)**: [DOI: 10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 * **Monolithic Research Archive (Figshare)**: [DOI: 10.6084/m9.figshare.33477511](https://doi.org/10.6084/m9.figshare.33477511)
 * **Zenodo Community Collection**: [Arcstone Continuity Core & Admissible Computation Suite](https://zenodo.org/communities/arcstone-continuity-core)
-* **System Invariants**: $C_{\text{ops}} = 0 \quad \land \quad \text{Data\_Egress\_Sensitive} = 0 \quad \land \quad \tau_{\text{override}} \le 11.99\text{ms}$
+* **System Invariants**: `C_ops = 0` ∧ `Data_Egress_Sensitive = 0` ∧ `τ_override ≤ 11.99ms`
 * **Suite Security Hash**: `A-77-DELTA-SHIELD-LOCKED`
 
 ---
