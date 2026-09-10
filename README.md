@@ -46,7 +46,7 @@ The **Arcstone Continuity Core & Admissible Computation Suite** is officially re
 | **Paper 8** | `WP008` | [Wi-Fi 7 Multi-Link Operation (MLO) Protocol Stack: Sub-12ms Latency Clamps](https://doi.org/10.5281/zenodo.22680038) |
 | **Paper 9** | `SWAP01` | [The Cascading SWaP Revolution: Eliminating Hardware Overhead via Admissible Software](https://doi.org/10.5281/zenodo.22680187) |
 | **Paper 10** | `WP010` | [Architectural Analysis: The Inverted Substrate Paradigm](https://doi.org/10.5281/zenodo.22680282) |
-| **Paper 11** | `PHYS02` | [Period 8 Initialization and the Femtobarn Frontier: Heavy-Ion Dynamics at $Z \ge 119$](https://doi.org/10.5281/zenodo.22681286) |
+| **Paper 11** | `PHYS02` | [Period 8 Initialization and the Femtobarn Frontier: Heavy-Ion Dynamics at Z ≥ 119](https://doi.org/10.5281/zenodo.22681286) |
 
 ---
 
