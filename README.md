@@ -58,12 +58,13 @@ The **Arcstone Continuity Core & Admissible Computation Suite** is officially re
 ---
 
 ## 📬 Connect & Framework Anchors
-- **Institutional & Systems Portal:** [Arcstone OS — Admissibility & Governance Infrastructure](https://arcstoneos.com)
-- **Theoretical Authority:** [Arcstone Science Authority — Canonical Registry of Fields, Domains & Laws](https://arcstonescienceauthority.org)
-- **Live Edge Gateway:** [Arcstone L7 Edge Gateway](https://gate.arcstoneos.com)
-- **LinkedIn:** [Jesse Tuohy](https://www.linkedin.com/in/jesse-tuohy/)
-- **X (Twitter):** [@founderarcstone](https://x.com/founderarcstone)
-- **Substack:** [Arcstone OS](https://substack.com/@founderarcstoneos)
-- **YouTube:** [@admissibilityscience](https://www.youtube.com/@admissibilityscience)
-- **Reddit:** [u/AdmissibilityScience](https://www.reddit.com/user/AdmissibilityScience/)
-- **ORCID ID:** [0009-0008-4661-1540](https://orcid.org/0009-0008-4661-1540)
+* **Institutional & Systems Portal**: [Arcstone OS — Admissibility & Governance Infrastructure](https://arcstoneos.com)
+* **Theoretical Authority**: [Arcstone Science Authority — Canonical Registry of Fields, Domains & Laws](https://arcstonescienceauthority.org)
+* **Zenodo Community Suite**: [Arcstone Continuity Core & Admissibility Computation Suite](https://zenodo.org/communities/arcstone-continuity-core)
+* **Live Edge Gateway**: [Arcstone L7 Edge Gateway](https://gate.arcstoneos.com)
+* **LinkedIn**: [Jesse Tuohy](https://www.linkedin.com/in/jesse-tuohy/)
+* **X (Twitter)**: [@founderarcstone](https://x.com/founderarcstone)
+* **Substack**: [Arcstone OS](https://substack.com/@founderarcstoneos)
+* **YouTube**: [@admissibilityscience](https://www.youtube.com/@admissibilityscience)
+* **Reddit**: [u/AdmissibilityScience](https://www.reddit.com/user/AdmissibilityScience/)
+* **ORCID ID**: [0009-0008-4661-1540](https://orcid.org/0009-0008-4661-1540)
