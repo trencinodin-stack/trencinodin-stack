@@ -50,10 +50,11 @@ The **Arcstone Continuity Core & Admissible Computation Suite** is officially re
 
 ---
 
-## 📁 Open-Source Code Release Roadmap
-* **Phase 1 (Complete)**: 12-Part Academic Suite DOI registration & dual-archive lock on Zenodo & Figshare.
-* **Phase 2 (Active)**: Multi-part Substack deep-dive essays detailing the theoretical foundations and implementation mechanics.
-* **Phase 3 (Upcoming)**: Public repository flip for [`arcstone-continuity-core`](https://github.com/trencinodin-stack/arcstone-continuity-core) (`#![no_std]` Rust implementation, eBPF Ring 0 probes, and L7 edge filters).
+📁 Open-Source Code Release Roadmap
+
+* **Phase 1 (Complete):** 12-Part Academic Suite DOI registration & dual-archive lock on Zenodo & Figshare.
+* **Phase 2 (Complete):** Multi-part Substack deep-dive essays detailing the theoretical foundations and implementation mechanics.
+* **Phase 3 (Complete / Live):** Public repository flip for `arcstone-continuity-core` (`#![no_std]` Rust implementation, eBPF Ring 0 probes, and L7 edge filters) locked to read-only sovereign baseline ($C_{\text{ops}} = 0$).
 
 ---
 
