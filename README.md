@@ -2,32 +2,46 @@
 
 Founder & Principal Invariant Architect at **Arcstone Adaptive Science Systems, Inc.**
 
-Focusing on deterministic computational spines, eBPF Ring 0 kernel pre-filters, $C_{\text{ops}} = 0$ runtime control planes, and autonomic decision governance infrastructure for high-stakes environments.
+Focusing on deterministic computational spines, admissibility-first systems, execution boundaries, and reproducible research into deterministic control surfaces for high-stakes computational environments.
 
 ---
 
 ## 📚 Master Research Suite & Academic Anchor
-The **Arcstone Continuity Core & Admissible Computation Suite** is officially registered and archived across global scientific networks:
 
-* **Primary Master Anchor (Zenodo)**: [DOI: 10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
-* **Monolithic Research Archive (Figshare)**: [DOI: 10.6084/m9.figshare.33477511](https://doi.org/10.6084/m9.figshare.33477511)
-* **Zenodo Community Collection**: [Arcstone Continuity Core & Admissible Computation Suite](https://zenodo.org/communities/arcstone-continuity-core)
-* **System Invariants**: `C_ops = 0` ∧ `Data_Egress_Sensitive = 0` ∧ `τ_override ≤ 11.99ms`
-* **Suite Security Hash**: `A-77-DELTA-SHIELD-LOCKED`
+The **Arcstone Continuity Core & Admissible Computation Suite** is registered and archived across scientific repositories:
+
+* **Primary Master Anchor (Zenodo):** [DOI: 10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
+* **Monolithic Research Archive (Figshare):** [DOI: 10.6084/m9.figshare.33477511](https://doi.org/10.6084/m9.figshare.33477511)
+* **Zenodo Community Collection:** [Arcstone Continuity Core & Admissible Computation Suite](https://zenodo.org/communities/arcstone-continuity-core)
+* **System Invariants:** `C_ops = 0` ∧ `Data_Egress_Sensitive = 0` ∧ `τ_override ≤ 11.99ms`
+* **Suite Security Hash:** `A-77-DELTA-SHIELD-LOCKED`
+
+The broader research suite describes architectural, formal-verification, hardware, governance, and deployment mechanisms beyond the bounded executable surfaces currently published on GitHub.
+
+Public repositories should therefore be interpreted according to their own declared implementation boundaries rather than as complete implementations of the broader Arcstone architecture.
 
 ---
 
 ## 🔬 Core Focus Areas
-- **Deterministic Systems Architecture** — Building the Arcstone Computational Spine (ACS) to enforce sub-12ms temporal execution limits ($\tau_{\text{override}} \le 11.99\text{ms}$) and zero operational drag ($C_{\text{ops}} = 0$).
-- **Bare-Metal & Edge Engineering** — Developing eBPF Ring 0 kernel introspection probes, Cloudflare L7 edge sanitizer gates, and bare-metal `#![no_std]` Rust HAL membranes for Continuity Field Nodes (CFN).
-- **Autonomic Governance & IP** — Establishing authorization-first execution frameworks and long-term intellectual property protection architectures.
+
+- **Deterministic Systems Architecture** — Researching computational structures that place explicit deterministic constraints around otherwise probabilistic or nondeterministic computational processes.
+
+- **Admissibility & Continuity** — Investigating bounded evaluation surfaces, temporal constraints, memory ceilings, fail-closed behavior, deterministic replay, and local continuity.
+
+- **Execution Boundaries** — Separating deterministic evaluation, authorization, actuation, and observed effects so that computational outputs do not implicitly acquire execution authority.
+
+- **Bare-Metal & Edge Engineering** — Exploring eBPF, low-level Rust, hardware isolation, local execution membranes, and other mechanisms described across the broader Arcstone research suite.
+
+- **Reproducible Research** — Publishing bounded reference implementations and downstream experiments whose claims can be independently inspected, executed, and reproduced.
 
 ---
 
 ## 🛠️ Technologies & Toolkit
+
 - **Languages:** Rust, C/C++, Python, Go, TypeScript, SQL
-- **Systems & Frameworks:** eBPF / Ring 0 Probes, Bare-Metal `#![no_std]` HAL, Compute Express Link (CXL), Graph Theory, Distributed Stream Processing
-- **Tools:** Linux Kernel Introspection, Cloudflare Workers, Docker, Git, VS Code, Model Context Protocol (MCP)
+- **Systems & Frameworks:** `#![no_std]` Rust, eBPF, Bare-Metal Systems, Graph Theory, Distributed Systems, Capability-Oriented Architecture
+- **Research Methods:** Deterministic Evaluation, Invariant Testing, Evidence Preservation, Exact Replay, Cross-Language Conformance
+- **Tools:** Linux, Git, GitHub Actions, Docker, VS Code, Model Context Protocol (MCP)
 
 ---
 
@@ -50,21 +64,146 @@ The **Arcstone Continuity Core & Admissible Computation Suite** is officially re
 
 ---
 
-📁 Open-Source Code Release Roadmap
+## 📁 Public Research Repositories
 
-* **Phase 1 (Complete):** 12-Part Academic Suite DOI registration & dual-archive lock on Zenodo & Figshare.
-* **Phase 2 (Complete):** Multi-part Substack deep-dive essays detailing the theoretical foundations and implementation mechanics.
-* **Phase 3 (Complete / Live):** Public repository flip for `arcstone-continuity-core` (`#![no_std]` Rust implementation, eBPF Ring 0 probes, and L7 edge filters) locked to read-only sovereign baseline ($C_{\text{ops}} = 0$).
+Arcstone's public repositories expose bounded, reproducible reference surfaces from a broader research architecture.
+
+They are intentionally narrower than the complete upstream research system.
+
+### 1. Arcstone Continuity Core
+
+[`arcstone-continuity-core`](https://github.com/trencinodin-stack/arcstone-continuity-core)
+
+**Status:** `FROZEN / ACTIVE`  
+**Role:** Upstream public Path A reference surface  
+**Release:** `v1.3.1-exec`  
+**Anchor:** `A-77-DELTA-SHIELD-LOCKED`
+
+A lean deterministic reference implementation preserving selected Arcstone Continuity Core invariants and cross-language conformance behavior.
+
+The executable Rust surface provides a portable `#![no_std]` deterministic predicate with explicit payload and temporal bounds.
+
+The repository also preserves broader specification and research provenance associated with the Arcstone Computational Spine.
+
+It is intentionally **not** the complete Arcstone Computational Spine and is **not** the source of canonical system authority.
+
+Its implementation boundary should not be expanded merely because broader mechanisms appear in associated specifications, publications, or downstream research.
+
+---
+
+### 2. Arcstone Path A Ingress Lab
+
+[`arcstone-path-a-ingress-lab`](https://github.com/trencinodin-stack/arcstone-path-a-ingress-lab)
+
+**Status:** `EXPERIMENTAL / DOWNSTREAM / NON-CANONICAL / COMPLETE & FROZEN`  
+**Version:** `v0.1.0`  
+**Role:** External-producer ingress, evidence preservation, and deterministic replay experiment
+
+A downstream experimental realization testing whether serialized output from an external, potentially nondeterministic producer can be preserved as exact raw bytes, evaluated through the unchanged Arcstone Continuity Core Path A predicate using explicit controlled inputs, and replayed with the same deterministic result.
+
+The completed experimental sequence includes:
+
+- a deterministic baseline run;
+- a live external nondeterministic producer run;
+- preservation of the exact produced bytes;
+- explicit controlled elapsed input;
+- evaluation through the unchanged Path A predicate;
+- evidence capture; and
+- exact replay of the preserved input and deterministic result.
+
+The bounded result establishes evidence for external-producer ingress and deterministic replay under the tested conditions.
+
+It does **not** establish AI safety, model alignment, model correctness, execution authorization, production security, real inference or network latency behavior, or implementation of the complete Arcstone architecture.
+
+---
+
+## 🔗 Public Research Relationship
+
+The currently published repositories form a simple upstream/downstream research relationship:
+
+```text
+Arcstone Continuity Core
+        FROZEN
+           |
+           v
+Path A Ingress Lab
+   COMPLETE / FROZEN
+```
+
+The relationship represents a progression of **research and evidence**, not expansion of upstream authority.
+
+The Continuity Core provides the frozen deterministic Path A reference surface.
+
+The Path A Ingress Lab independently tests an external-producer boundary against that unchanged surface while preserving the producer output as raw evidence.
+
+A favorable Path A result remains an evaluation result only.
+
+It does not inherently grant authorization or permission for downstream actuation.
+
+More generally:
+
+```text
+deterministic evaluation
+        ≠
+authorization
+        ≠
+actuation
+        ≠
+observed effect
+```
+
+Future downstream research may investigate additional boundaries independently without modifying the frozen Continuity Core or rewriting completed experimental evidence.
+
+---
+
+## 🧭 Research & Release Progression
+
+* **Phase 1 — COMPLETE:** 12-part academic suite DOI registration and archival anchoring across Zenodo and Figshare.
+
+* **Phase 2 — COMPLETE:** Publication of supporting technical and conceptual material describing the broader research architecture.
+
+* **Phase 3 — COMPLETE / FROZEN / PUBLIC:** `arcstone-continuity-core` released as the bounded public Path A deterministic reference surface.
+
+* **Phase 4 — COMPLETE / FROZEN / PUBLIC:** `arcstone-path-a-ingress-lab` released as a downstream experimental repository demonstrating preserved external-producer ingress and exact deterministic replay against the unchanged Path A predicate.
+
+Further public repositories will be added only when their experimental boundaries, evidence, documentation, and release state are independently ready for publication.
+
+---
+
+## 🧪 Research Discipline
+
+Arcstone public research follows a simple working principle:
+
+> **Evidence before expansion.**
+
+A repository should answer a bounded question before its scope is enlarged.
+
+Completed evidence remains preserved.
+
+Frozen upstream objects are not rewritten merely to incorporate later downstream discoveries.
+
+Downstream success does not retroactively transfer authority upstream, redefine frozen semantics, or establish claims outside the tested experimental boundary.
 
 ---
 
 ## 📬 Connect & Framework Anchors
-* **Institutional & Systems Portal**: [Arcstone OS — Admissibility & Governance Infrastructure](https://arcstoneos.com)
-* **Theoretical Authority**: [Arcstone Science Authority — Canonical Registry of Fields, Domains & Laws](https://arcstonescienceauthority.org)
-* **Live Edge Gateway**: [Arcstone L7 Edge Gateway](https://gate.arcstoneos.com)
-* **LinkedIn**: [Jesse Tuohy](https://www.linkedin.com/in/jesse-tuohy/)
-* **X (Twitter)**: [@founderarcstone](https://x.com/founderarcstone)
-* **Substack**: [Arcstone OS](https://substack.com/@founderarcstoneos)
-* **YouTube**: [@admissibilityscience](https://www.youtube.com/@admissibilityscience)
-* **Reddit**: [u/AdmissibilityScience](https://www.reddit.com/user/AdmissibilityScience/)
-* **ORCID ID**: [0009-0008-4661-1540](https://orcid.org/0009-0008-4661-1540)
+
+* **Institutional & Systems Portal:** [Arcstone OS — Admissibility & Governance Infrastructure](https://arcstoneos.com)
+* **Theoretical Authority:** [Arcstone Science Authority — Canonical Registry of Fields, Domains & Laws](https://arcstonescienceauthority.org)
+* **Live Edge Gateway:** [Arcstone L7 Edge Gateway](https://gate.arcstoneos.com)
+* **LinkedIn:** [Jesse Tuohy](https://www.linkedin.com/in/jesse-tuohy/)
+* **X (Twitter):** [@founderarcstone](https://x.com/founderarcstone)
+* **Substack:** [Arcstone OS](https://substack.com/@founderarcstoneos)
+* **YouTube:** [@admissibilityscience](https://www.youtube.com/@admissibilityscience)
+* **Reddit:** [u/AdmissibilityScience](https://www.reddit.com/user/AdmissibilityScience/)
+* **ORCID ID:** [0009-0008-4661-1540](https://orcid.org/0009-0008-4661-1540)
+
+---
+
+### Current Public Research Surface
+
+**Arcstone Continuity Core → Path A Ingress Lab**
+
+Frozen upstream reference surface → completed downstream ingress and deterministic replay evidence.
+
+Additional downstream research will be published independently when its evidence and release boundary are complete.
