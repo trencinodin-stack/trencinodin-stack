@@ -1,3 +1,4 @@
+Markdown
 # Hi there, I'm Jesse Tuohy 👋 (@trencinodin-stack)
 
 Founder & Principal Invariant Architect at **Arcstone Adaptive Science Systems, Inc.**
@@ -117,24 +118,47 @@ It does **not** establish AI safety, model alignment, model correctness, executi
 
 ---
 
+### 3. Arcstone MCP Sidecar
+
+[`arcstone-mcp-sidecar`](https://github.com/trencinodin-stack/arcstone-mcp-sidecar)
+
+**Status:** `ACTIVE / CANONICAL FREEZE`  
+**Registry Identity:** `io.github.trencinodin-stack/arcstone-mcp-sidecar@0.1.0`  
+**Crate:** `arcstone-execution-boundary` (`v0.1.0`)  
+**Role:** Reference downstream execution boundary sidecar for the Arcstone Security Stack
+
+A downstream reference sidecar published on the official Model Context Protocol (MCP) Registry, providing a deterministic execution boundary interface over standard `stdio`.
+
+It enforces mathematical safety invariants between untrusted action producers and protected system side effects:
+- **Non-Authorization Safety ($I1$):** Zero protected actuation without explicit valid authorization.
+- **Single-Use Authority ($I2$):** At most one protected actuation attempt per single-use authorization token.
+- **Exclusive Actuation Authority ($I3$):** Untrusted producers never directly influence protected physical resources or filesystem targets.
+
+The completed baseline encompasses a bounded Windows authority-boundary experiment, an integrated T0–T17 adversarial validation matrix, and Execution Boundary Run 001—all hash-anchored and frozen under `v0.1.0-freeze`.
+
+---
+
 ## 🔗 Public Research Relationship
 
 The currently published repositories form a simple upstream/downstream research relationship:
 
 ```text
-Arcstone Continuity Core
-        FROZEN
-           |
-           v
-Path A Ingress Lab
-   COMPLETE / FROZEN
+       Arcstone Continuity Core
+                FROZEN
+                  |
+         +--------+--------+
+         |                 |
+         v                 v
+Path A Ingress Lab    Arcstone MCP Sidecar
+ COMPLETE / FROZEN     ACTIVE / CANONICAL FREEZE
 ```
-
-The relationship represents a progression of **research and evidence**, not expansion of upstream authority.
+The relationship represents a progression of research and evidence, not expansion of upstream authority.
 
 The Continuity Core provides the frozen deterministic Path A reference surface.
 
 The Path A Ingress Lab independently tests an external-producer boundary against that unchanged surface while preserving the producer output as raw evidence.
+
+The Arcstone MCP Sidecar exposes a downstream execution boundary implementing Model Context Protocol (MCP) standards while preserving core safety invariants (I1,I2,I3).
 
 A favorable Path A result remains an evaluation result only.
 
@@ -142,7 +166,7 @@ It does not inherently grant authorization or permission for downstream actuatio
 
 More generally:
 
-```text
+Plaintext
 deterministic evaluation
         ≠
 authorization
@@ -150,31 +174,22 @@ authorization
 actuation
         ≠
 observed effect
-```
-
 Future downstream research may investigate additional boundaries independently without modifying the frozen Continuity Core or rewriting completed experimental evidence.
-
----
 
 ## 🧭 Research & Release Progression
 
 * **Phase 1 — COMPLETE:** 12-part academic suite DOI registration and archival anchoring across Zenodo and Figshare.
-
 * **Phase 2 — COMPLETE:** Publication of supporting technical and conceptual material describing the broader research architecture.
-
 * **Phase 3 — COMPLETE / FROZEN / PUBLIC:** `arcstone-continuity-core` released as the bounded public Path A deterministic reference surface.
-
 * **Phase 4 — COMPLETE / FROZEN / PUBLIC:** `arcstone-path-a-ingress-lab` released as a downstream experimental repository demonstrating preserved external-producer ingress and exact deterministic replay against the unchanged Path A predicate.
+* **Phase 5 — COMPLETE / ACTIVE / PUBLIC:** `arcstone-mcp-sidecar` published on the official MCP Registry (`io.github.trencinodin-stack/arcstone-mcp-sidecar@0.1.0`) as an active reference execution boundary enforcing invariants $I1, I2, I3$.
 
 Further public repositories will be added only when their experimental boundaries, evidence, documentation, and release state are independently ready for publication.
 
----
-
-## 🧪 Research Discipline
-
+🧪 Research Discipline
 Arcstone public research follows a simple working principle:
 
-> **Evidence before expansion.**
+Evidence before expansion.
 
 A repository should answer a bounded question before its scope is enlarged.
 
@@ -184,26 +199,28 @@ Frozen upstream objects are not rewritten merely to incorporate later downstream
 
 Downstream success does not retroactively transfer authority upstream, redefine frozen semantics, or establish claims outside the tested experimental boundary.
 
----
+📬 Connect & Framework Anchors
+Institutional & Systems Portal: Arcstone OS — Admissibility & Governance Infrastructure
 
-## 📬 Connect & Framework Anchors
+Theoretical Authority: Arcstone Science Authority — Canonical Registry of Fields, Domains & Laws
 
-* **Institutional & Systems Portal:** [Arcstone OS — Admissibility & Governance Infrastructure](https://arcstoneos.com)
-* **Theoretical Authority:** [Arcstone Science Authority — Canonical Registry of Fields, Domains & Laws](https://arcstonescienceauthority.org)
-* **Live Edge Gateway:** [Arcstone L7 Edge Gateway](https://gate.arcstoneos.com)
-* **LinkedIn:** [Jesse Tuohy](https://www.linkedin.com/in/jesse-tuohy/)
-* **X (Twitter):** [@founderarcstone](https://x.com/founderarcstone)
-* **Substack:** [Arcstone OS](https://substack.com/@founderarcstoneos)
-* **YouTube:** [@admissibilityscience](https://www.youtube.com/@admissibilityscience)
-* **Reddit:** [u/AdmissibilityScience](https://www.reddit.com/user/AdmissibilityScience/)
-* **ORCID ID:** [0009-0008-4661-1540](https://orcid.org/0009-0008-4661-1540)
+Live Edge Gateway: Arcstone L7 Edge Gateway
 
----
+LinkedIn: Jesse Tuohy
 
-### Current Public Research Surface
+X (Twitter): @founderarcstone
 
-**Arcstone Continuity Core → Path A Ingress Lab**
+Substack: Arcstone OS
 
-Frozen upstream reference surface → completed downstream ingress and deterministic replay evidence.
+YouTube: @admissibilityscience
+
+Reddit: u/AdmissibilityScience
+
+ORCID ID: 0009-0008-4661-1540
+
+Current Public Research Surface
+Arcstone Continuity Core → Path A Ingress Lab & Arcstone MCP Sidecar
+
+Frozen upstream reference surface → completed downstream ingress, deterministic replay evidence, and active MCP execution boundary sidecar.
 
 Additional downstream research will be published independently when its evidence and release boundary are complete.
