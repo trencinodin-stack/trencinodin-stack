@@ -199,27 +199,23 @@ Frozen upstream objects are not rewritten merely to incorporate later downstream
 
 Downstream success does not retroactively transfer authority upstream, redefine frozen semantics, or establish claims outside the tested experimental boundary.
 
-📬 Connect & Framework Anchors
-Institutional & Systems Portal: Arcstone OS — Admissibility & Governance Infrastructure
+## 📬 Connect & Framework Anchors
 
-Theoretical Authority: Arcstone Science Authority — Canonical Registry of Fields, Domains & Laws
+* **Institutional & Systems Portal:** [Arcstone OS — Admissibility & Governance Infrastructure](https://arcstoneos.com)
+* **Theoretical Authority:** [Arcstone Science Authority — Canonical Registry of Fields, Domains & Laws](https://arcstonescienceauthority.org)
+* **Live Edge Gateway:** [Arcstone L7 Edge Gateway](https://gate.arcstoneos.com)
+* **LinkedIn:** [Jesse Tuohy](https://www.linkedin.com/in/jesse-tuohy/)
+* **X (Twitter):** [@founderarcstone](https://x.com/founderarcstone)
+* **Substack:** [Arcstone OS](https://substack.com/@founderarcstoneos)
+* **YouTube:** [@admissibilityscience](https://www.youtube.com/@admissibilityscience)
+* **Reddit:** [u/AdmissibilityScience](https://www.reddit.com/user/AdmissibilityScience/)
+* **ORCID ID:** [0009-0008-4661-1540](https://orcid.org/0009-0008-4661-1540)
 
-Live Edge Gateway: Arcstone L7 Edge Gateway
+---
 
-LinkedIn: Jesse Tuohy
+### Current Public Research Surface
 
-X (Twitter): @founderarcstone
-
-Substack: Arcstone OS
-
-YouTube: @admissibilityscience
-
-Reddit: u/AdmissibilityScience
-
-ORCID ID: 0009-0008-4661-1540
-
-Current Public Research Surface
-Arcstone Continuity Core → Path A Ingress Lab & Arcstone MCP Sidecar
+**Arcstone Continuity Core → Path A Ingress Lab & Arcstone MCP Sidecar**
 
 Frozen upstream reference surface → completed downstream ingress, deterministic replay evidence, and active MCP execution boundary sidecar.
 
