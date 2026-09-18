@@ -1,4 +1,3 @@
-Markdown
 # Hi there, I'm Jesse Tuohy 👋 (@trencinodin-stack)
 
 Founder & Principal Invariant Architect at **Arcstone Adaptive Science Systems, Inc.**
