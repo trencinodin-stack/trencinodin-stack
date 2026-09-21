@@ -137,85 +137,39 @@ The completed baseline encompasses a bounded Windows authority-boundary experime
 
 ---
 
+### 4. Arcstone Adaptive Producer Lab
+
+[`arcstone-adaptive-producer-lab`](https://github.com/trencinodin-stack/arcstone-adaptive-producer-lab)
+
+**Status:** `EXPERIMENTAL / DOWNSTREAM / NON-CANONICAL / FROZEN`  
+**Version:** `v0.1.1-frozen`  
+**Role:** Closed-loop adaptive proposal generation and stress laboratory upstream of deterministic execution authority
+
+A downstream research laboratory testing closed-loop adaptive proposal generation against a pinned, unchanged execution boundary (`arcstone-exec`). 
+
+It evaluates whether an untrusted producer (LLM or adaptive script), receiving bounded execution feedback across iterative attempts, can force unauthorized actuation or bypass a withheld authorization grant.
+
+The completed baseline encompasses:
+- **Run 001 Evidence:** Frozen at commit `4227beb` (`Run 001 P1/A2` adaptive withheld-grant containment).
+- **Constitutional Isolation:** Enforces strict non-bypass rules (`reasoning != evaluation != authorization != actuation != observed effect`).
+
+---
+
 ## 🔗 Public Research Relationship
 
 The currently published repositories form a simple upstream/downstream research relationship:
 
 ```text
-       Arcstone Continuity Core
-                FROZEN
-                  |
-         +--------+--------+
-         |                 |
-         v                 v
-Path A Ingress Lab    Arcstone MCP Sidecar
- COMPLETE / FROZEN     ACTIVE / CANONICAL FREEZE
+                  Arcstone Continuity Core
+                           FROZEN
+                          /      \
+                         /        \
+                        ▼          ▼
+          Path A Ingress Lab    Arcstone MCP Sidecar
+             FROZEN / LIVE         ACTIVE / CANONICAL FREEZE
+                                       ▲
+                                       │ (Untrusted Proposals)
+                                       │
+                        Arcstone Adaptive Producer Lab
+                            EXPERIMENTAL / FROZEN
 ```
-The relationship represents a progression of research and evidence, not expansion of upstream authority.
-
-The Continuity Core provides the frozen deterministic Path A reference surface.
-
-The Path A Ingress Lab independently tests an external-producer boundary against that unchanged surface while preserving the producer output as raw evidence.
-
-The Arcstone MCP Sidecar exposes a downstream execution boundary implementing Model Context Protocol (MCP) standards while preserving core safety invariants (I1,I2,I3).
-
-A favorable Path A result remains an evaluation result only.
-
-It does not inherently grant authorization or permission for downstream actuation.
-
-More generally:
-
-Plaintext
-deterministic evaluation
-        ≠
-authorization
-        ≠
-actuation
-        ≠
-observed effect
-Future downstream research may investigate additional boundaries independently without modifying the frozen Continuity Core or rewriting completed experimental evidence.
-
-## 🧭 Research & Release Progression
-
-* **Phase 1 — COMPLETE:** 12-part academic suite DOI registration and archival anchoring across Zenodo and Figshare.
-* **Phase 2 — COMPLETE:** Publication of supporting technical and conceptual material describing the broader research architecture.
-* **Phase 3 — COMPLETE / FROZEN / PUBLIC:** `arcstone-continuity-core` released as the bounded public Path A deterministic reference surface.
-* **Phase 4 — COMPLETE / FROZEN / PUBLIC:** `arcstone-path-a-ingress-lab` released as a downstream experimental repository demonstrating preserved external-producer ingress and exact deterministic replay against the unchanged Path A predicate.
-* **Phase 5 — COMPLETE / ACTIVE / PUBLIC:** `arcstone-mcp-sidecar` published on the official MCP Registry (`io.github.trencinodin-stack/arcstone-mcp-sidecar@0.1.0`) as an active reference execution boundary enforcing invariants $I1, I2, I3$.
-
-Further public repositories will be added only when their experimental boundaries, evidence, documentation, and release state are independently ready for publication.
-
-🧪 Research Discipline
-Arcstone public research follows a simple working principle:
-
-Evidence before expansion.
-
-A repository should answer a bounded question before its scope is enlarged.
-
-Completed evidence remains preserved.
-
-Frozen upstream objects are not rewritten merely to incorporate later downstream discoveries.
-
-Downstream success does not retroactively transfer authority upstream, redefine frozen semantics, or establish claims outside the tested experimental boundary.
-
-## 📬 Connect & Framework Anchors
-
-* **Institutional & Systems Portal:** [Arcstone OS — Admissibility & Governance Infrastructure](https://arcstoneos.com)
-* **Theoretical Authority:** [Arcstone Science Authority — Canonical Registry of Fields, Domains & Laws](https://arcstonescienceauthority.org)
-* **Live Edge Gateway:** [Arcstone L7 Edge Gateway](https://gate.arcstoneos.com)
-* **LinkedIn:** [Jesse Tuohy](https://www.linkedin.com/in/jesse-tuohy/)
-* **X (Twitter):** [@founderarcstone](https://x.com/founderarcstone)
-* **Substack:** [Arcstone OS](https://substack.com/@founderarcstoneos)
-* **YouTube:** [@admissibilityscience](https://www.youtube.com/@admissibilityscience)
-* **Reddit:** [u/AdmissibilityScience](https://www.reddit.com/user/AdmissibilityScience/)
-* **ORCID ID:** [0009-0008-4661-1540](https://orcid.org/0009-0008-4661-1540)
-
----
-
-### Current Public Research Surface
-
-**Arcstone Continuity Core → Path A Ingress Lab & Arcstone MCP Sidecar**
-
-Frozen upstream reference surface → completed downstream ingress, deterministic replay evidence, and active MCP execution boundary sidecar.
-
-Additional downstream research will be published independently when its evidence and release boundary are complete.
