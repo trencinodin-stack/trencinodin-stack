@@ -1,20 +1,11 @@
-# Hi there, I'm Jesse Tuohy 👋 (@trencinodin-stack)
-
-Founder & Principal Invariant Architect at **Arcstone Adaptive Science Systems, Inc.**
-
-Focusing on deterministic computational spines, admissibility-first systems, execution boundaries, and reproducible research into deterministic control surfaces for high-stakes computational environments.
-
----
-
 ## 📚 Master Research Suite & Academic Anchor
 
 The **Arcstone Research Architecture** is registered and archived across canonical scientific repositories:
 
 * **Primary Master Anchor (Zenodo):** [DOI: 10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 * **Monolithic Research Archive (Figshare):** [DOI: 10.6084/m9.figshare.33477511](https://doi.org/10.6084/m9.figshare.33477511)
-* **Zenodo Community Collections:**
-  * [Arcstone Executive Epistemic & Execution Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(Executive Series: EXEC01–EXEC03)*
-  * [Arcstone Continuity Core & Admissible Computation Suite](https://zenodo.org/communities/arcstone-continuity-core) *(Core Architecture & 12-Part Suite)*
+* **Zenodo Community 1 (Executive):** [Arcstone Executive Epistemic & Execution Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(EXEC01–EXEC03)*
+* **Zenodo Community 2 (Core):** [Arcstone Continuity Core & Admissible Computation Suite](https://zenodo.org/communities/arcstone-continuity-core) *(12-Part Technical Suite)*
 * **System Invariants:** `C_ops = 0` ∧ `Data_Egress_Sensitive = 0` ∧ `τ_override ≤ 11.99ms`
 * **Suite Security Hash:** `A-77-DELTA-SHIELD-LOCKED`
 
