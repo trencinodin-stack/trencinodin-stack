@@ -8,11 +8,13 @@ Focusing on deterministic computational spines, admissibility-first systems, exe
 
 ## 📚 Master Research Suite & Academic Anchor
 
-The **Arcstone Executive Epistemic & Execution Series** and broader computational suite are registered and archived across scientific repositories:
+The **Arcstone Research Architecture** is registered and archived across canonical scientific repositories:
 
 * **Primary Master Anchor (Zenodo):** [DOI: 10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 * **Monolithic Research Archive (Figshare):** [DOI: 10.6084/m9.figshare.33477511](https://doi.org/10.6084/m9.figshare.33477511)
-* **Zenodo Community Collection:** [Arcstone Executive Epistemic & Execution Series](https://zenodo.org/communities/arcstone-executive-series)
+* **Zenodo Community Collections:**
+  * [Arcstone Executive Epistemic & Execution Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(Executive Series: EXEC01–EXEC03)*
+  * [Arcstone Continuity Core & Admissible Computation Suite](https://zenodo.org/communities/arcstone-continuity-core) *(Core Architecture & 12-Part Suite)*
 * **System Invariants:** `C_ops = 0` ∧ `Data_Egress_Sensitive = 0` ∧ `τ_override ≤ 11.99ms`
 * **Suite Security Hash:** `A-77-DELTA-SHIELD-LOCKED`
 
