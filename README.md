@@ -8,11 +8,11 @@ Focusing on deterministic computational spines, admissibility-first systems, exe
 
 ## 📚 Master Research Suite & Academic Anchor
 
-The **Arcstone Continuity Core & Admissible Computation Suite** is registered and archived across scientific repositories:
+The **Arcstone Executive Epistemic & Execution Series** and broader computational suite are registered and archived across scientific repositories:
 
 * **Primary Master Anchor (Zenodo):** [DOI: 10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 * **Monolithic Research Archive (Figshare):** [DOI: 10.6084/m9.figshare.33477511](https://doi.org/10.6084/m9.figshare.33477511)
-* **Zenodo Community Collection:** [Arcstone Continuity Core & Admissible Computation Suite](https://zenodo.org/communities/arcstone-continuity-core)
+* **Zenodo Community Collection:** [Arcstone Executive Epistemic & Execution Series](https://zenodo.org/communities/arcstone-executive-series)
 * **System Invariants:** `C_ops = 0` ∧ `Data_Egress_Sensitive = 0` ∧ `τ_override ≤ 11.99ms`
 * **Suite Security Hash:** `A-77-DELTA-SHIELD-LOCKED`
 
@@ -42,6 +42,16 @@ Public repositories should therefore be interpreted according to their own decla
 - **Systems & Frameworks:** `#![no_std]` Rust, eBPF, Bare-Metal Systems, Graph Theory, Distributed Systems, Capability-Oriented Architecture
 - **Research Methods:** Deterministic Evaluation, Invariant Testing, Evidence Preservation, Exact Replay, Cross-Language Conformance
 - **Tools:** Linux, Git, GitHub Actions, Docker, VS Code, Model Context Protocol (MCP)
+
+---
+
+## 🏛️ Executive Epistemic & Execution Series (Zenodo Canonical Releases)
+
+| Document Ref | DOI Link | Canonical Title |
+| :--- | :--- | :--- |
+| **`ARC-PUB-2026-EXEC01`** | [DOI: 10.5281/zenodo.22905928](https://doi.org/10.5281/zenodo.22905928) | **The Human-First Trust Layer:** Implicit Authority, Social Proof, and the Architecture of Human-Mediated Systems |
+| **`ARC-PUB-2026-EXEC02`** | [DOI: 10.5281/zenodo.22908270](https://doi.org/10.5281/zenodo.22908270) | **The Machine-First Execution Boundary:** A Foundational Architecture for Autonomous Systems and Deterministic Authority |
+| **`ARC-PUB-2026-EXEC03`** | [DOI: 10.5281/zenodo.22908341](https://doi.org/10.5281/zenodo.22908341) | **The Hybrid Epistemic Layer:** Human Meaning, Machine Resolution, and the Architecture of Augmented Judgment |
 
 ---
 
@@ -161,10 +171,10 @@ The currently published repositories form a simple upstream/downstream research 
 
 ```text
                   Arcstone Continuity Core
-                           FROZEN
-                          /      \
-                         /        \
-                        ▼          ▼
+                          FROZEN
+                         /      \
+                        /        \
+                       ▼          ▼
           Path A Ingress Lab    Arcstone MCP Sidecar
              FROZEN / LIVE         ACTIVE / CANONICAL FREEZE
                                        ▲
@@ -172,4 +182,3 @@ The currently published repositories form a simple upstream/downstream research 
                                        │
                         Arcstone Adaptive Producer Lab
                             EXPERIMENTAL / FROZEN
-```
