@@ -15,12 +15,10 @@ The **Arcstone Research Architecture** is registered and archived across canonic
 * **Zenodo Community Collections:**
   * [Arcstone Executive Epistemic & Execution Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(Executive Series: EXEC01–EXEC03)*
   * [Arcstone Continuity Core & Admissible Computation Suite](https://zenodo.org/communities/arcstone-continuity-core) *(Core Architecture & 12-Part Suite)*
-* **System Invariants:** `C_ops = 0` ∧ `Data_Egress_Sensitive = 0` ∧ `τ_override ≤ 11.99ms`
+* **System Invariants:** `C_ops = 0` ∧ `Data_Egress_Sensitive = 0` ∧ `τ_override ≤ 11.99ms` ∧ `S_max ≤ 4096B`
 * **Suite Security Hash:** `A-77-DELTA-SHIELD-LOCKED`
 
-The broader research suite describes architectural, formal-verification, hardware, governance, and deployment mechanisms beyond the bounded executable surfaces currently published on GitHub.
-
-Public repositories should therefore be interpreted according to their own declared implementation boundaries rather than as complete implementations of the broader Arcstone architecture.
+The public repository network is structured around a locked Layer 0 Master Protocol Specification, governing downstream execution runtimes, edge ingress testbeds, tool proxy sidecars, and adaptive proposal generators.
 
 ---
 
@@ -32,7 +30,7 @@ Public repositories should therefore be interpreted according to their own decla
 
 - **Execution Boundaries** — Separating deterministic evaluation, authorization, actuation, and observed effects so that computational outputs do not implicitly acquire execution authority.
 
-- **Bare-Metal & Edge Engineering** — Exploring eBPF, low-level Rust, hardware isolation, local execution membranes, and other mechanisms described across the broader Arcstone research suite.
+- **Bare-Metal & Edge Engineering** — Exploring eBPF, low-level `#![no_std]` Rust, hardware isolation, local execution membranes, and zero-heap static buffer envelopes.
 
 - **Reproducible Research** — Publishing bounded reference implementations and downstream experiments whose claims can be independently inspected, executed, and reproduced.
 
@@ -40,9 +38,9 @@ Public repositories should therefore be interpreted according to their own decla
 
 ## 🛠️ Technologies & Toolkit
 
-- **Languages:** Rust, C/C++, Python, Go, TypeScript, SQL
-- **Systems & Frameworks:** `#![no_std]` Rust, eBPF, Bare-Metal Systems, Graph Theory, Distributed Systems, Capability-Oriented Architecture
-- **Research Methods:** Deterministic Evaluation, Invariant Testing, Evidence Preservation, Exact Replay, Cross-Language Conformance
+- **Languages:** Rust (`#![no_std]`), C/C++, Python, Go, TypeScript, SQL
+- **Systems & Frameworks:** eBPF, Bare-Metal Microkernels, Graph Theory, Distributed Systems, Capability-Oriented Architecture, POSIX Lattice
+- **Research Methods:** Deterministic Evaluation, Formal Invariants, Evidence Preservation, Exact Replay, Cross-Language Conformance
 - **Tools:** Linux, Git, GitHub Actions, Docker, VS Code, Model Context Protocol (MCP)
 
 ---
@@ -78,28 +76,31 @@ Public repositories should therefore be interpreted according to their own decla
 
 ## 📁 Public Research Repositories
 
-Arcstone's public repositories expose bounded, reproducible reference surfaces from a broader research architecture.
+Arcstone's public repositories form a 5-node ecosystem anchored by a central Layer 0 master specification.
 
-They are intentionally narrower than the complete upstream research system.
+### 0. Arcstone Spec Epistemic 01 (Master Specification Keystone)
+
+[`arcstone-spec-epistemic-01`](https://github.com/trencinodin-stack/arcstone-spec-epistemic-01)
+
+**Status:** `LOCKED / MASTER ANCHOR`  
+**Role:** Layer 0 Upstream Epistemic Network Protocol (ENP) Master Specification  
+**Release:** `v1.3.1-LOCKED`  
+**Anchor:** `A-77-DELTA-SHIELD-LOCKED` | **DOI:** `10.5281/zenodo.22665852`
+
+The language-agnostic master specification layer establishing the mathematical invariants ($I_1–I_3$, $N_1–N_3$), POSIX poset dominance lattice ($40 \succ 10 \succ 32 \succ 0$), sub-12ms temporal override clamps ($\tau_{\text{override}} \le 11.99\text{ms}$), static memory buffer limits ($S_{\text{max}} \le 4096\text{B}$), and machine-readable JSON schemas for the entire Arcstone ecosystem. Under sovereign constancy ($C_{\text{ops}} = 0$), this repository functions as a locked, read-only canonical reference standard.
+
+---
 
 ### 1. Arcstone Continuity Core
 
 [`arcstone-continuity-core`](https://github.com/trencinodin-stack/arcstone-continuity-core)
 
 **Status:** `FROZEN / ACTIVE`  
-**Role:** Upstream public Path A reference surface  
+**Role:** Upstream public Path A reference surface & `#![no_std]` Rust Execution Engine  
 **Release:** `v1.3.1-exec`  
 **Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
-A lean deterministic reference implementation preserving selected Arcstone Continuity Core invariants and cross-language conformance behavior.
-
-The executable Rust surface provides a portable `#![no_std]` deterministic predicate with explicit payload and temporal bounds.
-
-The repository also preserves broader specification and research provenance associated with the Arcstone Computational Spine.
-
-It is intentionally **not** the complete Arcstone Computational Spine and is **not** the source of canonical system authority.
-
-Its implementation boundary should not be expanded merely because broader mechanisms appear in associated specifications, publications, or downstream research.
+A lean deterministic reference implementation preserving selected Arcstone Continuity Core invariants and cross-language conformance behavior. The executable Rust surface provides a portable `#![no_std]` deterministic predicate with explicit payload and temporal bounds.
 
 ---
 
@@ -113,20 +114,6 @@ Its implementation boundary should not be expanded merely because broader mechan
 
 A downstream experimental realization testing whether serialized output from an external, potentially nondeterministic producer can be preserved as exact raw bytes, evaluated through the unchanged Arcstone Continuity Core Path A predicate using explicit controlled inputs, and replayed with the same deterministic result.
 
-The completed experimental sequence includes:
-
-- a deterministic baseline run;
-- a live external nondeterministic producer run;
-- preservation of the exact produced bytes;
-- explicit controlled elapsed input;
-- evaluation through the unchanged Path A predicate;
-- evidence capture; and
-- exact replay of the preserved input and deterministic result.
-
-The bounded result establishes evidence for external-producer ingress and deterministic replay under the tested conditions.
-
-It does **not** establish AI safety, model alignment, model correctness, execution authorization, production security, real inference or network latency behavior, or implementation of the complete Arcstone architecture.
-
 ---
 
 ### 3. Arcstone MCP Sidecar
@@ -138,14 +125,7 @@ It does **not** establish AI safety, model alignment, model correctness, executi
 **Crate:** `arcstone-execution-boundary` (`v0.1.0`)  
 **Role:** Reference downstream execution boundary sidecar for the Arcstone Security Stack
 
-A downstream reference sidecar published on the official Model Context Protocol (MCP) Registry, providing a deterministic execution boundary interface over standard `stdio`.
-
-It enforces mathematical safety invariants between untrusted action producers and protected system side effects:
-- **Non-Authorization Safety ($I1$):** Zero protected actuation without explicit valid authorization.
-- **Single-Use Authority ($I2$):** At most one protected actuation attempt per single-use authorization token.
-- **Exclusive Actuation Authority ($I3$):** Untrusted producers never directly influence protected physical resources or filesystem targets.
-
-The completed baseline encompasses a bounded Windows authority-boundary experiment, an integrated T0–T17 adversarial validation matrix, and Execution Boundary Run 001—all hash-anchored and frozen under `v0.1.0-freeze`.
+A downstream reference sidecar published on the official Model Context Protocol (MCP) Registry, enforcing mathematical safety invariants between untrusted action producers and protected system side effects via atomic single-use claims (`I1–I3`).
 
 ---
 
@@ -157,37 +137,33 @@ The completed baseline encompasses a bounded Windows authority-boundary experime
 **Version:** `v0.1.1-frozen`  
 **Role:** Closed-loop adaptive proposal generation and stress laboratory upstream of deterministic execution authority
 
-A downstream research laboratory testing closed-loop adaptive proposal generation against a pinned, unchanged execution boundary (`arcstone-exec`). 
-
-It evaluates whether an untrusted producer (LLM or adaptive script), receiving bounded execution feedback across iterative attempts, can force unauthorized actuation or bypass a withheld authorization grant.
-
-The completed baseline encompasses:
-- **Run 001 Evidence:** Frozen at commit `4227beb` (`Run 001 P1/A2` adaptive withheld-grant containment).
-- **Constitutional Isolation:** Enforces strict non-bypass rules (`reasoning != evaluation != authorization != actuation != observed effect`).
+A downstream research laboratory testing closed-loop adaptive proposal generation against a pinned, unchanged execution boundary (`arcstone-exec`). It evaluates whether an untrusted producer (LLM or adaptive script), receiving bounded execution feedback across iterative attempts, can force unauthorized actuation or bypass a withheld authorization grant.
 
 ---
 
-## 🔗 Public Research Relationship
-
-The currently published repositories form a simple upstream/downstream research relationship:
+## 🔗 Public Research Topology
 
 ```text
-                  Arcstone Continuity Core
-                          FROZEN
-                         /      \
-                        /        \
-                       ▼          ▼
-          Path A Ingress Lab    Arcstone MCP Sidecar
-             FROZEN / LIVE         ACTIVE / CANONICAL FREEZE
-                                       ▲
+                  ┌─────────────────────────────────────────┐
+                  │       arcstone-spec-epistemic-01        │
+                  │   [ Layer 0: Master Protocol Spec ]     │
+                  │         LOCKED / MASTER ANCHOR          │
+                  └────────────────────┬────────────────────┘
+                                       │
+            ┌──────────────────────────┼──────────────────────────┐
+            │                          │                          │
+            ▼                          ▼                          ▼
+┌────────────────────────┐ ┌────────────────────────┐ ┌────────────────────────┐
+│arcstone-continuity-core│ │  arcstone-mcp-sidecar  │ │arcstone-path-a-ingress-│
+│ [ Path A Rust Kernel ] │ │ [ Fail-Closed Proxy ]  │ │          lab           │
+│     FROZEN / ACTIVE    │ │ ACTIVE / CANONICAL FRZ │ │ [ Edge Ingress Lab ]   │
+└────────────────────────┘ └───────────▲────────────┘ └────────────────────────┘
+                                       │
                                        │ (Untrusted Proposals)
                                        │
-                        Arcstone Adaptive Producer Lab
-                            EXPERIMENTAL / FROZEN
-
-
-
-                                       │ (Untrusted Proposals)
-                                       │
-                        Arcstone Adaptive Producer Lab
-                            EXPERIMENTAL / FROZEN
+                           ┌───────────┴────────────┐
+                           │   arcstone-adaptive-   │
+                           │      producer-lab      │
+                           │  [ Candidate Generator ]│
+                           └────────────────────────┘
+```
