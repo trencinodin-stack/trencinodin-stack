@@ -13,7 +13,7 @@ The **Arcstone Research Architecture** is registered and archived across canonic
 * **Primary Master Anchor (Zenodo):** [DOI: 10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 * **Monolithic Research Archive (Figshare):** [DOI: 10.6084/m9.figshare.33477511](https://doi.org/10.6084/m9.figshare.33477511)
 * **Zenodo Community Collections:**
-  * [Arcstone Executive Epistemic & Execution Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(Executive Series: EXEC01–EXEC03)*
+  * [Arcstone Executive Epistemic & Execution Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(Executive Series: EXEC01–EXEC03 & Downstream Core: CORE01)*
   * [Arcstone Continuity Core & Admissible Computation Suite](https://zenodo.org/communities/arcstone-continuity-core) *(Core Architecture & 12-Part Suite)*
 * **System Invariants:** `C_ops = 0` ∧ `Data_Egress_Sensitive = 0` ∧ `τ_override ≤ 11.99ms` ∧ `S_max ≤ 4096B`
 * **Suite Security Hash:** `A-77-DELTA-SHIELD-LOCKED`
@@ -52,6 +52,7 @@ The public repository network is structured around a locked Layer 0 Master Proto
 | **`ARC-PUB-2026-EXEC01`** | [DOI: 10.5281/zenodo.22905928](https://doi.org/10.5281/zenodo.22905928) | **The Human-First Trust Layer:** Implicit Authority, Social Proof, and the Architecture of Human-Mediated Systems |
 | **`ARC-PUB-2026-EXEC02`** | [DOI: 10.5281/zenodo.22908270](https://doi.org/10.5281/zenodo.22908270) | **The Machine-First Execution Boundary:** A Foundational Architecture for Autonomous Systems and Deterministic Authority |
 | **`ARC-PUB-2026-EXEC03`** | [DOI: 10.5281/zenodo.22908341](https://doi.org/10.5281/zenodo.22908341) | **The Hybrid Epistemic Layer:** Human Meaning, Machine Resolution, and the Architecture of Augmented Judgment |
+| **`ARC-PUB-2026-CORE01`** | [DOI: 10.5281/zenodo.22966979](https://doi.org/10.5281/zenodo.22966979) | **Arcstone Continuity Core:** A Zero-Allocation, Fail-Closed Execution Membrane for Non-Deterministic AI Producers |
 
 ---
 
@@ -98,7 +99,7 @@ The language-agnostic master specification layer establishing the mathematical i
 **Status:** `FROZEN / ACTIVE`  
 **Role:** Upstream public Path A reference surface & `#![no_std]` Rust Execution Engine  
 **Release:** `v1.3.1-exec`  
-**Anchor:** `A-77-DELTA-SHIELD-LOCKED`
+**Anchor:** `A-77-DELTA-SHIELD-LOCKED` | **DOI:** `10.5281/zenodo.22966979`
 
 A lean deterministic reference implementation preserving selected Arcstone Continuity Core invariants and cross-language conformance behavior. The executable Rust surface provides a portable `#![no_std]` deterministic predicate with explicit payload and temporal bounds.
 
@@ -147,14 +148,14 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
                   ┌─────────────────────────────────────────┐
                   │       arcstone-spec-epistemic-01        │
                   │   [ Layer 0: Master Protocol Spec ]     │
-                  │         LOCKED / MASTER ANCHOR          │
+                  │          LOCKED / MASTER ANCHOR         │
                   └────────────────────┬────────────────────┘
                                        │
             ┌──────────────────────────┼──────────────────────────┐
             │                          │                          │
             ▼                          ▼                          ▼
 ┌────────────────────────┐ ┌────────────────────────┐ ┌────────────────────────┐
-│arcstone-continuity-core│ │  arcstone-mcp-sidecar  │ │arcstone-path-a-ingress-│
+│arcstone-continuity-core│ │  arcstone-mcp-sidecar   │ │arcstone-path-a-ingress-│
 │ [ Path A Rust Kernel ] │ │ [ Fail-Closed Proxy ]  │ │          lab           │
 │     FROZEN / ACTIVE    │ │ ACTIVE / CANONICAL FRZ │ │ [ Edge Ingress Lab ]   │
 └────────────────────────┘ └───────────▲────────────┘ └────────────────────────┘
