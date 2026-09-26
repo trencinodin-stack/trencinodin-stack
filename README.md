@@ -84,7 +84,7 @@ Arcstone's public research footprint forms a 6-node network anchored by a centra
 
 ### 0. Admissibility Science Canonical Root
 
-[`admissibilityscience.com` (Live Site)](https://admissibilityscience.com) | [`admissibilityscience.com` (GitHub Repo)](https://github.com/trencinodin-stack/admissibilityscience.com)
+[admissibilityscience.com (Live Site)](https://admissibilityscience.com) | [admissibilityscience.com (GitHub Repo)](https://github.com/trencinodin-stack/admissibilityscience.com)
 
 **Status:** `LIVE / PUBLIC CANONICAL ROOT`  
 **Role:** Canonical Web & Machine Ingestion Edge Root for Admissibility Science  
