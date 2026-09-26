@@ -12,9 +12,8 @@ The **Arcstone Research Architecture** is registered and archived across canonic
 
 * **Primary Master Anchor (Zenodo):** [DOI: 10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 * **Monolithic Research Archive (Figshare):** [DOI: 10.6084/m9.figshare.33477511](https://doi.org/10.6084/m9.figshare.33477511)
-* **Zenodo Community Collections:**
-  * [Arcstone Executive Epistemic & Execution Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(Executive Series: EXEC01–EXEC03 & Downstream Core: CORE01)*
-  * [Arcstone Continuity Core & Admissible Computation Suite](https://zenodo.org/communities/arcstone-continuity-core) *(Core Architecture & 12-Part Suite)*
+* **Zenodo Community Collection:**
+  * [Arcstone Executive Epistemic & Execution Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(Canonical Suite: EXEC01–EXEC03 & Downstream Core: CORE01–CORE02)*
 * **System Invariants:** `C_ops = 0` ∧ `Data_Egress_Sensitive = 0` ∧ `τ_override ≤ 11.99ms` ∧ `S_max ≤ 4096B`
 * **Suite Security Hash:** `A-77-DELTA-SHIELD-LOCKED`
 
@@ -26,7 +25,7 @@ The public repository network is structured around a locked Layer 0 Master Proto
 
 - **Deterministic Systems Architecture** — Researching computational structures that place explicit deterministic constraints around otherwise probabilistic or nondeterministic computational processes.
 
-- **Admissibility & Continuity** — Investigating bounded evaluation surfaces, temporal constraints, memory ceilings, fail-closed behavior, deterministic replay, and local continuity.
+- **Admissibility & Continuity** — Formalizing bounded evaluation surfaces, temporal constraints, memory ceilings, fail-closed behavior, deterministic replay, and local continuity.
 
 - **Execution Boundaries** — Separating deterministic evaluation, authorization, actuation, and observed effects so that computational outputs do not implicitly acquire execution authority.
 
@@ -53,6 +52,7 @@ The public repository network is structured around a locked Layer 0 Master Proto
 | **`ARC-PUB-2026-EXEC02`** | [DOI: 10.5281/zenodo.22908270](https://doi.org/10.5281/zenodo.22908270) | **The Machine-First Execution Boundary:** A Foundational Architecture for Autonomous Systems and Deterministic Authority |
 | **`ARC-PUB-2026-EXEC03`** | [DOI: 10.5281/zenodo.22908341](https://doi.org/10.5281/zenodo.22908341) | **The Hybrid Epistemic Layer:** Human Meaning, Machine Resolution, and the Architecture of Augmented Judgment |
 | **`ARC-PUB-2026-CORE01`** | [DOI: 10.5281/zenodo.22966979](https://doi.org/10.5281/zenodo.22966979) | **Arcstone Continuity Core:** A Zero-Allocation, Fail-Closed Execution Membrane for Non-Deterministic AI Producers |
+| **`ARC-PUB-2026-CORE02`** | [DOI: 10.5281/zenodo.22969294](https://doi.org/10.5281/zenodo.22969294) | **Principles of Admissibility Science:** Axiomatic Foundations, Order-Theoretic State Resolution, and Zero-Allocation Boundaries |
 
 ---
 
@@ -148,7 +148,7 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
                   ┌─────────────────────────────────────────┐
                   │       arcstone-spec-epistemic-01        │
                   │   [ Layer 0: Master Protocol Spec ]     │
-                  │          LOCKED / MASTER ANCHOR         │
+                  │        LOCKED / MASTER ANCHOR           │
                   └────────────────────┬────────────────────┘
                                        │
             ┌──────────────────────────┼──────────────────────────┐
@@ -156,15 +156,15 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
             ▼                          ▼                          ▼
 ┌────────────────────────┐ ┌────────────────────────┐ ┌────────────────────────┐
 │arcstone-continuity-core│ │  arcstone-mcp-sidecar   │ │arcstone-path-a-ingress-│
-│ [ Path A Rust Kernel ] │ │ [ Fail-Closed Proxy ]  │ │          lab           │
+│ [ Path A Rust Kernel ] │ │ [ Fail-Closed Proxy ]  │ │        lab             │
 │     FROZEN / ACTIVE    │ │ ACTIVE / CANONICAL FRZ │ │ [ Edge Ingress Lab ]   │
 └────────────────────────┘ └───────────▲────────────┘ └────────────────────────┘
                                        │
                                        │ (Untrusted Proposals)
                                        │
-                           ┌───────────┴────────────┐
-                           │   arcstone-adaptive-   │
-                           │      producer-lab      │
-                           │  [ Candidate Generator ]│
-                           └────────────────────────┘
+                            ┌───────────┴────────────┐
+                            │   arcstone-adaptive-   │
+                            │     producer-lab       │
+                            │  [ Candidate Generator ]│
+                            └────────────────────────┘
 ```
