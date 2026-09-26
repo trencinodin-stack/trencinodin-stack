@@ -1,6 +1,7 @@
 # Hi there, I'm Jesse Tuohy 👋 (@trencinodin-stack)
 
-Founder & Principal Invariant Architect at **Arcstone Adaptive Science Systems, Inc.**
+Founder & Principal Invariant Architect at **Arcstone Adaptive Science Systems, Inc.**  
+🌐 **Canonical Field Root:** [admissibilityscience.com](https://admissibilityscience.com)
 
 Focusing on deterministic computational spines, admissibility-first systems, execution boundaries, and reproducible research into deterministic control surfaces for high-stakes computational environments.
 
@@ -8,14 +9,16 @@ Focusing on deterministic computational spines, admissibility-first systems, exe
 
 ## 📚 Master Research Suite & Academic Anchor
 
-The **Arcstone Research Architecture** is registered and archived across canonical scientific repositories:
+The **Arcstone Research Architecture** is registered, anchored, and archived across canonical scientific repositories:
 
+* **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) *(Cloudflare Pages / SSL Secured)*
 * **Primary Master Anchor (Zenodo):** [DOI: 10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 * **Monolithic Research Archive (Figshare):** [DOI: 10.6084/m9.figshare.33477511](https://doi.org/10.6084/m9.figshare.33477511)
 * **Zenodo Community Collection:**
   * [Arcstone Executive Epistemic & Execution Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(Canonical Suite: EXEC01–EXEC03 & Downstream Core: CORE01–CORE02)*
-* **System Invariants:** `C_ops = 0` ∧ `Data_Egress_Sensitive = 0` ∧ `τ_override ≤ 11.99ms` ∧ `S_max ≤ 4096B`
-* **Suite Security Hash:** `A-77-DELTA-SHIELD-LOCKED`
+* **System Operational Invariants:** `C_ops = 0` ∧ `Data_Egress_Sensitive = 0` ∧ `τ_override ≤ 11.99ms` ∧ `S_max ≤ 4096B`
+* **Suite Master Anchor / Hash:** `A-77-DELTA-SHIELD-LOCKED`
+* **Public Operational Release:** `v1.3.1-exec`
 
 The public repository network is structured around a locked Layer 0 Master Protocol Specification, governing downstream execution runtimes, edge ingress testbeds, tool proxy sidecars, and adaptive proposal generators.
 
@@ -23,24 +26,24 @@ The public repository network is structured around a locked Layer 0 Master Proto
 
 ## 🔬 Core Focus Areas
 
+- **Admissibility Science & Order Theory** — Establishing order-theoretic join-semilattice authorization $(L, \text{join})$ to gate non-deterministic producers at the POSIX level before external state mutation ($\Delta_{\text{external}} = 0$).
+
 - **Deterministic Systems Architecture** — Researching computational structures that place explicit deterministic constraints around otherwise probabilistic or nondeterministic computational processes.
 
-- **Admissibility & Continuity** — Formalizing bounded evaluation surfaces, temporal constraints, memory ceilings, fail-closed behavior, deterministic replay, and local continuity.
+- **Execution Boundaries** — Decoupling deterministic evaluation, authorization, actuation, and observed effects so that computational outputs do not implicitly acquire execution authority.
 
-- **Execution Boundaries** — Separating deterministic evaluation, authorization, actuation, and observed effects so that computational outputs do not implicitly acquire execution authority.
+- **Bare-Metal & Edge Engineering** — Exploring eBPF, low-level `#![no_std]` Rust, hardware isolation, local execution membranes, zero-heap static buffer envelopes, and sub-12ms temporal override clamps.
 
-- **Bare-Metal & Edge Engineering** — Exploring eBPF, low-level `#![no_std]` Rust, hardware isolation, local execution membranes, and zero-heap static buffer envelopes.
-
-- **Reproducible Research** — Publishing bounded reference implementations and downstream experiments whose claims can be independently inspected, executed, and reproduced.
+- **Reproducible Research & Machine Ingestion** — Publishing machine-readable specifications, Schemas (`AGENTS.md`), and bounded reference implementations whose claims can be independently inspected, executed, and reproduced.
 
 ---
 
 ## 🛠️ Technologies & Toolkit
 
 - **Languages:** Rust (`#![no_std]`), C/C++, Python, Go, TypeScript, SQL
-- **Systems & Frameworks:** eBPF, Bare-Metal Microkernels, Graph Theory, Distributed Systems, Capability-Oriented Architecture, POSIX Lattice
-- **Research Methods:** Deterministic Evaluation, Formal Invariants, Evidence Preservation, Exact Replay, Cross-Language Conformance
-- **Tools:** Linux, Git, GitHub Actions, Docker, VS Code, Model Context Protocol (MCP)
+- **Systems & Frameworks:** eBPF, Bare-Metal Microkernels, Order Theory / Discrete Lattices, Distributed Systems, Capability-Oriented Architecture, POSIX Reference Monitors
+- **Research Methods:** Order-Theoretic State Resolution, Formal Invariants, Evidence Preservation, Exact Replay, Cross-Language Conformance
+- **Tools:** Linux, Git, GitHub Actions, Docker, VS Code, Model Context Protocol (MCP), Cloudflare Edge Infrastructure
 
 ---
 
@@ -75,11 +78,24 @@ The public repository network is structured around a locked Layer 0 Master Proto
 
 ---
 
-## 📁 Public Research Repositories
+## 📁 Public Research Repositories & Domain Network
 
-Arcstone's public repositories form a 5-node ecosystem anchored by a central Layer 0 master specification.
+Arcstone's public research footprint forms a 6-node network anchored by a central Layer 0 master specification and canonical web root.
 
-### 0. Arcstone Spec Epistemic 01 (Master Specification Keystone)
+### 0. Admissibility Science Canonical Root
+
+[`admissibilityscience.com`](https://admissibilityscience.com) | [`admissibilityscience.com` Repo](https://github.com/trencinodin-stack/admissibilityscience.com)
+
+**Status:** `LIVE / PUBLIC CANONICAL ROOT`  
+**Role:** Canonical Web & Machine Ingestion Edge Root for Admissibility Science  
+**Release:** `v1.3.1-exec`  
+**Anchor:** `A-77-DELTA-SHIELD-LOCKED` | **DOI:** `10.5281/zenodo.22969294`
+
+The live public surface delivering zero-overhead ($C_{\text{ops}}=0$), SSL-secured canonical specifications, Schema.org JSON-LD structured data, and `AGENTS.md` for real-time AI crawlers and autonomous indexers.
+
+---
+
+### 1. Arcstone Spec Epistemic 01 (Master Specification Keystone)
 
 [`arcstone-spec-epistemic-01`](https://github.com/trencinodin-stack/arcstone-spec-epistemic-01)
 
@@ -92,7 +108,7 @@ The language-agnostic master specification layer establishing the mathematical i
 
 ---
 
-### 1. Arcstone Continuity Core
+### 2. Arcstone Continuity Core
 
 [`arcstone-continuity-core`](https://github.com/trencinodin-stack/arcstone-continuity-core)
 
@@ -105,7 +121,7 @@ A lean deterministic reference implementation preserving selected Arcstone Conti
 
 ---
 
-### 2. Arcstone Path A Ingress Lab
+### 3. Arcstone Path A Ingress Lab
 
 [`arcstone-path-a-ingress-lab`](https://github.com/trencinodin-stack/arcstone-path-a-ingress-lab)
 
@@ -117,7 +133,7 @@ A downstream experimental realization testing whether serialized output from an 
 
 ---
 
-### 3. Arcstone MCP Sidecar
+### 4. Arcstone MCP Sidecar
 
 [`arcstone-mcp-sidecar`](https://github.com/trencinodin-stack/arcstone-mcp-sidecar)
 
@@ -130,7 +146,7 @@ A downstream reference sidecar published on the official Model Context Protocol 
 
 ---
 
-### 4. Arcstone Adaptive Producer Lab
+### 5. Arcstone Adaptive Producer Lab
 
 [`arcstone-adaptive-producer-lab`](https://github.com/trencinodin-stack/arcstone-adaptive-producer-lab)
 
@@ -145,26 +161,32 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
 ## 🔗 Public Research Topology
 
 ```text
-                  ┌─────────────────────────────────────────┐
-                  │       arcstone-spec-epistemic-01        │
-                  │   [ Layer 0: Master Protocol Spec ]     │
-                  │        LOCKED / MASTER ANCHOR           │
-                  └────────────────────┬────────────────────┘
-                                       │
-            ┌──────────────────────────┼──────────────────────────┐
-            │                          │                          │
-            ▼                          ▼                          ▼
-┌────────────────────────┐ ┌────────────────────────┐ ┌────────────────────────┐
-│arcstone-continuity-core│ │  arcstone-mcp-sidecar   │ │arcstone-path-a-ingress-│
-│ [ Path A Rust Kernel ] │ │ [ Fail-Closed Proxy ]  │ │        lab             │
-│     FROZEN / ACTIVE    │ │ ACTIVE / CANONICAL FRZ │ │ [ Edge Ingress Lab ]   │
-└────────────────────────┘ └───────────▲────────────┘ └────────────────────────┘
-                                       │
-                                       │ (Untrusted Proposals)
-                                       │
-                            ┌───────────┴────────────┐
-                            │   arcstone-adaptive-   │
-                            │     producer-lab       │
-                            │  [ Candidate Generator ]│
-                            └────────────────────────┘
+                                  ┌─────────────────────────────────────────┐
+                                  │       admissibilityscience.com          │
+                                  │   [ Canonical Public Field Root ]       │
+                                  │      LIVE / v1.3.1-exec / SSL LOCKED    │
+                                  └────────────────────┬────────────────────┘
+                                                       │
+                                  ┌────────────────────┴────────────────────┐
+                                  │        arcstone-spec-epistemic-01       │
+                                  │   [ Layer 0: Master Protocol Spec ]     │
+                                  │         LOCKED / MASTER ANCHOR          │
+                                  └────────────────────┬────────────────────┘
+                                                       │
+            ┌──────────────────────────────────────────┼──────────────────────────────────────────┐
+            │                                          │                                          │
+            ▼                                          ▼                                          ▼
+┌────────────────────────┐                ┌────────────────────────┐                ┌────────────────────────┐
+│arcstone-continuity-core│                │  arcstone-mcp-sidecar   │                │arcstone-path-a-ingress-│
+│ [ Path A Rust Kernel ] │                │ [ Fail-Closed Proxy ]  │                │        lab             │
+│    FROZEN / ACTIVE     │                │ ACTIVE / CANONICAL FRZ │                │ [ Edge Ingress Lab ]   │
+└────────────────────────┘                └───────────▲────────────┘                └────────────────────────┘
+                                                       │
+                                                       │ (Untrusted Proposals)
+                                                       │
+                                          ┌───────────┴────────────┐
+                                          │   arcstone-adaptive-   │
+                                          │      producer-lab      │
+                                          │ [ Candidate Generator ]│
+                                          └────────────────────────┘
 ```
