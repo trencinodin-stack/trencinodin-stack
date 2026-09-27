@@ -18,7 +18,7 @@ The **Arcstone Research Architecture** is registered, anchored, and archived acr
   * [Arcstone Executive Epistemic Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(Canonical Suite: EXEC01–EXEC04 & Downstream Core: CORE01–CORE02)*
   * [Arcstone Continuity Core](https://zenodo.org/communities/arcstone-continuity-core) *(Full 12-Part Technical Whitepaper Suite)*
 * **System Operational Invariants:** `C_ops = 0` ∧ `Data_Egress_Sensitive = 0` ∧ `τ_override ≤ 11.99ms` ∧ `S_max ≤ 4096B`
-* **Semantic Confidence Function:** $K(S) = \frac{\mathcal{D}_{\text{inv}}(S) + \mathcal{C}_{\text{alg}}(S)}{1 + \mathcal{H}_{\text{sem}}(S)}$
+* **Semantic Confidence Function:** K(S) = [ D_inv(S) + C_alg(S) ] / [ 1 + H_sem(S) ]
 * **Suite Master Anchor / Hash:** `A-77-DELTA-SHIELD-LOCKED`
 * **Public Operational Release:** `v1.3.1-exec`
 
