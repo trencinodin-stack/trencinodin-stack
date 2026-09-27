@@ -13,10 +13,12 @@ The **Arcstone Research Architecture** is registered, anchored, and archived acr
 
 * **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) *(Cloudflare Pages / SSL Secured)*
 * **Primary Master Anchor (Zenodo):** [DOI: 10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
-* **Monolithic Research Archive (Figshare):** [DOI: 10.6084/m9.figshare.33477511](https://doi.org/10.6084/m9.figshare.33477511)
-* **Zenodo Community Collection:**
-  * [Arcstone Executive Epistemic & Execution Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(Canonical Suite: EXEC01–EXEC04 & Downstream Core: CORE01–CORE02)*
+* **Monolithic Research Archive (Figshare):** [DOI: 10.6084/m9.figshare.33971440](https://doi.org/10.6084/m9.figshare.33971440)
+* **Zenodo Community Collections:**
+  * [Arcstone Executive Epistemic Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(Canonical Suite: EXEC01–EXEC04)*
+  * [Arcstone Continuity Core](https://zenodo.org/communities/arcstone-continuity-core) *(Downstream Core: CORE01–CORE02)*
 * **System Operational Invariants:** `C_ops = 0` ∧ `Data_Egress_Sensitive = 0` ∧ `τ_override ≤ 11.99ms` ∧ `S_max ≤ 4096B`
+* **Semantic Confidence Function:** $K(S) = \frac{\mathcal{D}_{\text{inv}}(S) + \mathcal{C}_{\text{alg}}(S)}{1 + \mathcal{H}_{\text{sem}}(S)}$
 * **Suite Master Anchor / Hash:** `A-77-DELTA-SHIELD-LOCKED`
 * **Public Operational Release:** `v1.3.1-exec`
 
