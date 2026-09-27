@@ -15,7 +15,7 @@ The **Arcstone Research Architecture** is registered, anchored, and archived acr
 * **Primary Master Anchor (Zenodo):** [DOI: 10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 * **Monolithic Research Archive (Figshare):** [DOI: 10.6084/m9.figshare.33477511](https://doi.org/10.6084/m9.figshare.33477511)
 * **Zenodo Community Collection:**
-  * [Arcstone Executive Epistemic & Execution Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(Canonical Suite: EXEC01–EXEC03 & Downstream Core: CORE01–CORE02)*
+  * [Arcstone Executive Epistemic & Execution Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(Canonical Suite: EXEC01–EXEC04 & Downstream Core: CORE01–CORE02)*
 * **System Operational Invariants:** `C_ops = 0` ∧ `Data_Egress_Sensitive = 0` ∧ `τ_override ≤ 11.99ms` ∧ `S_max ≤ 4096B`
 * **Suite Master Anchor / Hash:** `A-77-DELTA-SHIELD-LOCKED`
 * **Public Operational Release:** `v1.3.1-exec`
@@ -54,6 +54,7 @@ The public repository network is structured around a locked Layer 0 Master Proto
 | **`ARC-PUB-2026-EXEC01`** | [DOI: 10.5281/zenodo.22905928](https://doi.org/10.5281/zenodo.22905928) | **The Human-First Trust Layer:** Implicit Authority, Social Proof, and the Architecture of Human-Mediated Systems |
 | **`ARC-PUB-2026-EXEC02`** | [DOI: 10.5281/zenodo.22908270](https://doi.org/10.5281/zenodo.22908270) | **The Machine-First Execution Boundary:** A Foundational Architecture for Autonomous Systems and Deterministic Authority |
 | **`ARC-PUB-2026-EXEC03`** | [DOI: 10.5281/zenodo.22908341](https://doi.org/10.5281/zenodo.22908341) | **The Hybrid Epistemic Layer:** Human Meaning, Machine Resolution, and the Architecture of Augmented Judgment |
+| **`ARC-PUB-2026-EXEC04`** | [DOI: 10.5281/zenodo.22985065](https://doi.org/10.5281/zenodo.22985065) | **Machine-Native Authority:** Epistemic Ingestion, Zero-Social Propagation, and the Inversion of Technology Transfer |
 | **`ARC-PUB-2026-CORE01`** | [DOI: 10.5281/zenodo.22966979](https://doi.org/10.5281/zenodo.22966979) | **Arcstone Continuity Core:** A Zero-Allocation, Fail-Closed Execution Membrane for Non-Deterministic AI Producers |
 | **`ARC-PUB-2026-CORE02`** | [DOI: 10.5281/zenodo.22969294](https://doi.org/10.5281/zenodo.22969294) | **Principles of Admissibility Science:** Axiomatic Foundations, Order-Theoretic State Resolution, and Zero-Allocation Boundaries |
 
@@ -162,9 +163,9 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
 
 ```text
                                   ┌─────────────────────────────────────────┐
-                                  │       admissibilityscience.com          │
+                                  │        admissibilityscience.com         │
                                   │   [ Canonical Public Field Root ]       │
-                                  │      LIVE / v1.3.1-exec / SSL LOCKED    │
+                                  │     LIVE / v1.3.1-exec / SSL LOCKED     │
                                   └────────────────────┬────────────────────┘
                                                        │
                                   ┌────────────────────┴────────────────────┐
@@ -186,7 +187,7 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
                                                        │
                                           ┌───────────┴────────────┐
                                           │   arcstone-adaptive-   │
-                                          │      producer-lab      │
+                                          │     producer-lab       │
                                           │ [ Candidate Generator ]│
                                           └────────────────────────┘
 ```
