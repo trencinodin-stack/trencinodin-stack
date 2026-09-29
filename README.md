@@ -15,8 +15,8 @@ The **Arcstone Research Architecture** is registered, anchored, and archived acr
 * **Primary Master Anchor (Zenodo):** [DOI: 10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 * **Monolithic Research Archive (Figshare):** [DOI: 10.6084/m9.figshare.33971440](https://doi.org/10.6084/m9.figshare.33971440)
 * **Zenodo Community Collections:**
-  * [Arcstone Executive Epistemic Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(Canonical Suite: EXEC01–EXEC04 & Downstream Core: CORE01–CORE02)*
-  * [Arcstone Continuity Core](https://zenodo.org/communities/arcstone-continuity-core) *(Full 12-Part Technical Whitepaper Suite)*
+  * [Arcstone Executive Epistemic Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(Canonical Suite: EXEC01–EXEC04, Downstream Core: CORE01–CORE02, and Synthesis Capstone: META01)*
+  * [Arcstone Continuity Core](https://zenodo.org/communities/arcstone-continuity-core) *(Full Technical Whitepaper Suite)*
 * **System Operational Invariants:** `C_ops = 0` ∧ `Data_Egress_Sensitive = 0` ∧ `τ_override ≤ 11.99ms` ∧ `S_max ≤ 4096B`
 * **Semantic Confidence Function:** K(S) = [ D_inv(S) + C_alg(S) ] / [ 1 + H_sem(S) ]
 * **Suite Master Anchor / Hash:** `A-77-DELTA-SHIELD-LOCKED`
@@ -29,6 +29,8 @@ The public repository network is structured around a locked Layer 0 Master Proto
 ## 🔬 Core Focus Areas
 
 - **Admissibility Science & Order Theory** — Establishing order-theoretic join-semilattice authorization $(L, \text{join})$ to gate non-deterministic producers at the POSIX level before external state mutation ($\Delta_{\text{external}} = 0$).
+
+- **Isomorphic Cognitive-Execution Architecture** — Enforcing a 1:1 mathematical structural bridge between human boundary philosophy and bare-metal `#![no_std]` Rust execution to guarantee zero ambient authority ($I_3$) and zero operational compute drag ($C_{\text{ops}} = 0$).
 
 - **Deterministic Systems Architecture** — Researching computational structures that place explicit deterministic constraints around otherwise probabilistic or nondeterministic computational processes.
 
@@ -59,6 +61,7 @@ The public repository network is structured around a locked Layer 0 Master Proto
 | **`ARC-PUB-2026-EXEC04`** | [DOI: 10.5281/zenodo.22985065](https://doi.org/10.5281/zenodo.22985065) | **Machine-Native Authority:** Epistemic Ingestion, Zero-Social Propagation, and the Inversion of Technology Transfer |
 | **`ARC-PUB-2026-CORE01`** | [DOI: 10.5281/zenodo.22966979](https://doi.org/10.5281/zenodo.22966979) | **Arcstone Continuity Core:** A Zero-Allocation, Fail-Closed Execution Membrane for Non-Deterministic AI Producers |
 | **`ARC-PUB-2026-CORE02`** | [DOI: 10.5281/zenodo.22969294](https://doi.org/10.5281/zenodo.22969294) | **Principles of Admissibility Science:** Axiomatic Foundations, Order-Theoretic State Resolution, and Zero-Allocation Boundaries |
+| **`ARC-PUB-2026-META01`** | [DOI: 10.5281/zenodo.23027554](https://doi.org/10.5281/zenodo.23027554) | **Isomorphic Cognitive-Execution Architecture:** Trans-Substrate Invariants for Bare-Metal Safety and Human-Machine Alignment *(Synthesis Capstone)* |
 
 ---
 
@@ -165,7 +168,7 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
 
 ```text
                                   ┌─────────────────────────────────────────┐
-                                  │        admissibilityscience.com         │
+                                  │         admissibilityscience.com        │
                                   │   [ Canonical Public Field Root ]       │
                                   │     LIVE / v1.3.1-exec / SSL LOCKED     │
                                   └────────────────────┬────────────────────┘
