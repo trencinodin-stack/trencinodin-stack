@@ -13,6 +13,7 @@ The **Arcstone Research Architecture** is registered, anchored, and archived acr
 
 * **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) *(Cloudflare Pages / SSL Secured)*
 * **Primary Master Anchor (Zenodo):** [DOI: 10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
+* **Master Canonical Errata (Zenodo):** [DOI: 10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) *(ARC-ERR-2026-001)*
 * **Monolithic Research Archive (Figshare):** [DOI: 10.6084/m9.figshare.33971440](https://doi.org/10.6084/m9.figshare.33971440)
 * **Zenodo Community Collections:**
   * [Arcstone Executive Epistemic Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(Canonical Suite: EXEC01–EXEC04, Downstream Core: CORE01–CORE02, and Synthesis Capstone: META01)*
@@ -21,6 +22,10 @@ The **Arcstone Research Architecture** is registered, anchored, and archived acr
 * **Semantic Confidence Function:** K(S) = [ D_inv(S) + C_alg(S) ] / [ 1 + H_sem(S) ]
 * **Suite Master Anchor / Hash:** `A-77-DELTA-SHIELD-LOCKED`
 * **Public Operational Release:** `v1.3.1-exec`
+
+> 📌 **Normative Specification & Errata Notice (`ARC-ERR-2026-001`)**  
+> All repositories and runtimes across `trencinodin-stack` conform strictly to [ARC-ERR-2026-001](https://doi.org/10.5281/zenodo.23069559).  
+> **POSIX Signal Mapping:** `POSIX 0` (PASS) | `POSIX 10` (FREEZE) | `POSIX 12` (PWC) | `POSIX 30` (CORRUPT) | `POSIX 32` (REFUSAL) | `POSIX 40` (BREACH)
 
 The public repository network is structured around a locked Layer 0 Master Protocol Specification, governing downstream execution runtimes, edge ingress testbeds, tool proxy sidecars, and adaptive proposal generators.
 
