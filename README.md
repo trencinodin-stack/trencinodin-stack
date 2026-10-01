@@ -16,8 +16,8 @@ The **Arcstone Research Architecture** is registered, anchored, and archived acr
 * **Master Canonical Errata (Zenodo):** [DOI: 10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) *(ARC-ERR-2026-001)*
 * **Monolithic Research Archive (Figshare):** [DOI: 10.6084/m9.figshare.33971440](https://doi.org/10.6084/m9.figshare.33971440)
 * **Zenodo Community Collections:**
-  * [Arcstone Executive Epistemic Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(Canonical Suite: EXEC01–EXEC04, Downstream Core: CORE01–CORE02, and Synthesis Capstone: META01)*
-  * [Arcstone Continuity Core](https://zenodo.org/communities/arcstone-continuity-core) *(Full Technical Whitepaper Suite)*
+  * [Arcstone Continuity Core & Admissible Computation Suite](https://zenodo.org/communities/arcstone-continuity-core) *(Core Specifications, Mathematical Proofs & Technical Whitepapers)*
+  * [Arcstone Executive Epistemic & Execution Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(Executive Epistemic Series EXEC01–EXEC04, CORE01–CORE02, META01 & LIT-003 Literature Synthesis)*
 * **System Operational Invariants:** `C_ops = 0` ∧ `Data_Egress_Sensitive = 0` ∧ `τ_override ≤ 11.99ms` ∧ `S_max ≤ 4096B`
 * **Semantic Confidence Function:** K(S) = [ D_inv(S) + C_alg(S) ] / [ 1 + H_sem(S) ]
 * **Suite Master Anchor / Hash:** `A-77-DELTA-SHIELD-LOCKED`
@@ -47,12 +47,13 @@ The public repository network is structured around a locked Layer 0 Master Proto
 
 ---
 
-## 🛠️ Technologies & Toolkit
+## ⚡ 3-Part Companion Execution & Formal Synthesis Suite (Published Oct 2026)
 
-- **Languages:** Rust (`#![no_std]`), C/C++, Python, Go, TypeScript, SQL
-- **Systems & Frameworks:** eBPF, Bare-Metal Microkernels, Order Theory / Discrete Lattices, Distributed Systems, Capability-Oriented Architecture, POSIX Reference Monitors
-- **Research Methods:** Order-Theoretic State Resolution, Formal Invariants, Evidence Preservation, Exact Replay, Cross-Language Conformance
-- **Tools:** Linux, Git, GitHub Actions, Docker, VS Code, Model Context Protocol (MCP), Cloudflare Edge Infrastructure
+| Document Ref | DOI Link | Canonical Title & Description |
+| :--- | :--- | :--- |
+| **`ARC-SPEC-AGENT-HCE-001`** | [DOI: 10.5281/zenodo.23076445](https://doi.org/10.5281/zenodo.23076445) | **Arcstone Systems Architecture Specification:** Deterministic Deployment of an Autonomous AI Agent in a High-Consequence Environment |
+| **`ARC-ANL-INJ-002`** | [DOI: 10.5281/zenodo.23076559](https://doi.org/10.5281/zenodo.23076559) | **Prompt Injection Under the Invariant Taxonomy:** Failure-Mode Analysis and Proof of Hallucination-Independent State Conservation |
+| **`ARC-LIT-003`** | [DOI: 10.5281/zenodo.23076692](https://doi.org/10.5281/zenodo.23076692) | **AI Execution Safety Literature vs. the Arcstone Invariant Substrate:** Downstream Actuation Mechanics, Tier Mapping, and Citation-Tree Synthesis |
 
 ---
 
