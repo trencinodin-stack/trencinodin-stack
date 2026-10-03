@@ -20,13 +20,13 @@ The **Arcstone Research Architecture** is registered, anchored, and archived acr
 * **System Operational Invariants:** `C_ops = 0` ∧ `Data_Egress_Sensitive = 0` ∧ `τ_override ≤ 11.99ms` ∧ `S_max ≤ 4096B`
 * **Semantic Confidence Function:** K(S) = [ D_inv(S) + C_alg(S) ] / [ 1 + H_sem(S) ]
 * **Suite Master Anchor / Hash:** `A-77-DELTA-SHIELD-LOCKED`
-* **Public Operational Release:** `v1.3.1-exec`
+* **Public Operational Release:** `v1.3.1-exec` | `v1.2.0-hardened`
 
 > 📌 **Normative Specification & Errata Notice (`ARC-ERR-2026-001`)**  
 > All repositories and runtimes across `trencinodin-stack` conform strictly to [ARC-ERR-2026-001](https://doi.org/10.5281/zenodo.23069559).  
 > **POSIX Signal Mapping:** `POSIX 0` (PASS) | `POSIX 10` (FREEZE) | `POSIX 12` (PWC) | `POSIX 30` (CORRUPT) | `POSIX 32` (REFUSAL) | `POSIX 40` (BREACH)
 
-The public repository network is structured around a locked Layer 0 Master Protocol Specification, governing downstream execution runtimes, edge ingress testbeds, tool proxy sidecars, and adaptive proposal generators.
+The public repository network is structured around a locked Layer 0 Master Protocol Specification, governing downstream execution runtimes, public normative contracts, edge ingress testbeds, tool proxy sidecars, and adaptive proposal generators.
 
 ---
 
@@ -70,28 +70,9 @@ The public repository network is structured around a locked Layer 0 Master Proto
 
 ---
 
-## 📄 12-Part Technical Whitepaper Suite
-
-| Paper | Reference Code | Canonical Title & Anchor |
-| :--- | :--- | :--- |
-| **Paper 0** | `WP001` | [Arcstone Computational Spine: Baseline, eBPF Kernel Protection & Enterprise RAG](https://doi.org/10.5281/zenodo.22665852) *(Master Anchor)* |
-| **Paper 1** | `PHYS01` | [Theoretical Architecture and Mathematical Evolution of Classical Electrodynamics](https://doi.org/10.5281/zenodo.22677708) |
-| **Paper 2** | `WP002` | [Arcstone Continuity Core: Air-Gapped Multimodal Local RAG Architecture](https://doi.org/10.5281/zenodo.22681508) |
-| **Paper 3** | `WP003` | [The Sovereign NPC: Why AI Isn't Conscious—and Why That Makes It a Cognitive Exoskeleton](https://doi.org/10.5281/zenodo.22678934) |
-| **Paper 4** | `WP004` | [The Autonomic Governance Operating System: Authorization-First Architecture](https://doi.org/10.5281/zenodo.22679072) |
-| **Paper 5** | `WP005` | [The Negentropic Enterprise: Structural Invariants for Non-Delegable Governance](https://doi.org/10.5281/zenodo.22679481) |
-| **Paper 6** | `WP006` | [Deterministic Continuity Field Nodes (CFN): Bare-Metal Substrate for Offline State Verification](https://doi.org/10.5281/zenodo.22679579) |
-| **Paper 7** | `WP007` | [Deterministic State Reconstruction and Fault-Tolerant Memory Boundaries](https://doi.org/10.5281/zenodo.22679788) |
-| **Paper 8** | `WP008` | [Wi-Fi 7 Multi-Link Operation (MLO) Protocol Stack: Sub-12ms Latency Clamps](https://doi.org/10.5281/zenodo.22680038) |
-| **Paper 9** | `SWAP01` | [The Cascading SWaP Revolution: Eliminating Hardware Overhead via Admissible Software](https://doi.org/10.5281/zenodo.22680187) |
-| **Paper 10** | `WP010` | [Architectural Analysis: The Inverted Substrate Paradigm](https://doi.org/10.5281/zenodo.22680282) |
-| **Paper 11** | `PHYS02` | [Period 8 Initialization and the Femtobarn Frontier: Heavy-Ion Dynamics at Z ≥ 119](https://doi.org/10.5281/zenodo.22681286) |
-
----
-
 ## 📁 Public Research Repositories & Domain Network
 
-Arcstone's public research footprint forms a 6-node network anchored by a central Layer 0 master specification and canonical web root.
+Arcstone's public research footprint forms a 7-node network anchored by a central Layer 0 master specification, normative machine contracts, and canonical web root.
 
 ### 0. Admissibility Science Canonical Root
 
@@ -115,11 +96,24 @@ The live public surface delivering zero-overhead ($C_{\text{ops}}=0$), SSL-secur
 **Release:** `v1.3.1-LOCKED`  
 **Anchor:** `A-77-DELTA-SHIELD-LOCKED` | **DOI:** `10.5281/zenodo.22665852`
 
-The language-agnostic master specification layer establishing the mathematical invariants ($I_1–I_3$, $N_1–N_3$), POSIX poset dominance lattice ($40 \succ 10 \succ 32 \succ 0$), sub-12ms temporal override clamps ($\tau_{\text{override}} \le 11.99\text{ms}$), static memory buffer limits ($S_{\text{max}} \le 4096\text{B}$), and machine-readable JSON schemas for the entire Arcstone ecosystem. Under sovereign constancy ($C_{\text{ops}} = 0$), this repository functions as a locked, read-only canonical reference standard.
+The language-agnostic master specification layer establishing the mathematical invariants ($I_1–I_3$, $N_1–N_3$), POSIX poset dominance lattice ($40 \succ 10 \succ 32 \succ 0$), sub-12ms temporal override clamps ($\tau_{\text{override}} \le 11.99\text{ms}$), static memory buffer limits ($S_{\text{max}} \le 4096\text{B}$), and machine-readable JSON schemas for the entire Arcstone ecosystem.
 
 ---
 
-### 2. Arcstone Continuity Core
+### 2. Arcstone Triad System (Normative Specification & Machine Contracts)
+
+[`arcstone-triad-system`](https://github.com/trencinodin-stack/arcstone-triad-system)
+
+**Status:** `LIVE / PUBLIC NORMATIVE SUITE`  
+**Role:** Sovereign Normative Specifications, UEDO v1.2 Schemas & Machine Discovery Contracts  
+**Release:** `v1.2.0-hardened`  
+**Anchor:** `A-77-DELTA-SHIELD-LOCKED`
+
+The public normative specification suite housing UEDO v1.2 Protobuf/JSON schemas, `#![no_std]` Rust trait stubs, machine discovery manifests (`system-manifest.json`), and the primary multi-domain governance specifications (SYS-3, RANK-01, DEFENSE-01, FRONTIER-01, RECOVERY-01, TRISIGHT-01, COUNCIL-01, ARCHITECT-01).
+
+---
+
+### 3. Arcstone Continuity Core
 
 [`arcstone-continuity-core`](https://github.com/trencinodin-stack/arcstone-continuity-core)
 
@@ -132,7 +126,7 @@ A lean deterministic reference implementation preserving selected Arcstone Conti
 
 ---
 
-### 3. Arcstone Path A Ingress Lab
+### 4. Arcstone Path A Ingress Lab
 
 [`arcstone-path-a-ingress-lab`](https://github.com/trencinodin-stack/arcstone-path-a-ingress-lab)
 
@@ -144,7 +138,7 @@ A downstream experimental realization testing whether serialized output from an 
 
 ---
 
-### 4. Arcstone MCP Sidecar
+### 5. Arcstone MCP Sidecar
 
 [`arcstone-mcp-sidecar`](https://github.com/trencinodin-stack/arcstone-mcp-sidecar)
 
@@ -157,7 +151,7 @@ A downstream reference sidecar published on the official Model Context Protocol 
 
 ---
 
-### 5. Arcstone Adaptive Producer Lab
+### 6. Arcstone Adaptive Producer Lab
 
 [`arcstone-adaptive-producer-lab`](https://github.com/trencinodin-stack/arcstone-adaptive-producer-lab)
 
@@ -165,7 +159,7 @@ A downstream reference sidecar published on the official Model Context Protocol 
 **Version:** `v0.1.1-frozen`  
 **Role:** Closed-loop adaptive proposal generation and stress laboratory upstream of deterministic execution authority
 
-A downstream research laboratory testing closed-loop adaptive proposal generation against a pinned, unchanged execution boundary (`arcstone-exec`). It evaluates whether an untrusted producer (LLM or adaptive script), receiving bounded execution feedback across iterative attempts, can force unauthorized actuation or bypass a withheld authorization grant.
+A downstream research laboratory testing closed-loop adaptive proposal generation against a pinned, unchanged execution boundary (`arcstone-exec`).
 
 ---
 
@@ -175,7 +169,7 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
                                   ┌─────────────────────────────────────────┐
                                   │         admissibilityscience.com        │
                                   │   [ Canonical Public Field Root ]       │
-                                  │     LIVE / v1.3.1-exec / SSL LOCKED     │
+                                  │    LIVE / v1.3.1-exec / SSL LOCKED      │
                                   └────────────────────┬────────────────────┘
                                                        │
                                   ┌────────────────────┴────────────────────┐
@@ -184,20 +178,22 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
                                   │         LOCKED / MASTER ANCHOR          │
                                   └────────────────────┬────────────────────┘
                                                        │
-            ┌──────────────────────────────────────────┼──────────────────────────────────────────┐
-            │                                          │                                          │
-            ▼                                          ▼                                          ▼
-┌────────────────────────┐                ┌────────────────────────┐                ┌────────────────────────┐
-│arcstone-continuity-core│                │  arcstone-mcp-sidecar   │                │arcstone-path-a-ingress-│
-│ [ Path A Rust Kernel ] │                │ [ Fail-Closed Proxy ]  │                │        lab             │
-│    FROZEN / ACTIVE     │                │ ACTIVE / CANONICAL FRZ │                │ [ Edge Ingress Lab ]   │
-└────────────────────────┘                └───────────▲────────────┘                └────────────────────────┘
-                                                       │
-                                                       │ (Untrusted Proposals)
-                                                       │
-                                          ┌───────────┴────────────┐
-                                          │   arcstone-adaptive-   │
-                                          │     producer-lab       │
-                                          │ [ Candidate Generator ]│
-                                          └────────────────────────┘
+       ┌───────────────────────────────────────────────┼───────────────────────────────────────────────┐
+       │                                               │                                               │
+       ▼                                               ▼                                               ▼
+┌────────────────────────┐                   ┌────────────────────────┐                   ┌────────────────────────┐
+│  arcstone-triad-system │                   │arcstone-continuity-core│                   │  arcstone-mcp-sidecar  │
+│ [ Normative Suite &    │                   │ [ Path A Rust Kernel ] │                   │ [ Fail-Closed Proxy ]  │
+│   Machine Contracts ]  │                   │     FROZEN / ACTIVE    │                   │ ACTIVE / CANONICAL FRZ │
+│ LIVE / v1.2.0-hardened │                   └────────────────────────┘                   └───────────▲────────────┘
+└────────────────────────┘                                                                            │
+                                                                                                      │ (Proposals)
+       ┌──────────────────────────────────────────────────────────────────────────────────────────────┴────────────┐
+       │                                                                                                          │
+       ▼                                                                                                          ▼
+┌────────────────────────┐                                                                   ┌────────────────────────┐
+│arcstone-path-a-ingress-│                                                                   │    arcstone-adaptive-  │
+│        lab             │                                                                   │      producer-lab      │
+│ [ Edge Ingress Lab ]   │                                                                   │ [ Candidate Generator ]│
+└────────────────────────┘                                                                   └────────────────────────┘
 ```
