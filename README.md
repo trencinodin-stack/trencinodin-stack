@@ -14,7 +14,6 @@ The **Arcstone Research Architecture** is registered, anchored, and archived acr
 * **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) *(Cloudflare Pages / SSL Secured)*
 * **Primary Master Anchor (Zenodo):** [DOI: 10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 * **Master Canonical Errata (Zenodo):** [DOI: 10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) *(ARC-ERR-2026-001)*
-* **Monolithic Research Archive (Figshare):** [DOI: 10.6084/m9.figshare.33971440](https://doi.org/10.6084/m9.figshare.33971440)
 * **Zenodo Community Collections:**
   * [Arcstone Continuity Core & Admissible Computation Suite](https://zenodo.org/communities/arcstone-continuity-core) *(Core Specifications, Mathematical Proofs & Technical Whitepapers)*
   * [Arcstone Executive Epistemic & Execution Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(Executive Epistemic Series EXEC01–EXEC04, CORE01–CORE02, META01 & LIT-003 Literature Synthesis)*
