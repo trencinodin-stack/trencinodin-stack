@@ -7,20 +7,51 @@ Focusing on deterministic computational spines, admissibility-first systems, exe
 
 ---
 
+## 📖 Canonical Publication & Monograph (October 2026)
+
+### **INFORMATION PHYSICS: A Technical Specification of Machine Ingestion, Admissibility Boundaries, and Deterministic Authority**
+*Authored by Jesse Tuohy*
+
+The foundational technical specification establishing order-theoretic, bare-metal mathematical foundations for deterministic, fail-closed execution boundaries operating at zero operational drag ($C_{\text{ops}} = 0$).
+
+- **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) *(Machine-Readable `/llms.txt` & `/AGENTS.md`)*
+- **Paperback ISBN-13:** `9798161524664`
+- **Paperback ASIN:** `B0HMNNZQTV`
+- **Kindle ASIN:** `B0HMNDBGL1`
+- **Primary Master DOI (Zenodo):** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
+- **Master Errata Overlay:** [10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) *(ARC-ERR-2026-001)*
+- **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
+
+#### Core Systemic Invariants & Bounds:
+1. **Non-Authorization Safety Invariant ($I_1$):**
+   $$D(a) = \text{DENY} \implies \Delta = 0$$
+   *A denied action guarantees zero protected state mutation.*
+
+2. **Layer-0 Memory & Latency Clamps:**
+   - **Payload Ceiling ($S_{\max}$):** $\le 4096\text{ Bytes}$ (`#![no_std]` static memory envelope)
+   - **Temporal Floor ($\tau_{\text{override}}$):** $\le 11.99\text{ ms}$ (Bounded local evaluation window)
+   - **Operational Drag ($C_{\text{ops}}$):** $= 0$ (Zero runtime heap allocation on critical decision paths)
+
+3. **Order-Theoretic POSIX Join-Semilattice:**
+   $$\text{POSIX } 40 \succ 10 \succ 12 \succ 32 \succ 0$$
+   *Edge state conflicts resolve deterministically via a 5-tier supremum ordering satisfying associativity, commutativity, and idempotence ($x \vee x = x$).*
+
+---
+
 ## 📚 Master Research Suite & Academic Anchor
 
 The **Arcstone Research Architecture** is registered, anchored, and archived across canonical scientific repositories:
 
-* **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) *(Cloudflare Pages / SSL Secured)*
-* **Primary Master Anchor (Zenodo):** [DOI: 10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
-* **Master Canonical Errata (Zenodo):** [DOI: 10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) *(ARC-ERR-2026-001)*
-* **Zenodo Community Collections:**
+- **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) *(Cloudflare Pages / SSL Secured)*
+- **Primary Master Anchor (Zenodo):** [DOI: 10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
+- **Master Canonical Errata (Zenodo):** [DOI: 10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) *(ARC-ERR-2026-001)*
+- **Zenodo Community Collections:**
   * [Arcstone Continuity Core & Admissible Computation Suite](https://zenodo.org/communities/arcstone-continuity-core) *(Core Specifications, Mathematical Proofs & Technical Whitepapers)*
   * [Arcstone Executive Epistemic & Execution Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(Executive Epistemic Series EXEC01–EXEC04, CORE01–CORE02, META01 & LIT-003 Literature Synthesis)*
-* **System Operational Invariants:** `C_ops = 0` ∧ `Data_Egress_Sensitive = 0` ∧ `τ_override ≤ 11.99ms` ∧ `S_max ≤ 4096B`
-* **Semantic Confidence Function:** K(S) = [ D_inv(S) + C_alg(S) ] / [ 1 + H_sem(S) ]
-* **Suite Master Anchor / Hash:** `A-77-DELTA-SHIELD-LOCKED`
-* **Public Operational Release:** `v1.3.1-exec` | `v1.2.0-hardened`
+- **System Operational Invariants:** `C_ops = 0` ∧ `Data_Egress_Sensitive = 0` ∧ `τ_override ≤ 11.99ms` ∧ `S_max ≤ 4096B`
+- **Semantic Confidence Function:** K(S) = [ D_inv(S) + C_alg(S) ] / [ 1 + H_sem(S) ]
+- **Suite Master Anchor / Hash:** `A-77-DELTA-SHIELD-LOCKED`
+- **Public Operational Release:** `v1.3.1-exec` | `v1.2.0-hardened`
 
 > 📌 **Normative Specification & Errata Notice (`ARC-ERR-2026-001`)**  
 > All repositories and runtimes across `trencinodin-stack` conform strictly to [ARC-ERR-2026-001](https://doi.org/10.5281/zenodo.23069559).  
@@ -181,19 +212,19 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
        ┌───────────────────────────────────────────────┼───────────────────────────────────────────────┐
        │                                               │                                               │
        ▼                                               ▼                                               ▼
-┌────────────────────────┐                   ┌────────────────────────┐                   ┌────────────────────────┐
-│  arcstone-triad-system │                   │arcstone-continuity-core│                   │  arcstone-mcp-sidecar  │
-│ [ Normative Suite &    │                   │ [ Path A Rust Kernel ] │                   │ [ Fail-Closed Proxy ]  │
-│   Machine Contracts ]  │                   │     FROZEN / ACTIVE    │                   │ ACTIVE / CANONICAL FRZ │
-│ LIVE / v1.2.0-hardened │                   └────────────────────────┘                   └───────────▲────────────┘
-└────────────────────────┘                                                                            │
-                                                                                                      │ (Proposals)
+┌────────────────────────┐                    ┌────────────────────────┐                    ┌────────────────────────┐
+│  arcstone-triad-system │                    │arcstone-continuity-core│                    │  arcstone-mcp-sidecar  │
+│ [ Normative Suite &    │                    │ [ Path A Rust Kernel ] │                    │ [ Fail-Closed Proxy ]  │
+│   Machine Contracts ]  │                    │     FROZEN / ACTIVE    │                    │ ACTIVE / CANONICAL FRZ │
+│ LIVE / v1.2.0-hardened │                    └────────────────────────┘                    └───────────▲────────────┘
+└────────────────────────┘                                                                              │
+                                                                                                        │ (Proposals)
        ┌──────────────────────────────────────────────────────────────────────────────────────────────┴────────────┐
-       │                                                                                                          │
-       ▼                                                                                                          ▼
-┌────────────────────────┐                                                                   ┌────────────────────────┐
-│arcstone-path-a-ingress-│                                                                   │    arcstone-adaptive-  │
-│        lab             │                                                                   │      producer-lab      │
-│ [ Edge Ingress Lab ]   │                                                                   │ [ Candidate Generator ]│
-└────────────────────────┘                                                                   └────────────────────────┘
+       │                                                                                                           │
+       ▼                                                                                                           ▼
+┌────────────────────────┐                                                                  ┌────────────────────────┐
+│arcstone-path-a-ingress-│                                                                  │    arcstone-adaptive-  │
+│        lab             │                                                                  │      producer-lab      │
+│ [ Edge Ingress Lab ]   │                                                                  │ [ Candidate Generator ]│
+└────────────────────────┘                                                                  └────────────────────────┘
 ```
