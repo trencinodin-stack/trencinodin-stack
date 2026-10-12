@@ -1,8 +1,9 @@
 # Hi there, I'm Jesse Tuohy 👋 (@trencinodin-stack)
 
-Founder & Principal Invariant Architect at **Arcstone Adaptive Science Systems, Inc.**  
-🌐 **Canonical Field Root:** [admissibilityscience.com](https://admissibilityscience.com)
-📚 **Amazon Author Central:** [amazon.com/author/jessetuohy](https://amazon.com/author/jessetuohy)
+Founder & Principal Invariants Architect at **Arcstone Adaptive Science Systems, Inc.**  
+🌐 **Canonical Field Root:** [admissibilityscience.com](https://admissibilityscience.com)  
+📚 **Amazon Author Central:** [amazon.com/author/jessetuohy](https://amazon.com/author/jessetuohy)  
+
 Focusing on deterministic computational spines, admissibility-first systems, execution boundaries, and reproducible research into deterministic control surfaces for high-stakes computational environments.
 
 ---
