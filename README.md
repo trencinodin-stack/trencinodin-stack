@@ -25,40 +25,40 @@ The foundational technical specification establishing order-theoretic, bare-meta
 
 #### Core Systemic Invariants & Bounds:
 1. **Non-Authorization Safety Invariant ($I_1$):**
-   $$D(a) = \text{DENY} \implies \Delta = 0$$
+   $$D(a) = \text{DENY} \implies \Delta_{\text{external}}(a) = 0$$
    *A denied action guarantees zero protected state mutation.*
 
 2. **Layer-0 Memory & Latency Clamps:**
    - **Payload Ceiling ($S_{\max}$):** $\le 4096\text{ Bytes}$ (`#![no_std]` static memory envelope)
-   - **Temporal Floor ($\tau_{\text{override}}$):** $\le 11.99\text{ ms}$ (Bounded local evaluation window)
+   - **Temporal Ceiling ($\tau_{\text{override}}$):** $\le 11.99\text{ ms}$ (Bounded local evaluation window; $384\,\mu\text{s}$ CPU verified)
    - **Operational Drag ($C_{\text{ops}}$):** $= 0$ (Zero runtime heap allocation on critical decision paths)
 
 3. **Order-Theoretic POSIX Join-Semilattice:**
-   $$\text{POSIX } 40 \succ 10 \succ 12 \succ 32 \succ 0$$
-   *Edge state conflicts resolve deterministically via a 5-tier supremum ordering satisfying associativity, commutativity, and idempotence ($x \vee x = x$).*
+   $$\text{POSIX } 40 \succ 32 \succ 30 \succ 12 \succ 10 \succ 0$$
+   *Edge state conflicts resolve deterministically via a 6-tier supremum ordering satisfying associativity, commutativity, and idempotence ($x \vee x = x$).*
 
 ---
 
-## 📚 Master Research Suite & Academic Anchor
+## 🎓 Layer 1 Master Academic Suite & Realization Engine
 
-The **Arcstone Research Architecture** is registered, anchored, and archived across canonical scientific repositories:
+The **Deterministic Admissibility Engineering (DAE)** academic specification suite is registered, anchored, and archived across canonical scientific repositories:
 
-- **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) *(Cloudflare Pages / SSL Secured)*
-- **Primary Master Anchor (Zenodo):** [DOI: 10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
-- **Master Canonical Errata (Zenodo):** [DOI: 10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) *(ARC-ERR-2026-001)*
+- **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) *(Cloudflare Edge / SSL Secured)*
+- **Layer 1 Academic Realization Suite (Zenodo DOI):** [10.5281/zenodo.23371581](https://doi.org/10.5281/zenodo.23371581) *(ARC-SPEC-2026-EDU-01..09)*
+- **Layer 0 Primary Authority (Zenodo DOI):** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
+- **Master Errata Overlay (Zenodo DOI):** [10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) *(ARC-ERR-2026-001)*
 - **Zenodo Community Collections:**
   * [Arcstone Continuity Core & Admissible Computation Suite](https://zenodo.org/communities/arcstone-continuity-core) *(Core Specifications, Mathematical Proofs & Technical Whitepapers)*
-  * [Arcstone Executive Epistemic & Execution Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(Executive Epistemic Series EXEC01–EXEC04, CORE01–CORE02, META01 & LIT-003 Literature Synthesis)*
+  * [Arcstone Executive Epistemic & Execution Series](https://zenodo.org/communities/arcstone-executive-epistemic-series) *(Executive Series EXEC01–EXEC04, CORE01–CORE02, META01 & LIT-003)*
+- **Machine Pedagogy Grounding:** `dae_pedagogy_v1.json` | Coq Proofs: `dae_invariants.v` | ZK Circuits: `dae_verifier.circom`
 - **System Operational Invariants:** `C_ops = 0` ∧ `Data_Egress_Sensitive = 0` ∧ `τ_override ≤ 11.99ms` ∧ `S_max ≤ 4096B`
-- **Semantic Confidence Function:** K(S) = [ D_inv(S) + C_alg(S) ] / [ 1 + H_sem(S) ]
-- **Suite Master Anchor / Hash:** `A-77-DELTA-SHIELD-LOCKED`
-- **Public Operational Release:** `v1.3.1-exec` | `v1.2.0-hardened`
+- **Semantic Confidence Function:** $K(S) = \frac{D_{\text{inv}}(S) + C_{\text{alg}}(S)}{1 + H_{\text{sem}}(S)}$
+- **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
+- **Public Production Release:** `v1.3.1-exec` | `v1.4.0-exec`
 
 > 📌 **Normative Specification & Errata Notice (`ARC-ERR-2026-001`)**  
 > All repositories and runtimes across `trencinodin-stack` conform strictly to [ARC-ERR-2026-001](https://doi.org/10.5281/zenodo.23069559).  
 > **POSIX Signal Mapping:** `POSIX 0` (PASS) | `POSIX 10` (FREEZE) | `POSIX 12` (PWC) | `POSIX 30` (CORRUPT) | `POSIX 32` (REFUSAL) | `POSIX 40` (BREACH)
-
-The public repository network is structured around a locked Layer 0 Master Protocol Specification, governing downstream execution runtimes, public normative contracts, edge ingress testbeds, tool proxy sidecars, and adaptive proposal generators.
 
 ---
 
@@ -72,9 +72,9 @@ The public repository network is structured around a locked Layer 0 Master Proto
 
 - **Execution Boundaries** — Decoupling deterministic evaluation, authorization, actuation, and observed effects so that computational outputs do not implicitly acquire execution authority.
 
-- **Bare-Metal & Edge Engineering** — Exploring eBPF, low-level `#![no_std]` Rust, hardware isolation, local execution membranes, zero-heap static buffer envelopes, and sub-12ms temporal override clamps.
+- **Bare-Metal & Edge Engineering** — Exploring eBPF, low-level `#![no_std]` Rust, hardware isolation, local execution membranes (`path-b-sanitizer`), zero-heap static buffer envelopes, and sub-12ms temporal override clamps.
 
-- **Reproducible Research & Machine Ingestion** — Publishing machine-readable specifications, Schemas (`AGENTS.md`), and bounded reference implementations whose claims can be independently inspected, executed, and reproduced.
+- **Reproducible Research & Machine Ingestion** — Publishing machine-readable specifications (`dae_pedagogy_v1.json`), Schemas (`AGENTS.md`), and bounded reference implementations whose claims can be independently inspected, executed, and reproduced.
 
 ---
 
@@ -128,7 +128,7 @@ The live public surface delivering zero-overhead ($C_{\text{ops}}=0$), SSL-secur
 **Release:** `v1.3.1-LOCKED`  
 **Anchor:** `A-77-DELTA-SHIELD-LOCKED` | **DOI:** `10.5281/zenodo.22665852`
 
-The language-agnostic master specification layer establishing the mathematical invariants ($I_1–I_3$, $N_1–N_3$), POSIX poset dominance lattice ($40 \succ 10 \succ 32 \succ 0$), sub-12ms temporal override clamps ($\tau_{\text{override}} \le 11.99\text{ms}$), static memory buffer limits ($S_{\text{max}} \le 4096\text{B}$), and machine-readable JSON schemas for the entire Arcstone ecosystem.
+The language-agnostic master specification layer establishing the mathematical invariants ($I_1–I_3$, $N_1–N_3$), POSIX poset dominance lattice ($40 \succ 32 \succ 30 \succ 12 \succ 10 \succ 0$), sub-12ms temporal override clamps ($\tau_{\text{override}} \le 11.99\text{ms}$), static memory buffer limits ($S_{\text{max}} \le 4096\text{B}$), and machine-readable JSON schemas for the entire Arcstone ecosystem.
 
 ---
 
@@ -210,9 +210,9 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
                                   │         LOCKED / MASTER ANCHOR          │
                                   └────────────────────┬────────────────────┘
                                                        │
-       ┌───────────────────────────────────────────────┼───────────────────────────────────────────────┐
-       │                                               │                                               │
-       ▼                                               ▼                                               ▼
+        ┌───────────────────────────────────────────────┼───────────────────────────────────────────────┐
+        │                                               │                                               │
+        ▼                                               ▼                                               ▼
 ┌────────────────────────┐                    ┌────────────────────────┐                    ┌────────────────────────┐
 │  arcstone-triad-system │                    │arcstone-continuity-core│                    │  arcstone-mcp-sidecar  │
 │ [ Normative Suite &    │                    │ [ Path A Rust Kernel ] │                    │ [ Fail-Closed Proxy ]  │
@@ -220,9 +220,9 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
 │ LIVE / v1.2.0-hardened │                    └────────────────────────┘                    └───────────▲────────────┘
 └────────────────────────┘                                                                              │
                                                                                                         │ (Proposals)
-       ┌──────────────────────────────────────────────────────────────────────────────────────────────┴────────────┐
-       │                                                                                                           │
-       ▼                                                                                                           ▼
+        ┌──────────────────────────────────────────────────────────────────────────────────────────────┴────────────┐
+        │                                                                                                           │
+        ▼                                                                                                           ▼
 ┌────────────────────────┐                                                                  ┌────────────────────────┐
 │arcstone-path-a-ingress-│                                                                  │    arcstone-adaptive-  │
 │        lab             │                                                                  │      producer-lab      │
