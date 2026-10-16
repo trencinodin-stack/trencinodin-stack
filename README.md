@@ -220,7 +220,7 @@ A downstream experimental realization testing whether serialized output from an 
 - **Crate:** `arcstone-execution-boundary` (`v0.1.0`)
 - **Role:** Reference downstream execution boundary sidecar for the Arcstone Security Stack
 
-A downstream reference sidecar published on the official Model Context Protocol (MCP) Registry, enforcing mathematical safety invariants between untrusted action producers and protected system side effects via atomic single-use claims ($I_1$–$I_3$).
+A downstream reference sidecar published on the official Model Context Protocol (MCP) Registry, enforcing mathematical safety invariants between untrusted action producers and protected system side effects via atomic single-use claims ($I_1–I_3$).
 
 ### 6. Arcstone Adaptive Producer Lab
 
