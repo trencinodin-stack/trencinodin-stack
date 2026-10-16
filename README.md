@@ -60,7 +60,7 @@ The monograph SHA-256 field remains a placeholder until the actual PDF digest is
     "isbn_13": "979-8161524664",
     "kindle_asin": "B0HMNDBGL1",
     "paperback_asin": "B0HMNNZQTV",
-    "sha256": "<INSERT_YOUR_MONOGRAPH_PDF_SHA256_HASH>"
+    "sha256": "1eddab6a5ecb22c7950fcea1590316c94c9a4ff2c2cb60f895912b834f0e9bee"
   },
   "pinned_repository_releases": {
     "arcstone-spec-epistemic-01": "v1.3.1-LOCKED",
