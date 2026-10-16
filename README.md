@@ -41,7 +41,7 @@ The foundational technical specification establishing order-theoretic, bare-meta
 
    $$\text{POSIX } 40 \succ 32 \succ 30 \succ 12 \succ 10 \succ 0$$
 
-   *Edge state conflicts resolve deterministically via a 6-tier supremum ordering satisfying associativity, commutativity, and idempotence* (`x ∨ x = x`).
+   *Edge state conflicts resolve deterministically via a 6-tier supremum ordering satisfying associativity, commutativity, and idempotence* (`x∨x=x`).
 
 ### 🔒 Layer 0 Cryptographic Root & Attestation Manifest
 
