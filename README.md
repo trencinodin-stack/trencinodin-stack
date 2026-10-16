@@ -177,7 +177,7 @@ The live public surface delivering zero-overhead ($C_{\text{ops}} = 0$), SSL-sec
 - **Release:** `v1.3.1-LOCKED`
 - **Anchor:** `A-77-DELTA-SHIELD-LOCKED` | **DOI:** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 
-The language-agnostic master specification layer establishing the mathematical invariants ($I_1$–$I_3$, $N_1$–$N_3$), POSIX poset dominance lattice ($40 \succ 32 \succ 30 \succ 12 \succ 10 \succ 0$), sub-12ms temporal override clamps ($\tau_{\text{override}} \le 11.99\text{ms}$), static memory buffer limits ($S_{\max} \le 4096\text{B}$), and machine-readable JSON schemas for the entire Arcstone ecosystem.
+The language-agnostic master specification layer establishing the mathematical invariants ($I_1–I_3$, $N_1–N_3$), POSIX poset dominance lattice ($40 \succ 32 \succ 30 \succ 12 \succ 10 \succ 0$), sub-12ms temporal override clamps ($\tau_{\text{override}} \le 11.99\text{ms}$), static memory buffer limits ($S_{\max} \le 4096\text{B}$), and machine-readable JSON schemas for the entire Arcstone ecosystem.
 
 ### 2. Arcstone Triad System (Normative Specification & Machine Contracts)
 
