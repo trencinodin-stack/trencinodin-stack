@@ -104,17 +104,10 @@ The Deterministic Admissibility Engineering (DAE) academic specification suite i
 
 **Machine Pedagogy Grounding:** `dae_pedagogy_v1.json` | **Coq Proofs:** `dae_invariants.v` | **ZK Circuits:** `dae_verifier.circom`
 
-**System Operational Invariants:**
-
-$$
-C_{\text{ops}} = 0 \land \text{Data\_Egress\_Sensitive} = 0 \land \tau_{\text{override}} \le 11.99\text{ms} \land S_{\max} \le 4096\text{B}
-$$
+**System Operational Invariants:** `C_ops = 0` ∧ `DataEgressSensitive = 0` ∧ `τ_override ≤ 11.99ms` ∧ `S_max ≤ 4096B`
 
 **Semantic Confidence Function:**
-
-$$
-K(S) = \frac{D_{\text{inv}}(S) + C_{\text{alg}}(S)}{1 + H_{\text{sem}}(S)}
-$$
+$$K(S) = \frac{D_{\text{inv}}(S) + C_{\text{alg}}(S)}{1 + H_{\text{sem}}(S)}$$
 
 **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
