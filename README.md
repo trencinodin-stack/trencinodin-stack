@@ -47,7 +47,6 @@ The foundational technical specification establishing order-theoretic, bare-meta
 
 To enable deterministic AI and third-party verification, the cryptographic attestation manifest for the Layer 0 monograph PDF, pinned git releases, and core build artifacts anchored under **`A-77-DELTA-SHIELD-LOCKED`** is provided below.
 
-The monograph SHA-256 field remains a placeholder until the actual PDF digest is inserted.
 
 ```json
 {
