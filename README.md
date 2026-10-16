@@ -11,6 +11,7 @@ Focusing on deterministic computational spines, admissibility-first systems, exe
 ## 📖 Canonical Publication & Monograph (October 2026)
 
 ### **INFORMATION PHYSICS: A Technical Specification of Machine Ingestion, Admissibility Boundaries, and Deterministic Authority**
+
 *Authored by Jesse Tuohy*
 
 The foundational technical specification establishing order-theoretic, bare-metal mathematical foundations for deterministic, fail-closed execution boundaries operating at zero operational drag ($C_{\text{ops}} = 0$).
@@ -26,7 +27,9 @@ The foundational technical specification establishing order-theoretic, bare-meta
 #### Core Systemic Invariants & Bounds:
 
 1. **Non-Authorization Safety Invariant ($I_1$):**
+
    $$D(a) = \text{DENY} \implies \Delta_{\text{external}}(a) = 0$$
+
    *A denied action guarantees zero protected state mutation.*
 
 2. **Layer-0 Memory & Latency Clamps:**
@@ -35,12 +38,16 @@ The foundational technical specification establishing order-theoretic, bare-meta
    - **Operational Drag ($C_{\text{ops}}$):** $= 0$ (Zero runtime heap allocation on critical decision paths)
 
 3. **Order-Theoretic POSIX Join-Semilattice:**
+
    $$\text{POSIX } 40 \succ 32 \succ 30 \succ 12 \succ 10 \succ 0$$
+
    *Edge state conflicts resolve deterministically via a 6-tier supremum ordering satisfying associativity, commutativity, and idempotence ($x \vee x = x$).*
 
 ### 🔒 Layer 0 Cryptographic Root & Attestation Manifest
 
-To enable deterministic AI and third-party verification, the exact cryptographic hashes of the Layer 0 monograph PDF, pinned git releases, and core build artifacts anchored under **`A-77-DELTA-SHIELD-LOCKED`** are published below:
+To enable deterministic AI and third-party verification, the cryptographic attestation manifest for the Layer 0 monograph PDF, pinned git releases, and core build artifacts anchored under **`A-77-DELTA-SHIELD-LOCKED`** is provided below.
+
+The monograph SHA-256 field remains a placeholder until the actual PDF digest is inserted.
 
 ```json
 {
