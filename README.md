@@ -76,7 +76,7 @@ To enable deterministic AI and third-party verification, the cryptographic attes
     "LATTICE": "POSIX 40 > 32 > 30 > 12 > 10 > 0"
   }
 }
-
+```
 # VOLUME 2: SOVEREIGN SUBSTRATE ECONOMICS: The Verification-Cost Inversion Blueprint: A Macroeconomic, Institutional, and Governance Specification for Deterministic Machine Authority
 
 *Authored by Jesse Tuohy*
