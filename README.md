@@ -289,8 +289,8 @@ A downstream reference sidecar published on the official Model Context Protocol 
 A downstream research laboratory testing closed-loop adaptive proposal generation against a pinned, unchanged execution boundary (`arcstone-exec`).
 
 ### 🔗 Public Research Topology
-
-             ```                               ┌─────────────────────────────────────────┐
+```text
+                                               ┌─────────────────────────────────────────┐
                                                │         admissibilityscience.com        │
                                                │   [ Canonical Public Field Root ]       │
                                                │    LIVE / v1.3.1-exec / SSL LOCKED      │
