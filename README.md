@@ -103,8 +103,7 @@ Companion volume to INFORMATION PHYSICS, this technical monograph establishes th
 - **Paperback ASIN:** B0HNHF3QGV
 - **Kindle ASIN:** B0H275L5JJ
 - **Primary Master DOI (Zenodo):** [10.5281/zenodo.23371581](https://doi.org/10.5281/zenodo.23371581)
-- **Master Hash 
-- **Anchor:**** A-77-DELTA-SHIELD-LOCKED
+- **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
 #### Core Architectural Coverage
 
