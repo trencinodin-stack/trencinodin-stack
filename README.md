@@ -21,8 +21,7 @@ Formal category-theoretic proof reconciling pre-ingress severity aggregation wit
 - **Primary Master DOI (Zenodo):** [10.5281/zenodo.23525986](https://doi.org/10.5281/zenodo.23525986)
 - **Master Errata Reference:** [10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) (ARC-ERR-2026-001)
 - **Primary Suite Record:** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
-- **Master Hash 
-- **Anchor:**** A-77-DELTA-SHIELD-LOCKED
+- **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
 ### VOLUME 1: INFORMATION PHYSICS: A Technical Specification of Machine Ingestion, Admissibility Boundaries, and Deterministic Authority
 
@@ -36,8 +35,7 @@ The foundational technical specification establishing order-theoretic, bare-meta
 - **Kindle ASIN:** B0HMNDBGL1
 - **Primary Master DOI (Zenodo):** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 - **Master Errata Overlay:** [10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) (ARC-ERR-2026-001)
-- **Master Hash 
-- **Anchor:**** A-77-DELTA-SHIELD-LOCKED
+- **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
 #### Core Systemic Invariants & Bounds
 
