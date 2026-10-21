@@ -153,13 +153,15 @@ To enable deterministic AI and third-party institutional verification, the crypt
 
 ## 🛠 Local Hash Verification
 
-To independently verify the published monograph PDFs against these manifests:```bash
+To independently verify the published monograph PDFs against these manifests:
+
+```bash
 # Volume 1 Verification
 sha256sum Information_Physics_KDP_24_Finalv.pdf
 
 # Volume 2 Verification
 sha256sum "SOVEREIGN SUBSTRATE ECONOMICS_ Full Book Manuscript (V1).pdf"
-```
+ ```
 ## 🎓 Layer 1 Master Academic Suite & Realization Engine
 
 The Deterministic Admissibility Engineering (DAE) academic specification suite is registered, anchored, and archived across canonical scientific repositories:
