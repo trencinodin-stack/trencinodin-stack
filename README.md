@@ -11,6 +11,20 @@ Focusing on deterministic computational spines, admissibility-first systems, exe
 
 ## 📖 Canonical Publications & Monographs (October 2026)
 
+### FEATURED PAPER: Inverse Specification: Emergent Higher-Order Formalisms in Bare-Metal Realization
+
+*Authored by Jesse Tuohy*
+
+Introduces *Inverse Specification via Physical Realization*, proving how high-order mathematical constructs—specifically covariant functors ($\Phi : \mathbf{L} \to \mathbf{E}$) and bounded join-semilattice coproducts—emerge post-hoc from bare-metal microarchitectural optimization under zero-heap ($S_{\max} \le 4096\text{B}$) and fail-closed non-authorization clamps ($\Delta_{\text{external}} = 0$).
+
+- **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Machine-Readable /llms.txt & /AGENTS.md)
+- **Primary Version DOI (Zenodo):** [10.5281/zenodo.23574285](https://doi.org/10.5281/zenodo.23574285)
+- **Concept DOI (Cite All Versions):** [10.5281/zenodo.23574284](https://doi.org/10.5281/zenodo.23574284)
+- **Master Errata Reference:** [10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) (ARC-ERR-2026-001)
+- **Primary Suite Record:** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
+- **Category-Theoretic Monograph Reference:** [10.5281/zenodo.23525986](https://doi.org/10.5281/zenodo.23525986)
+- **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
+  
 ### FEATURED MONOGRAPH: Functorial Order Dynamics and Category-Theoretic Bridge Mappings in Substrate State Governance
 
 *Authored by Jesse Tuohy*
@@ -19,9 +33,11 @@ Formal category-theoretic proof reconciling pre-ingress severity aggregation wit
 
 - **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Machine-Readable /llms.txt & /AGENTS.md)
 - **Primary Master DOI (Zenodo):** [10.5281/zenodo.23525986](https://doi.org/10.5281/zenodo.23525986)
+- **Concept DOI (Cite All Versions):** [10.5281/zenodo.23525985](https://doi.org/10.5281/zenodo.23525985)
 - **Master Errata Reference:** [10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) (ARC-ERR-2026-001)
 - **Primary Suite Record:** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 - **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
+
 
 ### VOLUME 1: INFORMATION PHYSICS: A Technical Specification of Machine Ingestion, Admissibility Boundaries, and Deterministic Authority
 
@@ -164,6 +180,7 @@ sha256sum "SOVEREIGN SUBSTRATE ECONOMICS_ Full Book Manuscript (V1).pdf"
 The Deterministic Admissibility Engineering (DAE) academic specification suite is registered, anchored, and archived across canonical scientific repositories:
 
 - **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Cloudflare Edge / SSL Secured)
+- **Inverse Specification Monograph (Zenodo DOI):** [10.5281/zenodo.23574285](https://doi.org/10.5281/zenodo.23574285)
 - **Functorial Order Dynamics Monograph (Zenodo DOI):** [10.5281/zenodo.23525986](https://doi.org/10.5281/zenodo.23525986)
 - **Layer 1 Academic Realization Suite (Zenodo DOI):** [10.5281/zenodo.23371581](https://doi.org/10.5281/zenodo.23371581) (ARC-SPEC-2026-EDU-01..09)
 - **Layer 0 Primary Authority (Zenodo DOI):** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
@@ -205,13 +222,16 @@ All repositories and runtimes across trencinodin-stack conform strictly to ARC-E
 
 ---
 
-## ⚡ 3-Part Companion Execution & Formal Synthesis Suite (Published Oct 2026)
+## ⚡ 4-Part Companion Execution & Formal Synthesis Suite (Published Oct 2026)
+
 
 | Document Ref | DOI Link | Canonical Title & Description |
 |---|---|---|
+| ARC-SPEC-INV-001 | [10.5281/zenodo.23574285](https://doi.org/10.5281/zenodo.23574285) | **Inverse Specification: Emergent Higher-Order Formalisms in Bare-Metal Realization** — Post-hoc category-theoretic verification arising from bare-metal $O(1)$ and zero-heap constraints. |
 | ARC-SPEC-AGENT-HCE-001 | [10.5281/zenodo.23076445](https://doi.org/10.5281/zenodo.23076445) | Arcstone Systems Architecture Specification: Deterministic Deployment of an Autonomous AI Agent in a High-Consequence Environment |
 | ARC-ANL-INJ-002 | [10.5281/zenodo.23076559](https://doi.org/10.5281/zenodo.23076559) | Prompt Injection Under the Invariant Taxonomy: Failure-Mode Analysis and Proof of Hallucination-Independent State Conservation |
 | ARC-LIT-003 | [10.5281/zenodo.23076692](https://doi.org/10.5281/zenodo.23076692) | AI Execution Safety Literature vs. the Arcstone Invariant Substrate: Downstream Actuation Mechanics, Tier Mapping, and Citation-Tree Synthesis |
+
 
 ---
 
