@@ -206,7 +206,7 @@ Synthesizes Information Physics (thermodynamic bounds), Sovereign Substrate Econ
     "STATUS": "PROOF-CLOSED / EXECUTION-READY"
   }
 }
-
+```
 ```bash
 # Volume 1 Verification
 sha256sum Information_Physics_KDP_24_Finalv.pdf
