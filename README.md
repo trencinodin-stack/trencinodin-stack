@@ -32,7 +32,6 @@ Formal category-theoretic proof reconciling pre-ingress severity aggregation wit
 
 - **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Machine-Readable /llms.txt & /AGENTS.md)
 - **Primary Master DOI (Zenodo):** [10.5281/zenodo.23525986](https://doi.org/10.5281/zenodo.23525986)
-- **Concept DOI (Cite All Versions):** [10.5281/zenodo.23525985](https://doi.org/10.5281/zenodo.23525985)
 - **Master Errata Reference:** [10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) (ARC-ERR-2026-001)
 - **Primary Suite Record:** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 - **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
