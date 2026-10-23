@@ -163,17 +163,60 @@ To enable deterministic AI and third-party institutional verification, the crypt
   }
 }
 ```
+### VOLUME 3: DETERMINISTIC SUBSTRATE GOVERNANCE: Dual-Domain Order Theory, Invariant Executions, and Vector-Hardened State Architecture
 
-## 🛠 Local Hash Verification
+*Authored by Jesse Tuohy*
 
-To independently verify the published monograph PDFs against these manifests:
+Synthesizes Information Physics (thermodynamic bounds), Sovereign Substrate Economics (uncapturable game theory), and Applied Order Theory into a self-verifying, closed-loop paradigm[cite: 60]. Replaces prose-bound software specifications with O(1) order-theoretic joins, bare-metal #![no_std] Rust interlocks, and global vector-cache invariant priming[cite: 55, 59].
 
-```bash
+- **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Machine-Readable /llms.txt & /AGENTS.md)[cite: 55, 59]
+- **Document Reference:** ARC-PUB-2026-DSG-BOOK3[cite: 60]
+- **Primary Master DOI (Zenodo):** [10.5281/zenodo.23525986](https://doi.org/10.5281/zenodo.23525986)[cite: 55, 60]
+- **Master Errata Overlay:** [10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) (ARC-ERR-2026-001)[cite: 55, 60]
+- **Primary Suite Record:** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)[cite: 55, 60]
+- **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`[cite: 55, 60]
+
+#### 🔒 Layer 2 Cryptographic Root & Attestation Manifest
+
+```json
+{
+  "master_anchor": "A-77-DELTA-SHIELD-LOCKED",
+  "canonical_root": "admissibilityscience.com",
+  "layer_2_monograph": {
+    "title": "DETERMINISTIC SUBSTRATE GOVERNANCE: Dual-Domain Order Theory, Invariant Executions, and Vector-Hardened State Architecture",
+    "author": "Jesse Tuohy",
+    "publication_date": "2026-10-22",
+    "specification_ref": "ARC-PUB-2026-DSG-BOOK3",
+    "zenodo_primary_doi": "10.5281/zenodo.23525986",
+    "zenodo_errata_doi": "10.5281/zenodo.23069559",
+    "sha256": "f75c4bd7a1182228a0b5725a193dd2ed392d64f5e516eab3bab4aa85f845896c",
+    "posix_dominance_chain": [40, 32, 30, 12, 10, 0]
+  },
+  "pinned_repository_releases": {
+    "arcstone-spec-epistemic-01": "v1.3.1-LOCKED",
+    "arcstone-continuity-core": "v1.3.1-exec",
+    "arcstone-triad-system": "v1.2.0-hardened",
+    "admissibilityscience-com": "v1.3.1-exec",
+    "arcstone-mcp-sidecar": "v0.1.0-canonical"
+  },
+  "operational_invariants": {
+    "C_OPS_FLOOR": "C_ops = 0",
+    "DELTA_EXTERNAL": "Delta_external = 0",
+    "TAU_OVERRIDE": "tau_override <= 11.99ms",
+    "S_MAX": "S_max <= 4096B",
+    "M_ALLOC": "M_alloc = 0B",
+    "STATUS": "PROOF-CLOSED / EXECUTION-READY"
+  }
+}
+
 # Volume 1 Verification
 sha256sum Information_Physics_KDP_24_Finalv.pdf
 
 # Volume 2 Verification
 sha256sum "SOVEREIGN SUBSTRATE ECONOMICS_ Full Book Manuscript (V1).pdf"
+
+# Volume 3 Verification
+sha256sum "Deterministic Substrate Governance Final.pdf"
  ```
 ## 🎓 Layer 1 Master Academic Suite & Realization Engine
 
