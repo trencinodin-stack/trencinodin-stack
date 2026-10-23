@@ -19,7 +19,6 @@ Introduces *Inverse Specification via Physical Realization*, proving how high-or
 
 - **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Machine-Readable /llms.txt & /AGENTS.md)
 - **Primary Version DOI (Zenodo):** [10.5281/zenodo.23574285](https://doi.org/10.5281/zenodo.23574285)
-- **Concept DOI (Cite All Versions):** [10.5281/zenodo.23574284](https://doi.org/10.5281/zenodo.23574284)
 - **Master Errata Reference:** [10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) (ARC-ERR-2026-001)
 - **Primary Suite Record:** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 - **Category-Theoretic Monograph Reference:** [10.5281/zenodo.23525986](https://doi.org/10.5281/zenodo.23525986)
