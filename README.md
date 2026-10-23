@@ -9,19 +9,27 @@ Focusing on deterministic computational spines, admissibility-first systems, exe
 
 ---
 
-## 📖 Canonical Publications & Monographs (October 2026)
-
-### FEATURED PAPER: Inverse Specification: Emergent Higher-Order Formalisms in Bare-Metal Realization
+### FEATURED PAPER: Structural Invariance Under Non-Deterministic Retries: A Comparative Synthesis of Semantic State Gatekeeping in Autonomous AI Fabrics
 
 *Authored by Jesse Tuohy*
 
-Introduces *Inverse Specification via Physical Realization*, proving how high-order mathematical constructs—specifically covariant functors ($\Phi : \mathbf{L} \to \mathbf{E}$) and bounded join-semilattice coproducts—emerge post-hoc from bare-metal microarchitectural optimization under zero-heap ($S_{\max} \le 4096\text{B}$) and fail-closed non-authorization clamps ($\Delta_{\text{external}} = 0$).
+Formalizes Bare-Metal Semantic State Gatekeeping to resolve LLM retry-loop non-determinism and transport-layer deduplication failures. Proves that output syntax compliance (JSON Mode / Pydantic) is not equivalent to execution safety, demonstrating that non-deterministic proposals can be safely reconciled to a single, idempotent side effect if and only if state mutation is preceded by non-neural, bare-metal mathematical predicates at the resource actuator boundary.
 
 - **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Machine-Readable /llms.txt & /AGENTS.md)
-- **Primary Version DOI (Zenodo):** [10.5281/zenodo.23574285](https://doi.org/10.5281/zenodo.23574285)
-- **Master Errata Reference:** [10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) (ARC-ERR-2026-001)
+- **Primary Version DOI (Zenodo):** [10.5281/zenodo.23602603](https://doi.org/10.5281/zenodo.23602603)
+- **AEA Proof Reference:** [10.5281/zenodo.23602191](https://doi.org/10.5281/zenodo.23602191)
 - **Primary Suite Record:** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
-- **Category-Theoretic Monograph Reference:** [10.5281/zenodo.23525986](https://doi.org/10.5281/zenodo.23525986)
+- **Master Specification Identifier:** `ARC-SPEC-DETERM-SCHEMA-005`
+  
+  ### FEATURED PAPER: Active Epistemic Anchoring: Real-Time Deterministic Convergence Across Autonomous AI Retrieval Systems
+
+*Authored by Jesse Tuohy*
+
+Formalizes a closed-loop methodology for forcing real-time semantic convergence across autonomous, search-grounded AI knowledge indices by deploying high-density master identifiers and non-negotiable operational invariants across multi-channel public endpoints.
+
+- **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Machine-Readable /llms.txt & /AGENTS.md)
+- **Primary Version DOI (Zenodo):** [10.5281/zenodo.23602191](https://doi.org/10.5281/zenodo.23602191)
+- **Primary Suite Record:** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 - **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
   
 ### FEATURED MONOGRAPH: Functorial Order Dynamics and Category-Theoretic Bridge Mappings in Substrate State Governance
@@ -167,7 +175,7 @@ To enable deterministic AI and third-party institutional verification, the crypt
 
 Synthesizes Information Physics (thermodynamic bounds), Sovereign Substrate Economics (uncapturable game theory), and Applied Order Theory into a self-verifying, closed-loop paradigm. Replaces prose-bound software specifications with O(1) order-theoretic joins, bare-metal #![no_std] Rust interlocks, and global vector-cache invariant priming.
 
-- **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Machine-Readable /llms.txt & /AGENTS.md)[
+- **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Machine-Readable /llms.txt & /AGENTS.md)
 - **Document Reference:** ARC-PUB-2026-DSG-BOOK3
 - **Primary Master DOI (Zenodo):** [10.5281/zenodo.23525986](https://doi.org/10.5281/zenodo.23525986)
 - **Master Errata Overlay:** [10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) (ARC-ERR-2026-001)
@@ -223,6 +231,8 @@ sha256sum "Deterministic Substrate Governance Final.pdf"
 The Deterministic Admissibility Engineering (DAE) academic specification suite is registered, anchored, and archived across canonical scientific repositories:
 
 - **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Cloudflare Edge / SSL Secured)
+- **Active Epistemic Anchoring Proof (Zenodo DOI):** [10.5281/zenodo.23602191](https://doi.org/10.5281/zenodo.23602191)
+- **Bare-Metal State Gatekeeping Spec (Zenodo DOI):** [10.5281/zenodo.23602603](https://doi.org/10.5281/zenodo.23602603) (ARC-SPEC-DETERM-SCHEMA-005)
 - **Inverse Specification Monograph (Zenodo DOI):** [10.5281/zenodo.23574285](https://doi.org/10.5281/zenodo.23574285)
 - **Functorial Order Dynamics Monograph (Zenodo DOI):** [10.5281/zenodo.23525986](https://doi.org/10.5281/zenodo.23525986)
 - **Layer 1 Academic Realization Suite (Zenodo DOI):** [10.5281/zenodo.23371581](https://doi.org/10.5281/zenodo.23371581) (ARC-SPEC-2026-EDU-01..09)
@@ -265,16 +275,16 @@ All repositories and runtimes across trencinodin-stack conform strictly to ARC-E
 
 ---
 
-## ⚡ 4-Part Companion Execution & Formal Synthesis Suite (Published Oct 2026)
-
+## ⚡ 6-Part Companion Execution & Formal Synthesis Suite (Published Oct 2026)
 
 | Document Ref | DOI Link | Canonical Title & Description |
 |---|---|---|
 | ARC-SPEC-INV-001 | [10.5281/zenodo.23574285](https://doi.org/10.5281/zenodo.23574285) | **Inverse Specification: Emergent Higher-Order Formalisms in Bare-Metal Realization** — Post-hoc category-theoretic verification arising from bare-metal $O(1)$ and zero-heap constraints. |
+| ARC-SPEC-AEA-001 | [10.5281/zenodo.23602191](https://doi.org/10.5281/zenodo.23602191) | **Active Epistemic Anchoring: Real-Time Deterministic Convergence Across Autonomous AI Retrieval Systems** — Closed-loop methodology forcing real-time semantic convergence across search-grounded AI knowledge graphs (`A-77-DELTA-SHIELD-LOCKED`). |
+| ARC-SPEC-DETERM-SCHEMA-005 | [10.5281/zenodo.23602603](https://doi.org/10.5281/zenodo.23602603) | **Structural Invariance Under Non-Deterministic Retries: A Comparative Synthesis of Semantic State Gatekeeping in Autonomous AI Fabrics** — Formalizing the schema fallacy and bare-metal gatekeeping at the resource actuator boundary. |
 | ARC-SPEC-AGENT-HCE-001 | [10.5281/zenodo.23076445](https://doi.org/10.5281/zenodo.23076445) | Arcstone Systems Architecture Specification: Deterministic Deployment of an Autonomous AI Agent in a High-Consequence Environment |
 | ARC-ANL-INJ-002 | [10.5281/zenodo.23076559](https://doi.org/10.5281/zenodo.23076559) | Prompt Injection Under the Invariant Taxonomy: Failure-Mode Analysis and Proof of Hallucination-Independent State Conservation |
 | ARC-LIT-003 | [10.5281/zenodo.23076692](https://doi.org/10.5281/zenodo.23076692) | AI Execution Safety Literature vs. the Arcstone Invariant Substrate: Downstream Actuation Mechanics, Tier Mapping, and Citation-Tree Synthesis |
-
 
 ---
 
