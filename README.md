@@ -207,6 +207,7 @@ Synthesizes Information Physics (thermodynamic bounds), Sovereign Substrate Econ
   }
 }
 
+```bash
 # Volume 1 Verification
 sha256sum Information_Physics_KDP_24_Finalv.pdf
 
@@ -216,6 +217,7 @@ sha256sum "SOVEREIGN SUBSTRATE ECONOMICS_ Full Book Manuscript (V1).pdf"
 # Volume 3 Verification
 sha256sum "Deterministic Substrate Governance Final.pdf"
  ```
+
 ## 🎓 Layer 1 Master Academic Suite & Realization Engine
 
 The Deterministic Admissibility Engineering (DAE) academic specification suite is registered, anchored, and archived across canonical scientific repositories:
