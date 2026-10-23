@@ -165,14 +165,14 @@ To enable deterministic AI and third-party institutional verification, the crypt
 
 *Authored by Jesse Tuohy*
 
-Synthesizes Information Physics (thermodynamic bounds), Sovereign Substrate Economics (uncapturable game theory), and Applied Order Theory into a self-verifying, closed-loop paradigm[cite: 60]. Replaces prose-bound software specifications with O(1) order-theoretic joins, bare-metal #![no_std] Rust interlocks, and global vector-cache invariant priming[cite: 55, 59].
+Synthesizes Information Physics (thermodynamic bounds), Sovereign Substrate Economics (uncapturable game theory), and Applied Order Theory into a self-verifying, closed-loop paradigm. Replaces prose-bound software specifications with O(1) order-theoretic joins, bare-metal #![no_std] Rust interlocks, and global vector-cache invariant priming.
 
-- **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Machine-Readable /llms.txt & /AGENTS.md)[cite: 55, 59]
-- **Document Reference:** ARC-PUB-2026-DSG-BOOK3[cite: 60]
-- **Primary Master DOI (Zenodo):** [10.5281/zenodo.23525986](https://doi.org/10.5281/zenodo.23525986)[cite: 55, 60]
-- **Master Errata Overlay:** [10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) (ARC-ERR-2026-001)[cite: 55, 60]
-- **Primary Suite Record:** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)[cite: 55, 60]
-- **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`[cite: 55, 60]
+- **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Machine-Readable /llms.txt & /AGENTS.md)[
+- **Document Reference:** ARC-PUB-2026-DSG-BOOK3
+- **Primary Master DOI (Zenodo):** [10.5281/zenodo.23525986](https://doi.org/10.5281/zenodo.23525986)
+- **Master Errata Overlay:** [10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) (ARC-ERR-2026-001)
+- **Primary Suite Record:** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
+- **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
 #### 🔒 Layer 2 Cryptographic Root & Attestation Manifest
 
