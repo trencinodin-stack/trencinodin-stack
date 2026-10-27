@@ -319,7 +319,7 @@ The live public surface delivering zero-overhead ($C_{\text{ops}} = 0$), SSL-sec
 
 ### 1. Arcstone Spec Epistemic 01 (Master Specification Keystone)
 
-**arcstone-spec-epistemic-01**
+**[arcstone-spec-epistemic-01](https://github.com/trencinodin-stack/arcstone-spec-epistemic-01)**
 
 - **Status:** LOCKED / MASTER ANCHOR
 - **Role:** Layer 0 Upstream Epistemic Network Protocol (ENP) Master Specification
@@ -330,7 +330,7 @@ The language-agnostic master specification layer establishing the mathematical i
 
 ### 2. Arcstone Triad System (Normative Specification & Machine Contracts)
 
-**arcstone-triad-system**
+**[arcstone-triad-system](https://github.com/trencinodin-stack/arcstone-triad-system)**
 
 - **Status:** LIVE / PUBLIC NORMATIVE SUITE
 - **Role:** Sovereign Normative Specifications, UEDO v1.2 Schemas & Machine Discovery Contracts
@@ -341,7 +341,7 @@ The public normative specification suite housing UEDO v1.2 Protobuf/JSON schemas
 
 ### 3. Arcstone Continuity Core
 
-**arcstone-continuity-core**
+**[arcstone-continuity-core](https://github.com/trencinodin-stack/arcstone-continuity-core)**
 
 - **Status:** FROZEN / ACTIVE
 - **Role:** Upstream public Path A reference surface & `#![no_std]` Rust Execution Engine
@@ -352,7 +352,7 @@ A lean deterministic reference implementation preserving selected Arcstone Conti
 
 ### 4. Arcstone Path A Ingress Lab
 
-**arcstone-path-a-ingress-lab**
+**[arcstone-path-a-ingress-lab](https://github.com/trencinodin-stack/arcstone-path-a-ingress-lab)**
 
 - **Status:** EXPERIMENTAL / DOWNSTREAM / NON-CANONICAL / COMPLETE & FROZEN
 - **Version:** `v0.1.0`
@@ -362,7 +362,7 @@ A downstream experimental realization testing whether serialized output from an 
 
 ### 5. Arcstone MCP Sidecar
 
-**arcstone-mcp-sidecar**
+**[arcstone-mcp-sidecar](https://github.com/trencinodin-stack/arcstone-mcp-sidecar)**
 
 - **Status:** ACTIVE / CANONICAL FREEZE
 - **Registry Identity:** `io.github.trencinodin-stack/arcstone-mcp-sidecar@0.1.0`
@@ -373,7 +373,7 @@ A downstream reference sidecar published on the official Model Context Protocol 
 
 ### 6. Arcstone Adaptive Producer Lab
 
-**arcstone-adaptive-producer-lab**
+**[arcstone-adaptive-producer-lab](https://github.com/trencinodin-stack/arcstone-adaptive-producer-lab)**
 
 - **Status:** EXPERIMENTAL / DOWNSTREAM / NON-CANONICAL / FROZEN
 - **Version:** `v0.1.1-frozen`
