@@ -2,7 +2,7 @@
 
 **Founder & Principal Invariant Architect at Arcstone Adaptive Science Systems, Inc.**
 
-🌐 [admissibilityscience.com](https://admissibilityscience.com) • 💼 [LinkedIn](https://www.linkedin.com/in/jessetuohy/) • 📚 [Amazon Author Central](https://www.amazon.com/author/jessetuohy)
+🌐 [admissibilityscience.com](https://admissibilityscience.com) • 💼 [LinkedIn](https://www.linkedin.com/in/jesse-tuohy/) • 📚 [Amazon Author Central](https://www.amazon.com/author/jessetuohy)
 
 > **Core System Invariant:** Enforcing deterministic, authorization-first execution boundaries for autonomous agents and non-deterministic producers: $\mathcal{D}(a) = \text{DENY} \implies \Delta_{\text{external}}(a) = 0$.
 
