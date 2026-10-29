@@ -6,7 +6,7 @@
 📚 **Amazon Author Central:** [amazon.com/author/jessetuohy](https://www.amazon.com/author/jessetuohy)
 💼 **LinkedIn:** [linkedin.com/in/jessetuohy](https://www.linkedin.com/in/jessetuohy/)
 
-> **Core System Invariant:** Enforcing deterministic, authorization-first execution boundaries for autonomous agents and non-deterministic producers: $\mathcal{D}(a) = \text{DENY} \implies \Delta S_{\text{protected}} = 0$.
+> **Core System Invariant:** Enforcing deterministic, authorization-first execution boundaries for autonomous agents and non-deterministic producers: $\mathcal{D}(a) = \text{DENY} \implies \Delta_{\text{external}}(a) = 0$.
 
 #### 🧭 Architecture Quick-Start
 * **Master Specification (Layer 0):** [`arcstone-spec-epistemic-01`](https://github.com/trencinodin-stack/arcstone-spec-epistemic-01) — Formal invariant definitions ($I_1–I_3$) and category-theoretic functor mappings ($\mathbf{\Phi} : \mathbf{L} \to \mathbf{E}$).
