@@ -1,9 +1,18 @@
 # Hi there, I'm Jesse Tuohy 👋 (@trencinodin-stack)
 
-**Founder & Principal Invariants Architect at Arcstone Adaptive Science Systems, Inc.**
+**Founder & Principal Invariant Architect at Arcstone Adaptive Science Systems, Inc.**
 
 🌐 **Canonical Field Root:** [admissibilityscience.com](https://admissibilityscience.com)
 📚 **Amazon Author Central:** [amazon.com/author/jessetuohy](https://www.amazon.com/author/jessetuohy)
+💼 **LinkedIn:** [linkedin.com/in/jessetuohy](https://www.linkedin.com/in/jessetuohy/)
+
+> **Core System Invariant:** Enforcing deterministic, authorization-first execution boundaries for autonomous agents and non-deterministic producers: $\mathcal{D}(a) = \text{DENY} \implies \Delta S_{\text{protected}} = 0$.
+
+#### 🧭 Architecture Quick-Start
+* **Master Specification (Layer 0):** [`arcstone-spec-epistemic-01`](https://github.com/trencinodin-stack/arcstone-spec-epistemic-01) — Formal invariant definitions ($I_1–I_3$) and category-theoretic functor mappings ($\mathbf{\Phi} : \mathbf{L} \to \mathbf{E}$).
+* **Execution Engine (Path A):** [`arcstone-continuity-core`](https://github.com/trencinodin-stack/arcstone-continuity-core) — Zero-allocation, bare-metal `#![no_std]` Rust deterministic reference predicate.
+* **Agent Integration Surface:** [`arcstone-mcp-sidecar`](https://github.com/trencinodin-stack/arcstone-mcp-sidecar) — Reference execution boundary sidecar published on the Model Context Protocol (MCP) Registry.
+* **Normative Contracts:** [`arcstone-triad-system`](https://github.com/trencinodin-stack/arcstone-triad-system) — UEDO v1.2 Protobuf/JSON schemas and machine discovery manifests.
 
 Focusing on deterministic computational spines, admissibility-first systems, execution boundaries, and reproducible research into deterministic control surfaces for high-stakes computational environments.
 
@@ -141,7 +150,7 @@ To enable deterministic AI and third-party institutional verification, the crypt
 ```json
 {
   "master_anchor": "A-77-DELTA-SHIELD-LOCKED",
-  "canonical_root": "[admissibilityscience.com](https://admissibilityscience.com)",
+  "canonical_root": "admissibilityscience.com",
   "layer_1_monograph": {
     "title": "SOVEREIGN SUBSTRATE ECONOMICS: The Verification-Cost Inversion Blueprint: A Macroeconomic, Institutional, and Governance Specification for Deterministic Machine Authority",
     "author": "Jesse Tuohy",
@@ -149,7 +158,7 @@ To enable deterministic AI and third-party institutional verification, the crypt
     "isbn_13": "978-163437092",
     "kindle_asin": "B0H275L5JJ",
     "paperback_asin": "B0HNHF3QGV",
-    "zenodo_doi": "[10.5281/zenodo.23371581](https://doi.org/10.5281/zenodo.23371581)",
+    "zenodo_doi": "10.5281/zenodo.23371581",
     "sha256": "1fa739fdd774a7a89ccc148a3fa115315c3ceead4a4ffa91ae735defb55d8abd"
   },
   "pinned_repository_releases": {
