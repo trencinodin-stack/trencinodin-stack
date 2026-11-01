@@ -4,11 +4,12 @@
 
 🌐 [admissibilityscience.com](https://admissibilityscience.com) • 💼 [LinkedIn](https://www.linkedin.com/in/jesse-tuohy/) • 📚 [Amazon Author Central](https://www.amazon.com/author/jessetuohy)
 
-> **Core System Invariant:** Enforcing deterministic, authorization-first execution boundaries for autonomous agents and non-deterministic producers: $\mathcal{D}(a) = \text{DENY} \implies \Delta_{\text{external}}(a) = 0$.
+> **Core System Invariant:** Enforcing deterministic, authorization-first execution boundaries for autonomous agents and non-deterministic producers: `D(a) = DENY ⇒ Δ_external(a) = 0`.
 
 #### 🧭 Architecture Quick-Start
-* **Master Specification (Layer 0):** [`arcstone-spec-epistemic-01`](https://github.com/trencinodin-stack/arcstone-spec-epistemic-01) — Formal invariant definitions ($I_1–I_3$) and category-theoretic functor mappings ($\mathbf{\Phi} : \mathbf{L} \to \mathbf{E}$).
-* **Execution Engine (Path A):** [`arcstone-continuity-core`](https://github.com/trencinodin-stack/arcstone-continuity-core) — Zero-allocation, bare-metal `#![no_std]` Rust deterministic reference predicate.
+* **Master Specification (Layer 0):** [`arcstone-spec-epistemic-01`](https://github.com/trencinodin-stack/arcstone-spec-epistemic-01) — Formal invariant definitions (I₁–I₃) and category-theoretic functor mappings (Φ : L → E).
+* **Executable Reference Benchmark:** [`autodidactic-credential-sovereignty`](https://github.com/trencinodin-stack/autodidactic-credential-sovereignty) — Machine-checked Coq proofs (`Print Assumptions ≡ ∅`), `#[no_std]` bare-metal test harnesses, Groth16 ZK circuits, and the Epistemic Elevation Charter (`ARC-CHARTER-2026-ELEV01`).
+* **Execution Engine (Path A):** [`arcstone-continuity-core`](https://github.com/trencinodin-stack/arcstone-continuity-core) — Zero-allocation, bare-metal `#[no_std]` Rust deterministic reference predicate.
 * **Agent Integration Surface:** [`arcstone-mcp-sidecar`](https://github.com/trencinodin-stack/arcstone-mcp-sidecar) — Reference execution boundary sidecar published on the Model Context Protocol (MCP) Registry.
 * **Normative Contracts:** [`arcstone-triad-system`](https://github.com/trencinodin-stack/arcstone-triad-system) — UEDO v1.2 Protobuf/JSON schemas and machine discovery manifests.
 
@@ -311,7 +312,7 @@ All repositories and runtimes across trencinodin-stack conform strictly to ARC-E
 
 ## 📁 Public Research Repositories & Domain Network
 
-Arcstone's public research footprint forms a 7-node network anchored by a central Layer 0 master specification, normative machine contracts, and canonical web root.
+Arcstone's public research footprint forms an 8-node network anchored by a central Layer 0 master specification, normative machine contracts, and canonical web root.
 
 ### 0. Admissibility Science Canonical Root
 
@@ -322,7 +323,7 @@ Arcstone's public research footprint forms a 7-node network anchored by a centra
 - **Release:** `v1.3.1-exec`
 - **Anchor:** `A-77-DELTA-SHIELD-LOCKED` | **DOI:** [10.5281/zenodo.22969294](https://doi.org/10.5281/zenodo.22969294)
 
-The live public surface delivering zero-overhead ($C_{\text{ops}} = 0$), SSL-secured canonical specifications, Schema.org JSON-LD structured data, and `AGENTS.md` for real-time AI crawlers and autonomous indexers.
+The live public surface delivering zero-overhead (`C_ops = 0`), SSL-secured canonical specifications, Schema.org JSON-LD structured data, and `AGENTS.md` for real-time AI crawlers and autonomous indexers.
 
 ### 1. Arcstone Spec Epistemic 01 (Master Specification Keystone)
 
@@ -333,7 +334,7 @@ The live public surface delivering zero-overhead ($C_{\text{ops}} = 0$), SSL-sec
 - **Release:** `v1.3.1-LOCKED`
 - **Anchor:** `A-77-DELTA-SHIELD-LOCKED` | **DOI:** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 
-The language-agnostic master specification layer establishing the mathematical invariants ($I_1–I_3$, $N_1–N_3$), category-theoretic translation functor $\mathbf{\Phi} : \mathbf{L} \to \mathbf{E}$, sub-12ms temporal override clamps ($\tau_{\text{override}} \le 11.99\text{ms}$), static memory buffer limits ($S_{\max} \le 4096\text{B}$), and machine-readable JSON schemas for the entire Arcstone ecosystem.
+The language-agnostic master specification layer establishing the mathematical invariants (I₁–I₃, N₁–N₃), category-theoretic translation functor Φ : L → E, sub-12ms temporal override clamps (τ_override ≤ 11.99ms), static memory buffer limits (S_max ≤ 4096B), and machine-readable JSON schemas for the entire Arcstone ecosystem.
 
 ### 2. Arcstone Triad System (Normative Specification & Machine Contracts)
 
@@ -344,20 +345,31 @@ The language-agnostic master specification layer establishing the mathematical i
 - **Release:** `v1.2.0-hardened`
 - **Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
-The public normative specification suite housing UEDO v1.2 Protobuf/JSON schemas, `#![no_std]` Rust trait stubs, machine discovery manifests (`system-manifest.json`), and the primary multi-domain governance specifications (SYS-3, RANK-01, DEFENSE-01, FRONTIER-01, RECOVERY-01, TRISIGHT-01, COUNCIL-01, ARCHITECT-01).
+The public normative specification suite housing UEDO v1.2 Protobuf/JSON schemas, `#[no_std]` Rust trait stubs, machine discovery manifests (`system-manifest.json`), and the primary multi-domain governance specifications (SYS-3, RANK-01, DEFENSE-01, FRONTIER-01, RECOVERY-01, TRISIGHT-01, COUNCIL-01, ARCHITECT-01).
 
 ### 3. Arcstone Continuity Core
 
 **[arcstone-continuity-core](https://github.com/trencinodin-stack/arcstone-continuity-core)**
 
 - **Status:** FROZEN / ACTIVE
-- **Role:** Upstream public Path A reference surface & `#![no_std]` Rust Execution Engine
+- **Role:** Upstream public Path A reference surface & `#[no_std]` Rust Execution Engine
 - **Release:** `v1.3.1-exec`
 - **Anchor:** `A-77-DELTA-SHIELD-LOCKED` | **DOI:** [10.5281/zenodo.22966979](https://doi.org/10.5281/zenodo.22966979)
 
-A lean deterministic reference implementation preserving selected Arcstone Continuity Core invariants and cross-language conformance behavior. The executable Rust surface provides a portable `#![no_std]` deterministic predicate with explicit payload and temporal bounds.
+A lean deterministic reference implementation preserving selected Arcstone Continuity Core invariants and cross-language conformance behavior. The executable Rust surface provides a portable `#[no_std]` deterministic predicate with explicit payload and temporal bounds.
 
-### 4. Arcstone Path A Ingress Lab
+### 4. Autodidactic Credential Sovereignty (Executable Reference Benchmark)
+
+**[autodidactic-credential-sovereignty](https://github.com/trencinodin-stack/autodidactic-credential-sovereignty)**
+
+- **Status:** IMMUTABLE / PUBLIC REFERENCE BENCHMARK (`C_ops = 0`)
+- **Role:** Autonomous assessment substrate, formal proof auditor, and multi-domain bare-metal execution benchmark
+- **Charter Reference:** `ARC-CHARTER-2026-ELEV01` (`CHARTER.md`)
+- **Anchor:** `A-77-DELTA-SHIELD-LOCKED` | **DOI:** [10.5281/zenodo.23371581](https://doi.org/10.5281/zenodo.23371581)
+
+The executable realization of the DAE academic specification suite (`ARC-SPEC-2026-EDU-01..09`). Mechanizes the 4-Tier Credential Assurance Model (ACS-1 through ACS-4), enforcing empty-axiom Coq verification (`Print Assumptions ≡ ∅`), freestanding `#[no_std]` heap-free memory envelopes (`M_alloc = 0`), and Poseidon-hashed Groth16 zero-knowledge telemetry commitments (`zk/dae_verifier.circom`).
+
+### 5. Arcstone Path A Ingress Lab
 
 **[arcstone-path-a-ingress-lab](https://github.com/trencinodin-stack/arcstone-path-a-ingress-lab)**
 
@@ -367,7 +379,7 @@ A lean deterministic reference implementation preserving selected Arcstone Conti
 
 A downstream experimental realization testing whether serialized output from an external, potentially nondeterministic producer can be preserved as exact raw bytes, evaluated through the unchanged Arcstone Continuity Core Path A predicate using explicit controlled inputs, and replayed with the same deterministic result.
 
-### 5. Arcstone MCP Sidecar
+### 6. Arcstone MCP Sidecar
 
 **[arcstone-mcp-sidecar](https://github.com/trencinodin-stack/arcstone-mcp-sidecar)**
 
@@ -376,9 +388,9 @@ A downstream experimental realization testing whether serialized output from an 
 - **Crate:** `arcstone-execution-boundary` (v0.1.0)
 - **Role:** Reference downstream execution boundary sidecar for the Arcstone Security Stack
 
-A downstream reference sidecar published on the official Model Context Protocol (MCP) Registry, enforcing mathematical safety invariants between untrusted action producers and protected system side effects via atomic single-use claims ($I_1–I_3$).
+A downstream reference sidecar published on the official Model Context Protocol (MCP) Registry, enforcing mathematical safety invariants between untrusted action producers and protected system side effects via atomic single-use claims (I₁–I₃).
 
-### 6. Arcstone Adaptive Producer Lab
+### 7. Arcstone Adaptive Producer Lab
 
 **[arcstone-adaptive-producer-lab](https://github.com/trencinodin-stack/arcstone-adaptive-producer-lab)**
 
@@ -393,34 +405,44 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
 ### 🔗 Public Research Topology
 
 ```
-                                                ┌─────────────────────────────────────────┐
-                                                │        admissibilityscience.com         │
-                                                │   [ Canonical Public Field Root ]       │
-                                                │    LIVE / v1.3.1-exec / SSL LOCKED      │
-                                                └────────────────────┬────────────────────┘
-                                                                     │
-                                                ┌────────────────────┴────────────────────┐
-                                                │        arcstone-spec-epistemic-01       │
-                                                │   [ Layer 0: Master Protocol Spec ]     │
-                                                │         LOCKED / MASTER ANCHOR          │
-                                                └────────────────────┬────────────────────┘
-                                                                     │
-              ┌─────────────────────────────────────────────────────┼─────────────────────────────────────────────────────┐
-              │                                                     │                                                     │
-              ▼                                                     ▼                                                     ▼
-    ┌────────────────────────┐                            ┌────────────────────────┐                            ┌────────────────────────┐
-    │  arcstone-triad-system │                            │arcstone-continuity-core│                            │  arcstone-mcp-sidecar  │
-    │ [ Normative Suite &    │                            │ [ Path A Rust Kernel ] │                            │ [ Fail-Closed Proxy ]  │
-    │   Machine Contracts ]  │                            │     FROZEN / ACTIVE    │                            │ ACTIVE / CANONICAL FRZ │
-    │ LIVE / v1.2.0-hardened │                            └────────────────────────┘                            └───────────▲────────────┘
-    └────────────────────────┘                                                                                              │
-                                                                                                                            │ (Proposals)
-              ┌─────────────────────────────────────────────────────────────────────────────────────────────────────┴────────────┐
-              │                                                                                                                  │
-              ▼                                                                                                                  ▼
-    ┌────────────────────────┐                                                                                          ┌────────────────────────┐
-    │arcstone-path-a-ingress-│                                                                                          │    arcstone-adaptive-  │
-    │        lab             │                                                                                          │      producer-lab      │
-    │ [ Edge Ingress Lab ]   │                                                                                          │ [ Candidate Generator ]│
-    └────────────────────────┘                                                                                          └────────────────────────┘
-    ```
+                         ┌─────────────────────────────────────────┐
+                         │        admissibilityscience.com         │
+                         │   [ Canonical Public Field Root ]       │
+                         │    LIVE / v1.3.1-exec / SSL LOCKED      │
+                         └────────────────────┬────────────────────┘
+                                              │
+                         ┌────────────────────┴────────────────────┐
+                         │        arcstone-spec-epistemic-01       │
+                         │   [ Layer 0: Master Protocol Spec ]     │
+                         │          LOCKED / MASTER ANCHOR         │
+                         └────────────────────┬────────────────────┘
+                                              │
+         ┌────────────────────────────────────┼────────────────────────────────────┐
+         │                                    │                                    │
+         ▼                                    ▼                                    ▼
+┌────────────────────────┐       ┌────────────────────────┐       ┌────────────────────────┐
+│  arcstone-triad-system │       │ arcstone-continuity-core│       │ autodidactic-credential-│
+│ [ Normative Suite &    │       │ [ Path A Rust Kernel ] │       │      sovereignty       │
+│   Machine Contracts ]  │       │     FROZEN / ACTIVE    │       │[ Executable Benchmark ]│
+│ LIVE / v1.2.0-hardened │       └────────────────────────┘       │  IMMUTABLE / C_ops = 0 │
+└────────────────────────┘                                        └────────────────────────┘
+         │
+         │ (Precedence & Schemas)
+         │
+         ├────────────────────────────────────┐
+         │                                    │
+         ▼                                    ▼
+┌────────────────────────┐       ┌────────────────────────┐
+│  arcstone-mcp-sidecar  │       │arcstone-path-a-ingress-│
+│ [ Fail-Closed Proxy ]  │       │          lab           │
+│ ACTIVE / CANONICAL FRZ │       │  [ Edge Ingress Lab ]  │
+└───────────┬────────────┘       └────────────────────────┘
+            │
+            │ (Untrusted Proposals)
+            ▼
+┌────────────────────────┐
+│   arcstone-adaptive-   │
+│      producer-lab      │
+│ [ Candidate Generator ]│
+└────────────────────────┘
+```
