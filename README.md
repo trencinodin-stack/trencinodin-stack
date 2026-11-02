@@ -158,7 +158,7 @@ To enable deterministic AI and third-party institutional verification, the crypt
     "paperback_asin": "B0HNHF3QGV",
     "zenodo_doi": "10.5281/zenodo.23371581",
     "sha256": "1fa739fdd774a7a89ccc148a3fa115315c3ceead4a4ffa91ae735defb55d8abd"
-  }
+  },
   "pinned_repository_releases": {
     "arcstone-spec-epistemic-01": "v1.3.1-LOCKED",
     "arcstone-continuity-core": "v1.3.1-exec",
