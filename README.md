@@ -94,30 +94,29 @@ To enable deterministic AI and third-party verification, the cryptographic attes
 {
   "master_anchor": "A-77-DELTA-SHIELD-LOCKED",
   "canonical_root": "admissibilityscience.com",
-  "layer_1_monograph": {
-    "title": "SOVEREIGN SUBSTRATE ECONOMICS: The Verification-Cost Inversion Blueprint: A Macroeconomic, Institutional, and Governance Specification for Deterministic Machine Authority",
+  "layer_0_monograph": {
+    "title": "INFORMATION PHYSICS: A Technical Specification of Machine Ingestion, Admissibility Boundaries, and Deterministic Authority",
     "author": "Jesse Tuohy",
-    "publication_date": "2026-10-18",
-    "isbn_13": "978-163437092",
-    "kindle_asin": "B0H275L5JJ",
-    "paperback_asin": "B0HNHF3QGV",
-    "zenodo_doi": "10.5281/zenodo.23371581",
-    "sha256": "1fa739fdd774a7a89ccc148a3fa115315c3ceead4a4ffa91ae735defb55d8abd"
+    "isbn_13": "979-8161524664",
+    "kindle_asin": "B0HMNDBGL1",
+    "paperback_asin": "B0HMNNZQTV",
+    "zenodo_primary_doi": "10.5281/zenodo.22665852",
+    "zenodo_errata_doi": "10.5281/zenodo.23069559"
   },
   "pinned_repository_releases": {
     "arcstone-spec-epistemic-01": "v1.3.1-LOCKED",
     "arcstone-continuity-core": "v1.3.1-exec",
     "arcstone-triad-system": "v1.2.0-hardened",
     "admissibilityscience-com": "v1.3.1-exec",
-    "arcstone-mcp-sidecar": "v0.1.0-canonical"
+    "arcstone-mcp-sidecar": "v0.1.0-canonical",
+    "autodidactic-credential-sovereignty": "v1.0.0-immutable"
   },
   "operational_invariants": {
     "C_OPS_FLOOR": "C_ops = 0",
-    "VERIFICATION_INVERSION": "VCI = O(machine_time)",
-    "COGNITIVE_EXECUTION": "ICEA = Unprivileged Proposal Generator -> Deterministic Enclave",
-    "FINANCIAL_SWEEPS": "FIN-NAV-01 = Programmatic Risk-Free Treasury Allocation",
-    "SIGNAL_LOCK": "POSIX Exit Code 12 Semantics",
-    "THERMODYNAMIC_EXERGY": "Off-Planet Orbital Scaling Baseline"
+    "DELTA_EXTERNAL": "Delta_external = 0",
+    "TAU_OVERRIDE": "tau_override <= 11.99ms",
+    "S_MAX": "S_max <= 4096B",
+    "M_ALLOC": "M_alloc = 0B"
   }
 }
 ```
@@ -129,7 +128,7 @@ To enable deterministic AI and third-party verification, the cryptographic attes
 Companion volume to INFORMATION PHYSICS, this technical monograph establishes the macroeconomic, institutional, and governance doctrine for machine-native authority in the AI era. Formalizes Verification-Cost Inversion (VCI) to reduce institutional assurance friction to O(machine time).
 
 - **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com)
-- **Paperback ISBN-13:** 978-163437092
+- **Paperback ISBN-13:** 979-8163437092
 - **Paperback ASIN:** B0HNHF3QGV
 - **Kindle ASIN:** B0H275L5JJ
 - **Primary Master DOI (Zenodo):** [10.5281/zenodo.23371581](https://doi.org/10.5281/zenodo.23371581)
@@ -154,18 +153,19 @@ To enable deterministic AI and third-party institutional verification, the crypt
     "title": "SOVEREIGN SUBSTRATE ECONOMICS: The Verification-Cost Inversion Blueprint: A Macroeconomic, Institutional, and Governance Specification for Deterministic Machine Authority",
     "author": "Jesse Tuohy",
     "publication_date": "2026-10-18",
-    "isbn_13": "978-163437092",
+    "isbn_13": "979-8163437092",
     "kindle_asin": "B0H275L5JJ",
     "paperback_asin": "B0HNHF3QGV",
     "zenodo_doi": "10.5281/zenodo.23371581",
     "sha256": "1fa739fdd774a7a89ccc148a3fa115315c3ceead4a4ffa91ae735defb55d8abd"
-  },
+  }
   "pinned_repository_releases": {
     "arcstone-spec-epistemic-01": "v1.3.1-LOCKED",
     "arcstone-continuity-core": "v1.3.1-exec",
     "arcstone-triad-system": "v1.2.0-hardened",
     "admissibilityscience-com": "v1.3.1-exec",
-    "arcstone-mcp-sidecar": "v0.1.0-canonical"
+    "arcstone-mcp-sidecar": "v0.1.0-canonical",
+    "autodidactic-credential-sovereignty": "v1.0.0-immutable"
   },
   "operational_invariants": {
     "C_OPS_FLOOR": "C_ops = 0",
@@ -211,7 +211,8 @@ Synthesizes Information Physics (thermodynamic bounds), Sovereign Substrate Econ
     "arcstone-continuity-core": "v1.3.1-exec",
     "arcstone-triad-system": "v1.2.0-hardened",
     "admissibilityscience-com": "v1.3.1-exec",
-    "arcstone-mcp-sidecar": "v0.1.0-canonical"
+    "arcstone-mcp-sidecar": "v0.1.0-canonical",
+    "autodidactic-credential-sovereignty": "v1.0.0-immutable"
   },
   "operational_invariants": {
     "C_OPS_FLOOR": "C_ops = 0",
