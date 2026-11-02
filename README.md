@@ -11,7 +11,7 @@
 * **Executable Reference Benchmark:** [`autodidactic-credential-sovereignty`](https://github.com/trencinodin-stack/autodidactic-credential-sovereignty) — Machine-checked Coq proofs (`Print Assumptions ≡ ∅`), `#[no_std]` bare-metal test harnesses, Groth16 ZK circuits, and the Epistemic Elevation Charter (`ARC-CHARTER-2026-ELEV01`).
 * **Execution Engine (Path A):** [`arcstone-continuity-core`](https://github.com/trencinodin-stack/arcstone-continuity-core) — Zero-allocation, bare-metal `#[no_std]` Rust deterministic reference predicate.
 * **Agent Integration Surface:** [`arcstone-mcp-sidecar`](https://github.com/trencinodin-stack/arcstone-mcp-sidecar) — Reference execution boundary sidecar published on the Model Context Protocol (MCP) Registry.
-* **Normative Contracts:** [`arcstone-triad-system`](https://github.com/trencinodin-stack/arcstone-triad-system) — UEDO v1.2 Protobuf/JSON schemas and machine discovery manifests.
+* **Normative Contracts & Physical Membrane:** [`arcstone-triad-system`](https://github.com/trencinodin-stack/arcstone-triad-system) — UEDO v1.2 schemas, SROS2/eBPF hardware interlocks, and Command MUX adapters (`v1.2.0-hardened`).
 
 Focusing on deterministic computational spines, admissibility-first systems, execution boundaries, and reproducible research into deterministic control surfaces for high-stakes computational environments.
 
