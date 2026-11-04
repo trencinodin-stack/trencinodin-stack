@@ -2,7 +2,10 @@
 
 **Founder & Principal Invariant Architect at Arcstone Adaptive Science Systems, Inc.**
 
-🌐 [admissibilityscience.com](https://admissibilityscience.com) • 💼 [LinkedIn](https://www.linkedin.com/in/jesse-tuohy/) • 📚 [Amazon Author Central](https://www.amazon.com/author/jessetuohy)
+🌐 [admissibilityscience.com](https://admissibilityscience.com) • 📝 [Substack Research](https://founderarcstoneos.substack.com) • 💼 [LinkedIn](https://www.linkedin.com/in/jesse-tuohy/) • 📚 [Amazon Author Central](https://www.amazon.com/author/jessetuohy)
+
+[![Epistemic Anchor](https://img.shields.io/badge/Epistemic_Anchor-A--77--DELTA--SHIELD--LOCKED-blue.svg)](https://github.com/trencinodin-stack/arcstone-continuity-core/blob/main/EPISTEMIC_RECORD.md)
+[![Archived Attestation](https://img.shields.io/badge/Archive.is-HWqmW-success.svg)](https://archive.is/HWqmW)
 
 > **Core System Invariant:** Enforcing deterministic, authorization-first execution boundaries for autonomous agents and non-deterministic producers: `D(a) = DENY ⇒ Δ_external(a) = 0`.
 
@@ -14,6 +17,21 @@
 * **Normative Contracts & Physical Membrane:** [`arcstone-triad-system`](https://github.com/trencinodin-stack/arcstone-triad-system) — UEDO v1.2 schemas, SROS2/eBPF hardware interlocks, and Command MUX adapters (`v1.2.0-hardened`).
 
 Focusing on deterministic computational spines, admissibility-first systems, execution boundaries, and reproducible research into deterministic control surfaces for high-stakes computational environments.
+
+---
+
+### FEATURED RESEARCH & LIVE ATTESTATION: Beyond Social Assurance: Formal Invariants, the Regeneration Gap, and Closing the Specification Gap
+
+*Authored by Jesse Tuohy*
+
+Resolves the **Regeneration Gap**—the structural breakdown of transport-layer HTTP idempotency when generative AI agents re-synthesize tool arguments across retry loops. Demonstrates the 4-tier Arcstone Computational Spine (ACS) spanning axiom-free Coq proofs (`dae_invariants.v`), order-preserving covariant functor bridges ($\Phi : L \to E$), bare-metal `#[no_std]` Rust execution membranes ($M_{\text{alloc}} = 0, S_{\max} \le 4096\text{ B}, \tau_{\text{override}} \le 11.99\text{ ms}$), and fail-closed hardware actuators ($D(a) = \text{DENY} \implies \Delta_{\text{external}}(a) = 0$). Formulates Verification-Cost Inversion (VCI) to reduce institutional assurance from recurring human audits to amortized $O(\text{machine time})$ formal checks.
+
+- **Canonical Publication:** [Substack Deep Dive](https://founderarcstoneos.substack.com/p/beyond-social-assurance-formal-invariants) | [LinkedIn Monograph Mirror](https://www.linkedin.com/in/jesse-tuohy/)
+- **Live Wire Attestation:** Verified across the wire by `@grok` (xAI) on 2026-11-04
+- **Decentralized Archival Receipts:** [Lead Thesis (GM21I)](https://archive.is/GM21I) • [Grok Attestation (HWqmW)](https://archive.is/HWqmW)
+- **Primary Suite Record:** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
+- **Epistemic Attestation Ledger:** [`EPISTEMIC_RECORD.md`](https://github.com/trencinodin-stack/arcstone-continuity-core/blob/main/EPISTEMIC_RECORD.md)
+- **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
 ---
 
@@ -311,6 +329,18 @@ All repositories and runtimes across trencinodin-stack conform strictly to ARC-E
 
 ---
 
+## 🔒 Immutable Machine Attestations & Independent Archival Trail
+
+To prevent link rot, platform revisionism, or academic goalpost-shifting, external attestation events and canonical research publications are cryptographically frozen onto independent archival ledgers:
+
+| Target Domain | Attestation / Verification Event | Canonical Record Link | Immutable Archive Hash |
+| :--- | :--- | :--- | :--- |
+| **Frontier Reasoning Attestation** | Grok (xAI) Live Wire Sanity Check of ACS 4-Tier Pipeline | [X Post Thread](https://x.com/founderarcstone/status/2118032989837787173) | [`archive.is/HWqmW`](https://archive.is/HWqmW) |
+| **Foundational Specification Release** | The Regeneration Gap & Verification-Cost Inversion Thesis | [X Canonical Announcement](https://x.com/founderarcstone/status/2118032989837787173) | [`archive.is/GM21I`](https://archive.is/GM21I) |
+| **Repository Epistemic Anchor** | `arcstone-continuity-core` Verification Binding | [`EPISTEMIC_RECORD.md`](https://github.com/trencinodin-stack/arcstone-continuity-core/blob/main/EPISTEMIC_RECORD.md) | `A-77-DELTA-SHIELD-LOCKED` |
+
+---
+
 ## 📁 Public Research Repositories & Domain Network
 
 Arcstone's public research footprint forms an 8-node network anchored by a central Layer 0 master specification, normative machine contracts, and canonical web root.
@@ -356,6 +386,7 @@ The public normative specification suite housing UEDO v1.2 Protobuf/JSON schemas
 - **Role:** Upstream public Path A reference surface & `#[no_std]` Rust Execution Engine
 - **Release:** `v1.3.1-exec`
 - **Anchor:** `A-77-DELTA-SHIELD-LOCKED` | **DOI:** [10.5281/zenodo.22966979](https://doi.org/10.5281/zenodo.22966979)
+- **Epistemic Attestation Record:** [`EPISTEMIC_RECORD.md`](https://github.com/trencinodin-stack/arcstone-continuity-core/blob/main/EPISTEMIC_RECORD.md) (Archived: [`GM21I`](https://archive.is/GM21I) / [`HWqmW`](https://archive.is/HWqmW))
 
 A lean deterministic reference implementation preserving selected Arcstone Continuity Core invariants and cross-language conformance behavior. The executable Rust surface provides a portable `#[no_std]` deterministic predicate with explicit payload and temporal bounds.
 
