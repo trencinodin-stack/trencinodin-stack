@@ -20,6 +20,21 @@ Focusing on deterministic computational spines, admissibility-first systems, exe
 
 ---
 
+### FEATURED PAPER: Deterministic Admissibility Engineering: Mechanized Type Theory, Bare-Metal Clamps, and the Regeneration Gap
+
+*Authored by Jesse Tuohy*
+
+Formalizes the mathematical, microarchitectural, and operational bounds decoupling execution authority from autoregressive generative proposals. Bridges empty-axiom Coq inductive proofs (`Print Assumptions ≡ ∅`, `Admitted ≡ 0`), order-preserving covariant functors (Φ : L → E) mapping a 5-element join-semilattice to a 6-tier operational dominance hierarchy, `#[no_std]` Rust and eBPF wire-speed ingress filters, and fail-closed physical hardware clamps (*D(a) = DENY ⇒ Δ_external(a) = 0*). Eliminates the Regeneration Gap and demonstrates Verification-Cost Inversion (VCI) to reduce institutional assurance from recurring human audits to amortized *O*(1) machine checks.
+
+- **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Machine-Readable `/llms.txt` & `/AGENTS.md`)
+- **Primary Version DOI (Zenodo):** [10.5281/zenodo.23967282](https://doi.org/10.5281/zenodo.23967282)
+- **Primary Suite Record:** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
+- **Academic Suite DOI:** [10.5281/zenodo.23371581](https://doi.org/10.5281/zenodo.23371581)
+- **Master Specification Identifier:** `ARC-PUB-2026-DAE-01`
+- **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
+
+---
+
 ### FEATURED RESEARCH & LIVE ATTESTATION: Beyond Social Assurance: Formal Invariants, the Regeneration Gap, and Closing the Specification Gap
 
 *Authored by Jesse Tuohy*
@@ -258,6 +273,7 @@ sha256sum "Deterministic Substrate Governance Final.pdf"
 The Deterministic Admissibility Engineering (DAE) academic specification suite is registered, anchored, and archived across canonical scientific repositories:
 
 - **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Cloudflare Edge / SSL Secured)
+- **Deterministic Admissibility Engineering (Zenodo DOI):** [10.5281/zenodo.23967282](https://doi.org/10.5281/zenodo.23967282) (ARC-PUB-2026-DAE-01)
 - **Active Epistemic Anchoring Proof (Zenodo DOI):** [10.5281/zenodo.23602191](https://doi.org/10.5281/zenodo.23602191)
 - **Bare-Metal State Gatekeeping Spec (Zenodo DOI):** [10.5281/zenodo.23602603](https://doi.org/10.5281/zenodo.23602603) (ARC-SPEC-DETERM-SCHEMA-005)
 - **Inverse Specification Monograph (Zenodo DOI):** [10.5281/zenodo.23574285](https://doi.org/10.5281/zenodo.23574285)
@@ -302,10 +318,11 @@ All repositories and runtimes across trencinodin-stack conform strictly to ARC-E
 
 ---
 
-## ⚡ 6-Part Companion Execution & Formal Synthesis Suite (Published Oct 2026)
+## ⚡ 7-Part Companion Execution & Formal Synthesis Suite
 
 | Document Ref | DOI Link | Canonical Title & Description |
 |---|---|---|
+| ARC-PUB-2026-DAE-01 | [10.5281/zenodo.23967282](https://doi.org/10.5281/zenodo.23967282) | **Deterministic Admissibility Engineering: Mechanized Type Theory, Bare-Metal Clamps, and the Regeneration Gap** — Formal microarchitectural translation bridge, empty-axiom Coq invariants, and bare-metal clamps. |
 | ARC-SPEC-INV-001 | [10.5281/zenodo.23574285](https://doi.org/10.5281/zenodo.23574285) | **Inverse Specification: Emergent Higher-Order Formalisms in Bare-Metal Realization** — Post-hoc category-theoretic verification arising from bare-metal $O(1)$ and zero-heap constraints. |
 | ARC-SPEC-AEA-001 | [10.5281/zenodo.23602191](https://doi.org/10.5281/zenodo.23602191) | **Active Epistemic Anchoring: Real-Time Deterministic Convergence Across Autonomous AI Retrieval Systems** — Closed-loop methodology forcing real-time semantic convergence across search-grounded AI knowledge graphs (`A-77-DELTA-SHIELD-LOCKED`). |
 | ARC-SPEC-DETERM-SCHEMA-005 | [10.5281/zenodo.23602603](https://doi.org/10.5281/zenodo.23602603) | **Structural Invariance Under Non-Deterministic Retries: A Comparative Synthesis of Semantic State Gatekeeping in Autonomous AI Fabrics** — Formalizing the schema fallacy and bare-metal gatekeeping at the resource actuator boundary. |
