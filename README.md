@@ -364,7 +364,7 @@ To prevent link rot, platform revisionism, or academic goalpost-shifting, extern
 
 ## 📁 Public Research Repositories & Domain Network
 
-Arcstone's public research footprint forms an 9-node network anchored by a central Layer 0 master specification, normative machine contracts, and canonical web root.
+Arcstone's public research footprint forms a 9-node network anchored by a central Layer 0 master specification, normative machine contracts, and canonical web root.
 
 ### 0. Admissibility Science Canonical Root
 
