@@ -22,11 +22,11 @@ Focusing on deterministic computational spines, admissibility-first systems, exe
 
 ---
 
-### FEATURED MONOGRAPH: The Re-Entrancy of Intent: Cyber-Physical Observation Boundaries and Domain Projection
+### FEATURED MONOGRAPH: The Domain Projection Paradigm: A Unified Computational Spine for Autonomous Systems
 
 *Authored by Jesse Tuohy*
 
-Formalizes the fundamental vulnerability at the cyber-physical observation boundary: software denial cannot halt continuous kinetic momentum. Establishes the **Domain Projection Paradigm (DPP / ARC-SPEC-2026-DPP-01)**, bridging high-rate continuous sensors to discrete deterministic predicates via Plonkish 64-bit boolean decomposition circuits ($G_1$–$G_6$), worst-case double-integrator stopping functionals ($M_{\text{stop}}$), and discrete Bellman-Gronwall reachability certificates ($\gamma \in \mathbb{Q}$) under ADR-009. Proves inductive safety invariance across the continuous-to-discrete interface with zero dynamic allocation ($M_{\text{alloc}} = 0$) and zero runtime floating-point overhead.
+Autonomous systems deployed across high-consequence substrates frequently experience critical state divergence when probabilistic control models interface with asynchronous, physical, or distributed environments. This monograph formalizes the alternative established by the Arcstone Computational Spine (ACS): the Domain Projection Paradigm (DPP / ARC-SPEC-2026-DPP-01). The foundational thesis posits that host-level execution safety is governed by a minimal Layer-0 Universal Kernel (I1–I3) enforcing bare-metal admission contracts on the reference monitor's own transition relation and dispatch path. Defines a formal projection operator, $\Pi_{\text{domain}}$, synthesizing specialized child invariants (I4–I11) and composite cross-domain tensor invariants (I12–I13) with mechanized Coq proofs under zero admitted axioms.
 
 - **Canonical Edge Root:** [paradigm.admissibilityscience.com](https://paradigm.admissibilityscience.com) (Machine-Readable `/llms.txt` & `/AGENTS.md`)
 - **Primary Master DOI (Zenodo):** [10.5281/zenodo.24041851](https://doi.org/10.5281/zenodo.24041851)
@@ -34,6 +34,7 @@ Formalizes the fundamental vulnerability at the cyber-physical observation bound
 - **Verification Harness:** [`domain-projection-spec`](https://github.com/trencinodin-stack/domain-projection-spec)
 - **Governance Anchors:** ADR-008 (Phase 7 Immutability) & ADR-009 (Robust Reachability Margin)
 - **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
+```
 
 ---
 
@@ -113,9 +114,11 @@ A denied action guarantees zero protected state mutation.
       "kindle_asin": "B0HMNDBGL1",
       "zenodo_primary_doi": "10.5281/zenodo.22665852"
     },
-    "re_entrancy_of_intent": {
-      "title": "The Re-Entrancy of Intent: Cyber-Physical Observation Boundaries and Domain Projection",
+    "domain_projection_paradigm": {
+      "title": "The Domain Projection Paradigm: A Unified Computational Spine for Autonomous Systems",
       "specification_ref": "ARC-SPEC-2026-DPP-01",
+      "publication_date": "2026-11-07",
+      "version": "1.0",
       "zenodo_primary_doi": "10.5281/zenodo.24041851",
       "governance": ["ADR-008", "ADR-009"]
     }
