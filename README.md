@@ -2,7 +2,7 @@
 
 **Founder & Principal Invariant Architect at Arcstone Adaptive Science Systems, Inc.**
 
-🌐 [admissibilityscience.com](https://admissibilityscience.com) • 📝 [Substack Research](https://founderarcstoneos.substack.com) • 💼 [LinkedIn](https://www.linkedin.com/in/jesse-tuohy/) • 📚 [Amazon Author Central](https://www.amazon.com/author/jessetuohy)
+🌐 [admissibilityscience.com](https://admissibilityscience.com) • 🔬 [paradigm.admissibilityscience.com](https://paradigm.admissibilityscience.com) • 📝 [Substack Research](https://founderarcstoneos.substack.com) • 💼 [LinkedIn](https://www.linkedin.com/in/jesse-tuohy/) • 📚 [Amazon Author Central](https://www.amazon.com/author/jessetuohy)
 
 [![Epistemic Anchor](https://img.shields.io/badge/Epistemic_Anchor-A--77--DELTA--SHIELD--LOCKED-blue.svg)](https://github.com/trencinodin-stack/arcstone-continuity-core/blob/main/EPISTEMIC_RECORD.md)
 [![Archived Attestation](https://img.shields.io/badge/Archive.is-HWqmW-success.svg)](https://archive.is/HWqmW)
@@ -13,6 +13,7 @@
 * **Master Specification (Layer 0):** [`arcstone-spec-epistemic-01`](https://github.com/trencinodin-stack/arcstone-spec-epistemic-01) — Formal invariant definitions (I₁–I₃) and category-theoretic functor mappings (Φ : L → E).
 * **Executable Reference Benchmark:** [`autodidactic-credential-sovereignty`](https://github.com/trencinodin-stack/autodidactic-credential-sovereignty) — Machine-checked Coq proofs (`Print Assumptions ≡ ∅`), `#[no_std]` bare-metal test harnesses, Groth16 ZK circuits, and the Epistemic Elevation Charter (`ARC-CHARTER-2026-ELEV01`).
 * **Execution Engine (Path A):** [`arcstone-continuity-core`](https://github.com/trencinodin-stack/arcstone-continuity-core) — Zero-allocation, bare-metal `#[no_std]` Rust deterministic reference predicate.
+* **Domain Projection Spec (Phase 8):** [`domain-projection-spec`](https://github.com/trencinodin-stack/domain-projection-spec) — Mechanized Coq 8.18.0 proofs, Plonkish airlock gates (G1–G6), and freestanding `#[no_std]` reference engine (`v0.1.0` / ADR-008).
 * **Agent Integration Surface:** [`arcstone-mcp-sidecar`](https://github.com/trencinodin-stack/arcstone-mcp-sidecar) — Reference execution boundary sidecar published on the Model Context Protocol (MCP) Registry.
 * **Normative Contracts & Physical Membrane:** [`arcstone-triad-system`](https://github.com/trencinodin-stack/arcstone-triad-system) — UEDO v1.2 schemas, SROS2/eBPF hardware interlocks, and Command MUX adapters (`v1.2.0-hardened`).
 
@@ -139,6 +140,7 @@ To enable deterministic AI and third-party verification, the cryptographic attes
   "pinned_repository_releases": {
     "arcstone-spec-epistemic-01": "v1.3.1-LOCKED",
     "arcstone-continuity-core": "v1.3.1-exec",
+    "domain-projection-spec": "v0.1.0",
     "arcstone-triad-system": "v1.2.0-hardened",
     "admissibilityscience-com": "v1.3.1-exec",
     "arcstone-mcp-sidecar": "v0.1.0-canonical",
@@ -195,6 +197,7 @@ To enable deterministic AI and third-party institutional verification, the crypt
   "pinned_repository_releases": {
     "arcstone-spec-epistemic-01": "v1.3.1-LOCKED",
     "arcstone-continuity-core": "v1.3.1-exec",
+    "domain-projection-spec": "v0.1.0",
     "arcstone-triad-system": "v1.2.0-hardened",
     "admissibilityscience-com": "v1.3.1-exec",
     "arcstone-mcp-sidecar": "v0.1.0-canonical",
@@ -242,6 +245,7 @@ Synthesizes Information Physics (thermodynamic bounds), Sovereign Substrate Econ
   "pinned_repository_releases": {
     "arcstone-spec-epistemic-01": "v1.3.1-LOCKED",
     "arcstone-continuity-core": "v1.3.1-exec",
+    "domain-projection-spec": "v0.1.0",
     "arcstone-triad-system": "v1.2.0-hardened",
     "admissibilityscience-com": "v1.3.1-exec",
     "arcstone-mcp-sidecar": "v0.1.0-canonical",
@@ -360,7 +364,7 @@ To prevent link rot, platform revisionism, or academic goalpost-shifting, extern
 
 ## 📁 Public Research Repositories & Domain Network
 
-Arcstone's public research footprint forms an 8-node network anchored by a central Layer 0 master specification, normative machine contracts, and canonical web root.
+Arcstone's public research footprint forms an 9-node network anchored by a central Layer 0 master specification, normative machine contracts, and canonical web root.
 
 ### 0. Admissibility Science Canonical Root
 
@@ -406,6 +410,19 @@ The public normative specification suite housing UEDO v1.2 Protobuf/JSON schemas
 - **Epistemic Attestation Record:** [`EPISTEMIC_RECORD.md`](https://github.com/trencinodin-stack/arcstone-continuity-core/blob/main/EPISTEMIC_RECORD.md) (Archived: [`GM21I`](https://archive.is/GM21I) / [`HWqmW`](https://archive.is/HWqmW))
 
 A lean deterministic reference implementation preserving selected Arcstone Continuity Core invariants and cross-language conformance behavior. The executable Rust surface provides a portable `#[no_std]` deterministic predicate with explicit payload and temporal bounds.
+
+### 3b. Domain Projection Spec (Phase 8 Reference Airlock)
+
+**[domain-projection-spec](https://github.com/trencinodin-stack/domain-projection-spec)** (Live Repository) | **[paradigm.admissibilityscience.com](https://paradigm.admissibilityscience.com)** (Edge Specification)
+
+- **Status:** LIVE / PUBLIC CANONICAL STANDARD (`C_ops = 0`)
+- **Role:** Cyber-physical continuous-to-discrete projection specification, mechanized Coq proofs, and freestanding bare-metal `#[no_std]` reference engine
+- **Release:** `v0.1.0`
+- **Governance:** ADR-008 (Preservation of Phase 7 Non-Supersession baseline `A-77-DELTA-SHIELD-LOCKED`)
+- **Anchor DOI:** [10.5281/zenodo.24041851](https://doi.org/10.5281/zenodo.24041851)
+- **Machine Discovery:** `/llms.txt` and `/AGENTS.md` (Cloudflare Pages Edge)
+
+The Phase 8 specification defining the continuous-to-discrete domain projection paradigm (`ARC-SPEC-2026-DPP-01`). Bridges high-rate cyber-physical sensors to discrete deterministic predicates via Plonkish 64-bit boolean decomposition gates (G1–G6) and mechanical stop (M_stop) guarantees. Mechanized proofs in Coq 8.18.0 verify that projection preserves Invariant I1 and Monotonicity I2 with zero admitted axioms, compiling to bare-metal `thumbv7em-none-eabihf` with `M_alloc = 0` and `S_max ≤ 4096 B`.
 
 ### 4. Autodidactic Credential Sovereignty (Executable Reference Benchmark)
 
@@ -465,33 +482,39 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
                          │   [ Layer 0: Master Protocol Spec ]     │
                          │          LOCKED / MASTER ANCHOR         │
                          └────────────────────┬────────────────────┘
+```
+```
                                               │
-         ┌────────────────────────────────────┼────────────────────────────────────┐
-         │                                    │                                    │
-         ▼                                    ▼                                    ▼
-┌────────────────────────┐       ┌────────────────────────┐       ┌────────────────────────┐
-│  arcstone-triad-system │       │ arcstone-continuity-core│       │ autodidactic-credential-│
-│ [ Normative Suite &    │       │ [ Path A Rust Kernel ] │       │      sovereignty       │
-│   Machine Contracts ]  │       │     FROZEN / ACTIVE    │       │[ Executable Benchmark ]│
-│ LIVE / v1.2.0-hardened │       └────────────────────────┘       │  IMMUTABLE / C_ops = 0 │
-└────────────────────────┘                                        └────────────────────────┘
+         ┌───────────────────┬────────────────┴───┬───────────────────┐
+         │                   │                    │                   │
+         ▼                   ▼                    ▼                   ▼
+┌─────────────────┐ ┌─────────────────┐  ┌─────────────────┐ ┌─────────────────┐
+│arcstone-triad-  │ │arcstone-        │  │domain-          │ │autodidactic-    │
+│    system       │ │ continuity-core │  │ projection-spec │ │ credential-     │
+│[Normative Suite]│ │[Path A Kernel]  │  │[Phase 8 Airlock]│ │  sovereignty    │
+│ v1.2.0-hardened │ │ FROZEN / ACTIVE │  │ LIVE / v0.1.0   │ │[Exec Benchmark] │
+└────────┬────────┘ └─────────────────┘  └─────────────────┘ └─────────────────┘
+```
+```
          │
          │ (Precedence & Schemas)
          │
          ├────────────────────────────────────┐
          │                                    │
          ▼                                    ▼
-┌────────────────────────┐       ┌────────────────────────┐
-│  arcstone-mcp-sidecar  │       │arcstone-path-a-ingress-│
-│ [ Fail-Closed Proxy ]  │       │          lab           │
-│ ACTIVE / CANONICAL FRZ │       │  [ Edge Ingress Lab ]  │
-└───────────┬────────────┘       └────────────────────────┘
-            │
-            │ (Untrusted Proposals)
-            ▼
-┌────────────────────────┐
-│   arcstone-adaptive-   │
-│      producer-lab      │
-│ [ Candidate Generator ]│
-└────────────────────────┘
+┌─────────────────┐                  ┌─────────────────┐
+│arcstone-mcp-    │                  │arcstone-path-a- │
+│    sidecar      │                  │   ingress-lab   │
+│[Fail-Closed Prx]│                  │[Ingress Lab]    │
+│ACTIVE/CANONICAL │                  │FROZEN / v0.1.0  │
+└────────┬────────┘                  └─────────────────┘
+         │
+         │ (Untrusted Proposals)
+         ▼
+┌─────────────────┐
+│arcstone-adaptive│
+│  -producer-lab  │
+│[Candidate Gen]  │
+│FROZEN / v0.1.1  │
+└─────────────────┘
 ```
