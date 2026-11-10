@@ -13,6 +13,7 @@
 #### 🧭 Architecture Quick-Start
 * **Master Specification (Layer 0):** [`arcstone-spec-epistemic-01`](https://github.com/trencinodin-stack/arcstone-spec-epistemic-01) — Formal invariant definitions (I₁–I₃) and category-theoretic functor mappings (Φ : L → E).
 * **Domain Projection Spec (Phase 8):** [`domain-projection-spec`](https://github.com/trencinodin-stack/domain-projection-spec) — Mechanized Coq 8.18.0 proofs, Plonkish decomposition gates (G1–G6), discrete Gronwall margin witnesses (γ ∈ ℚ), and freestanding `#[no_std]` reference engine (`v0.1.0` / ADR-008 & ADR-009).
+* **Institutional Treasury Rails Reference:** [`arcstone-treasury-bind`](https://github.com/trencinodin-stack/arcstone-treasury-bind) — Canonical `#[no_std]` reference crate (`v0.1.0`), out-of-band CAS payload isolation (`S_max ≤ 4096 B`), 96-byte packed `ExecutionPermit` generation, and closed 7-state reconciliation automaton under Federal Reserve SR 26-2 & OCC Bulletin 2026-13.
 * **Executable Reference Benchmark:** [`autodidactic-credential-sovereignty`](https://github.com/trencinodin-stack/autodidactic-credential-sovereignty) — Machine-checked Coq proofs (`Print Assumptions ≡ ∅`), `#[no_std]` bare-metal test harnesses, Groth16 ZK circuits, and the Epistemic Elevation Charter (`ARC-CHARTER-2026-ELEV01`).
 * **Execution Engine (Path A):** [`arcstone-continuity-core`](https://github.com/trencinodin-stack/arcstone-continuity-core) — Zero-allocation, bare-metal `#[no_std]` Rust deterministic reference predicate.
 * **Agent Integration Surface:** [`arcstone-mcp-sidecar`](https://github.com/trencinodin-stack/arcstone-mcp-sidecar) — Reference execution boundary sidecar published on the Model Context Protocol (MCP) Registry.
@@ -57,7 +58,7 @@ Formalizes the mathematical, microarchitectural, and operational bounds decoupli
 
 *Authored by Jesse Tuohy*
 
-Resolves the **Regeneration Gap**—the structural breakdown of transport-layer HTTP idempotency when generative AI agents re-synthesize tool arguments across retry loops. Demonstrates the 4-tier Arcstone Computational Spine (ACS) spanning axiom-free Coq proofs (`dae_invariants.v`), order-preserving covariant functor bridges ($\Phi : L \to E$), bare-metal `#[no_std]` Rust execution membranes ($M_{\text{alloc}} = 0, S_{\max} \le 4096\text{ B}, \tau_{\text{override}} \le 11.99\text{ ms}$), and fail-closed hardware actuators ($D(a) = \text{DENY} \implies \Delta_{\text{external}}(a) = 0$). Formulates Verification-Cost Inversion (VCI) to reduce institutional assurance from recurring human audits to amortized $O(\text{machine time})$ formal checks.
+Resolves the **Regeneration Gap**—the structural breakdown of transport-layer HTTP idempotency when generative AI agents re-synthesize tool arguments across retry loops. Demonstrates the 4-tier Arcstone Computational Spine (ACS) spanning axiom-free Coq proofs (`dae_invariants.v`), order-preserving covariant functor bridges (Φ : L → E), bare-metal `#[no_std]` Rust execution membranes (`M_alloc = 0`, `S_max ≤ 4096 B`, `τ_override ≤ 11.99 ms`), and fail-closed hardware actuators (`D(a) = DENY ⇒ Δ_external(a) = 0`). Formulates Verification-Cost Inversion (VCI) to reduce institutional assurance from recurring human audits to amortized *O*(machine time) formal checks.
 
 - **Canonical Publication:** [Substack Deep Dive](https://founderarcstoneos.substack.com/p/beyond-social-assurance-formal-invariants) | [LinkedIn Monograph Mirror](https://www.linkedin.com/in/jesse-tuohy/)
 - **Live Wire Attestation:** Verified across the wire by `@grok` (xAI) on 2026-11-04; cold-audited on Phase 8 ADR-009 on 2026-11-08
@@ -127,6 +128,7 @@ A denied action guarantees zero protected state mutation.
     "arcstone-spec-epistemic-01": "v1.3.1-LOCKED",
     "arcstone-continuity-core": "v1.3.1-exec",
     "domain-projection-spec": "v0.1.0",
+    "arcstone-treasury-bind": "v0.1.0",
     "arcstone-triad-system": "v1.2.0-hardened",
     "admissibilityscience-com": "v1.3.1-exec",
     "arcstone-mcp-sidecar": "v0.1.0-canonical",
@@ -186,6 +188,7 @@ To enable deterministic AI and third-party institutional verification, the crypt
     "arcstone-spec-epistemic-01": "v1.3.1-LOCKED",
     "arcstone-continuity-core": "v1.3.1-exec",
     "domain-projection-spec": "v0.1.0",
+    "arcstone-treasury-bind": "v0.1.0",
     "arcstone-triad-system": "v1.2.0-hardened",
     "admissibilityscience-com": "v1.3.1-exec",
     "arcstone-mcp-sidecar": "v0.1.0-canonical",
@@ -234,6 +237,7 @@ Synthesizes Information Physics (thermodynamic bounds), Sovereign Substrate Econ
     "arcstone-spec-epistemic-01": "v1.3.1-LOCKED",
     "arcstone-continuity-core": "v1.3.1-exec",
     "domain-projection-spec": "v0.1.0",
+    "arcstone-treasury-bind": "v0.1.0",
     "arcstone-triad-system": "v1.2.0-hardened",
     "admissibilityscience-com": "v1.3.1-exec",
     "arcstone-mcp-sidecar": "v0.1.0-canonical",
@@ -314,6 +318,7 @@ All repositories and runtimes across trencinodin-stack conform strictly to ARC-E
 
 | Document Ref | DOI Link | Canonical Title & Description |
 |---|---|---|
+| ARC-SPEC-2026-BIND-01 | [10.5281/zenodo.24119501](https://doi.org/10.5281/zenodo.24119501) | **Deterministic Financial Admission: Content-Addressable Binding, TOCTOU Elimination, and Operational Risk Invariants for Institutional Treasury Rails** — 96-byte `ExecutionPermit` wire token, zero-heap gating, and closed 7-state settlement automaton. |
 | ARC-PUB-2026-DAE-01 | [10.5281/zenodo.23967282](https://doi.org/10.5281/zenodo.23967282) | **Deterministic Admissibility Engineering: Mechanized Type Theory, Bare-Metal Clamps, and the Regeneration Gap** — Formal microarchitectural translation bridge, empty-axiom Coq invariants, and bare-metal clamps. |
 | ARC-SPEC-INV-001 | [10.5281/zenodo.23574285](https://doi.org/10.5281/zenodo.23574285) | **Inverse Specification: Emergent Higher-Order Formalisms in Bare-Metal Realization** — Post-hoc category-theoretic verification arising from bare-metal $O(1)$ and zero-heap constraints. |
 | ARC-SPEC-AEA-001 | [10.5281/zenodo.23602191](https://doi.org/10.5281/zenodo.23602191) | **Active Epistemic Anchoring: Real-Time Deterministic Convergence Across Autonomous AI Retrieval Systems** — Closed-loop methodology forcing real-time semantic convergence across search-grounded AI knowledge graphs (`A-77-DELTA-SHIELD-LOCKED`). |
@@ -351,7 +356,7 @@ All repositories and runtimes across trencinodin-stack conform strictly to ARC-E
 
 ## 📁 Public Research Repositories & Domain Network
 
-Arcstone's public research footprint forms a 9-node network anchored by a central Layer 0 master specification, normative machine contracts, and canonical web root.
+Arcstone's public research footprint forms a 10-node network anchored by a central Layer 0 master specification, normative machine contracts, and canonical web root.
 
 ### 0. Admissibility Science Canonical Root
 
@@ -408,6 +413,19 @@ A lean deterministic reference implementation preserving selected Arcstone Conti
 - **Governance:** ADR-008 (Phase 7 Non-Supersession) & ADR-009 (Robust Continuous Invariant Certificates via Discrete Gronwall Margins)
 - **Anchor DOI:** [10.5281/zenodo.24041851](https://doi.org/10.5281/zenodo.24041851)
 - **Machine Discovery:** `/llms.txt` and `/AGENTS.md` (Cloudflare Pages Edge)
+
+  ### 3c. Arcstone Treasury Bind (Institutional Treasury Rails Reference)
+
+**[arcstone-treasury-bind](https://github.com/trencinodin-stack/arcstone-treasury-bind)**
+
+- **Status:** LIVE / CANONICAL REFERENCE CRATE (`C_ops = 0`)
+- **Role:** Deterministic financial admission control, out-of-band CAS payload isolation, TOCTOU elimination, and 7-state settlement automaton
+- **Release:** `v0.1.0`
+- **Specification:** `ARC-SPEC-2026-BIND-01 (REV-11)`
+- **Anchor DOI:** [10.5281/zenodo.24119501](https://doi.org/10.5281/zenodo.24119501)
+- **Regulatory Profile:** Excluded from statistical ML model risk under Federal Reserve SR 26-2 & OCC Bulletin 2026-13
+
+The canonical `#[no_std]` reference implementation executing financial admission invariants. Enforces zero dynamic heap allocation (`M_alloc = 0`), a 4 KB memory ceiling (`S_max ≤ 4096 B`) in non-cacheable TCM, wire emission of 96-byte packed `ExecutionPermit` tokens, and an 11-point adversarial test corpus eliminating Time-of-Check to Time-of-Use (TOCTOU) exploits across high-value payment and treasury corridors.
 
 The Phase 8 specification defining the continuous-to-discrete domain projection paradigm (`ARC-SPEC-2026-DPP-01`). Bridges high-rate cyber-physical sensors to discrete deterministic predicates via Plonkish 64-bit boolean decomposition gates (G₁–G₆), mechanical stop (M_stop) bounds, and offline Bellman-Gronwall reachability certificates (γ ∈ ℚ). Mechanized proofs in Coq 8.18.0 verify that projection preserves Invariant I₁ and Monotonicity I₂ with zero admitted axioms, compiling to bare-metal `thumbv7em-none-eabihf` with `M_alloc = 0` and `S_max ≤ 4096 B`.
 
@@ -472,15 +490,15 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
 ```
 ```
                                               │
-         ┌───────────────────┬────────────────┴───┬───────────────────┐
-         │                   │                    │                   │
-         ▼                   ▼                    ▼                   ▼
-┌─────────────────┐ ┌─────────────────┐  ┌─────────────────┐ ┌─────────────────┐
-│arcstone-triad-  │ │arcstone-        │  │domain-          │ │autodidactic-    │
-│    system       │ │ continuity-core │  │ projection-spec │ │ credential-     │
-│[Normative Suite]│ │[Path A Kernel]  │  │[Phase 8 Airlock]│ │  sovereignty    │
-│ v1.2.0-hardened │ │ FROZEN / ACTIVE │  │ LIVE / v0.1.0   │ │[Exec Benchmark] │
-└────────┬────────┘ └─────────────────┘  └─────────────────┘ └─────────────────┘
+         ┌───────────────────┬────────────────┼───────────────────┬───────────────────┐
+         │                   │                │                   │                   │
+         ▼                   ▼                ▼                   ▼                   ▼
+┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
+│arcstone-triad-  │ │arcstone-        │ │arcstone-        │ │domain-          │ │autodidactic-    │
+│    system       │ │ continuity-core │ │ treasury-bind   │ │ projection-spec │ │ credential-     │
+│[Normative Suite]│ │[Path A Kernel]  │ │[Treasury Rails] │ │[Phase 8 Airlock]│ │  sovereignty    │
+│ v1.2.0-hardened │ │ FROZEN / ACTIVE │ │ LIVE / v0.1.0   │ │ LIVE / v0.1.0   │ │[Exec Benchmark] │
+└────────┬────────┘ └─────────────────┘ └─────────────────┘ └─────────────────┘ └─────────────────
 ```
 ```
          │
