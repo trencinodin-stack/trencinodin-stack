@@ -34,7 +34,7 @@ Autonomous systems deployed across high-consequence substrates frequently experi
 - **Verification Harness:** [`domain-projection-spec`](https://github.com/trencinodin-stack/domain-projection-spec)
 - **Governance Anchors:** ADR-008 (Phase 7 Immutability) & ADR-009 (Robust Reachability Margin)
 - **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
-```
+
 
 ---
 
