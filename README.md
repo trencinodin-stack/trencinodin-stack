@@ -276,6 +276,7 @@ The Deterministic Admissibility Engineering (DAE) academic specification suite i
 - **Functorial Order Dynamics Monograph (Zenodo DOI):** [10.5281/zenodo.23525986](https://doi.org/10.5281/zenodo.23525986)
 - **Layer 1 Academic Realization Suite (Zenodo DOI):** [10.5281/zenodo.23371581](https://doi.org/10.5281/zenodo.23371581) (ARC-SPEC-2026-EDU-01..09)
 - **Layer 0 Primary Authority (Zenodo DOI):** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
+- **Supreme Capstone Synthesis Authority (Zenodo DOI):** [10.5281/zenodo.24093739](https://doi.org/10.5281/zenodo.24093739) (ARC-CAPSTONE-2026-SYNTH-01-REV19)
 - **Master Errata Overlay (Zenodo DOI):** [10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) (ARC-ERR-2026-001)
 
 **Zenodo Community Collections**
@@ -422,10 +423,11 @@ A lean deterministic reference implementation preserving selected Arcstone Conti
 - **Role:** Deterministic financial admission control, out-of-band CAS payload isolation, TOCTOU elimination, and 7-state settlement automaton
 - **Release:** `v0.1.0`
 - **Specification:** `ARC-SPEC-2026-BIND-01 (REV-11)`
+- **Governance:** ADR-010 (Kinematic Deadband Latch & Timing Budget Reserve)
 - **Anchor DOI:** [10.5281/zenodo.24119501](https://doi.org/10.5281/zenodo.24119501)
 - **Regulatory Profile:** Excluded from statistical ML model risk under Federal Reserve SR 26-2 & OCC Bulletin 2026-13
 
-The canonical `#[no_std]` reference implementation executing financial admission invariants. Enforces zero dynamic heap allocation (`M_alloc = 0`), a 4 KB memory ceiling (`S_max ≤ 4096 B`) in non-cacheable TCM, wire emission of 96-byte packed `ExecutionPermit` tokens, and an 11-point adversarial test corpus eliminating Time-of-Check to Time-of-Use (TOCTOU) exploits across high-value payment and treasury corridors.
+The canonical `#[no_std]` reference implementation executing financial admission invariants. Enforces zero dynamic heap allocation (`M_alloc = 0`), a 4 KB memory ceiling (`S_max ≤ 4096 B`) in non-cacheable TCM, wire emission of 96-byte packed `ExecutionPermit` tokens, and an 10-point adversarial test corpus eliminating Time-of-Check to Time-of-Use (TOCTOU) exploits across high-value payment and treasury corridors.
 
 The Phase 8 specification defining the continuous-to-discrete domain projection paradigm (`ARC-SPEC-2026-DPP-01`). Bridges high-rate cyber-physical sensors to discrete deterministic predicates via Plonkish 64-bit boolean decomposition gates (G₁–G₆), mechanical stop (M_stop) bounds, and offline Bellman-Gronwall reachability certificates (γ ∈ ℚ). Mechanized proofs in Coq 8.18.0 verify that projection preserves Invariant I₁ and Monotonicity I₂ with zero admitted axioms, compiling to bare-metal `thumbv7em-none-eabihf` with `M_alloc = 0` and `S_max ≤ 4096 B`.
 
