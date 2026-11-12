@@ -191,6 +191,7 @@ To enable deterministic AI and third-party institutional verification, the crypt
     "arcstone-spec-epistemic-01": "v1.3.1-LOCKED",
     "arcstone-continuity-core": "v1.3.1-exec",
     "domain-projection-spec": "v0.1.0",
+    "arcstone-refinement-harness": "v0.1.0",
     "arcstone-treasury-bind": "v0.1.0",
     "arcstone-triad-system": "v1.2.0-hardened",
     "admissibilityscience-com": "v1.3.1-exec",
@@ -240,6 +241,7 @@ Synthesizes Information Physics (thermodynamic bounds), Sovereign Substrate Econ
     "arcstone-spec-epistemic-01": "v1.3.1-LOCKED",
     "arcstone-continuity-core": "v1.3.1-exec",
     "domain-projection-spec": "v0.1.0",
+    "arcstone-refinement-harness": "v0.1.0",
     "arcstone-treasury-bind": "v0.1.0",
     "arcstone-triad-system": "v1.2.0-hardened",
     "admissibilityscience-com": "v1.3.1-exec",
@@ -356,6 +358,7 @@ All repositories and runtimes across trencinodin-stack conform strictly to ARC-E
 | **Frontier Reasoning Attestation** | Grok (xAI) Live Wire Sanity Check of ACS 4-Tier Pipeline | [X Post Thread](https://x.com/founderarcstone/status/2118032989837787173) | [`archive.is/HWqmW`](https://archive.is/HWqmW) |
 | **Foundational Specification Release** | The Regeneration Gap & Verification-Cost Inversion Thesis | [X Canonical Announcement](https://x.com/founderarcstone/status/2118032989837787173) | [`archive.is/GM21I`](https://archive.is/GM21I) |
 | **Repository Epistemic Anchor** | `arcstone-continuity-core` Verification Binding | [`EPISTEMIC_RECORD.md`](https://github.com/trencinodin-stack/arcstone-continuity-core/blob/main/EPISTEMIC_RECORD.md) | `A-77-DELTA-SHIELD-LOCKED` |
+| **Mechanized Refinement Proof** | Coq 8.18.0 + `coqchk` Empty-Axiom Forward Simulation (`Rust_Impl ⊑ Coq_Spec`) | [`REFINEMENT-AUDIT-2026-V1.json`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/docs/attestations/REFINEMENT-AUDIT-2026-V1.json) | `fcd08cc86d9802f64442ab7162abcf23678900fda692a2427902cbaf05abd3da` |
 
 ---
 
@@ -445,6 +448,7 @@ The canonical `#[no_std]` reference implementation executing financial admission
 - **Monograph:** `ARC-MONO-2026-REFINEMENT-01`
 - **Anchor:** `A-77-DELTA-SHIELD-LOCKED` | **DOI:** [10.5281/zenodo.24041851](https://doi.org/10.5281/zenodo.24041851)
 - **Assurance Standard:** `Print Assumptions == ∅` via `coqchk -silent`
+- **Proof Receipt:** [`docs/attestations/REFINEMENT-AUDIT-2026-V1.json`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/docs/attestations/REFINEMENT-AUDIT-2026-V1.json) (`REFINEMENT-PROOF-CHAIN-CLOSED`)
 
   An external, downstream verification airlock and simulation proving ground for the Arcstone Computational Spine. Absorbs formal verification maintenance drag (`C_ops > 0`) away from the frozen sovereign cores, extracting LLBC via Charon, translating to Coq 8.18.0 via Aeneas, and verifying one-way forward simulation (`Rust_Impl ⊑ Coq_Spec`) and fail-closed capability tripping under zero admitted axioms (`Print Assumptions == ∅`).
 
