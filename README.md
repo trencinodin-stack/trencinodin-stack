@@ -18,6 +18,7 @@
 * **Execution Engine (Path A):** [`arcstone-continuity-core`](https://github.com/trencinodin-stack/arcstone-continuity-core) — Zero-allocation, bare-metal `#[no_std]` Rust deterministic reference predicate.
 * **Agent Integration Surface:** [`arcstone-mcp-sidecar`](https://github.com/trencinodin-stack/arcstone-mcp-sidecar) — Reference execution boundary sidecar published on the Model Context Protocol (MCP) Registry.
 * **Normative Contracts & Physical Membrane:** [`arcstone-triad-system`](https://github.com/trencinodin-stack/arcstone-triad-system) — UEDO v1.2 schemas, SROS2/eBPF hardware interlocks, and Command MUX adapters (`v1.2.0-hardened`).
+* **Decoupled Refinement Airlock (Mechanized Bridge):** [`arcstone-refinement-harness`](https://github.com/trencinodin-stack/arcstone-refinement-harness) — Downstream translation-validation harness (`v0.1.0`), Charon LLBC extraction, Aeneas Coq functional emission, and machine-checked forward simulation (`Rust_Impl ⊑ Coq_Spec`) with zero admitted axioms (`Print Assumptions == ∅`).
 
 Focusing on deterministic computational spines, admissibility-first systems, execution boundaries, cyber-physical airlocks, and reproducible research into deterministic control surfaces for high-stakes computational environments.
 
@@ -33,6 +34,7 @@ Autonomous systems deployed across high-consequence substrates frequently experi
 - **Primary Master DOI (Zenodo):** [10.5281/zenodo.24041851](https://doi.org/10.5281/zenodo.24041851)
 - **Primary Suite Record:** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 - **Verification Harness:** [`domain-projection-spec`](https://github.com/trencinodin-stack/domain-projection-spec)
+- **Refinement Airlock:** [`arcstone-refinement-harness`](https://github.com/trencinodin-stack/arcstone-refinement-harness)
 - **Governance Anchors:** ADR-008 (Phase 7 Immutability) & ADR-009 (Robust Reachability Margin)
 - **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
@@ -128,6 +130,7 @@ A denied action guarantees zero protected state mutation.
     "arcstone-spec-epistemic-01": "v1.3.1-LOCKED",
     "arcstone-continuity-core": "v1.3.1-exec",
     "domain-projection-spec": "v0.1.0",
+    "arcstone-refinement-harness": "v0.1.0",
     "arcstone-treasury-bind": "v0.1.0",
     "arcstone-triad-system": "v1.2.0-hardened",
     "admissibilityscience-com": "v1.3.1-exec",
@@ -327,6 +330,7 @@ All repositories and runtimes across trencinodin-stack conform strictly to ARC-E
 | ARC-SPEC-AGENT-HCE-001 | [10.5281/zenodo.23076445](https://doi.org/10.5281/zenodo.23076445) | Arcstone Systems Architecture Specification: Deterministic Deployment of an Autonomous AI Agent in a High-Consequence Environment |
 | ARC-ANL-INJ-002 | [10.5281/zenodo.23076559](https://doi.org/10.5281/zenodo.23076559) | Prompt Injection Under the Invariant Taxonomy: Failure-Mode Analysis and Proof of Hallucination-Independent State Conservation |
 | ARC-LIT-003 | [10.5281/zenodo.23076692](https://doi.org/10.5281/zenodo.23076692) | AI Execution Safety Literature vs. the Arcstone Invariant Substrate: Downstream Actuation Mechanics, Tier Mapping, and Citation-Tree Synthesis |
+| ARC-MONO-2026-REFINEMENT-01 | [10.5281/zenodo.24041851](https://doi.org/10.5281/zenodo.24041851) | **The Decoupled Refinement Airlock: Preserving Zero Operational Drag (C_ops = 0) in High-Assurance Systems via Downstream Mechanized Simulation** — Downstream Charon/Aeneas/Coq 8.18.0 translation-validation harness (`v0.1.0`), one-way forward simulation (`Rust_Impl ⊑ Coq_Spec`), and empty-axiom kernel audit (`Print Assumptions == ∅`). |
 
 ---
 
@@ -357,7 +361,7 @@ All repositories and runtimes across trencinodin-stack conform strictly to ARC-E
 
 ## 📁 Public Research Repositories & Domain Network
 
-Arcstone's public research footprint forms a 10-node network anchored by a central Layer 0 master specification, normative machine contracts, and canonical web root.
+Arcstone's public research footprint forms a 11-node network anchored by a central Layer 0 master specification, normative machine contracts, and canonical web root.
 
 ### 0. Admissibility Science Canonical Root
 
@@ -415,7 +419,9 @@ A lean deterministic reference implementation preserving selected Arcstone Conti
 - **Anchor DOI:** [10.5281/zenodo.24041851](https://doi.org/10.5281/zenodo.24041851)
 - **Machine Discovery:** `/llms.txt` and `/AGENTS.md` (Cloudflare Pages Edge)
 
-  ### 3c. Arcstone Treasury Bind (Institutional Treasury Rails Reference)
+  The Phase 8 specification defining the continuous-to-discrete domain projection paradigm (`ARC-SPEC-2026-DPP-01`). Bridges high-rate cyber-physical sensors to discrete deterministic predicates via Plonkish 64-bit boolean decomposition gates (G₁–G₆), mechanical stop (M_stop) bounds, and offline Bellman-Gronwall reachability certificates (γ ∈ ℚ). Mechanized proofs in Coq 8.18.0 verify that projection preserves Invariant I₁ and Monotonicity I₂ with zero admitted axioms, compiling to bare-metal `thumbv7em-none-eabihf` with `M_alloc = 0` and `S_max ≤ 4096 B`.
+
+### 3c. Arcstone Treasury Bind (Institutional Treasury Rails Reference)
 
 **[arcstone-treasury-bind](https://github.com/trencinodin-stack/arcstone-treasury-bind)**
 
@@ -429,7 +435,18 @@ A lean deterministic reference implementation preserving selected Arcstone Conti
 
 The canonical `#[no_std]` reference implementation executing financial admission invariants. Enforces zero dynamic heap allocation (`M_alloc = 0`), a 4 KB memory ceiling (`S_max ≤ 4096 B`) in non-cacheable TCM, wire emission of 96-byte packed `ExecutionPermit` tokens, and an 10-point adversarial test corpus eliminating Time-of-Check to Time-of-Use (TOCTOU) exploits across high-value payment and treasury corridors.
 
-The Phase 8 specification defining the continuous-to-discrete domain projection paradigm (`ARC-SPEC-2026-DPP-01`). Bridges high-rate cyber-physical sensors to discrete deterministic predicates via Plonkish 64-bit boolean decomposition gates (G₁–G₆), mechanical stop (M_stop) bounds, and offline Bellman-Gronwall reachability certificates (γ ∈ ℚ). Mechanized proofs in Coq 8.18.0 verify that projection preserves Invariant I₁ and Monotonicity I₂ with zero admitted axioms, compiling to bare-metal `thumbv7em-none-eabihf` with `M_alloc = 0` and `S_max ≤ 4096 B`.
+### 3d. Arcstone Refinement Harness (Decoupled Refinement Airlock)
+
+**[arcstone-refinement-harness](https://github.com/trencinodin-stack/arcstone-refinement-harness)**
+
+- **Status:** LIVE / CANONICAL REFINEMENT HARNESS (`C_ops > 0` Absorber)
+- **Role:** Mechanized translation validation, Charon LLBC extraction, Aeneas Coq functional emission, and forward safety simulation proofs (`Rust_Impl ⊑ Coq_Spec`)
+- **Release:** `v0.1.0`
+- **Monograph:** `ARC-MONO-2026-REFINEMENT-01`
+- **Anchor:** `A-77-DELTA-SHIELD-LOCKED` | **DOI:** [10.5281/zenodo.24041851](https://doi.org/10.5281/zenodo.24041851)
+- **Assurance Standard:** `Print Assumptions == ∅` via `coqchk -silent`
+
+  An external, downstream verification airlock and simulation proving ground for the Arcstone Computational Spine. Absorbs formal verification maintenance drag (`C_ops > 0`) away from the frozen sovereign cores, extracting LLBC via Charon, translating to Coq 8.18.0 via Aeneas, and verifying one-way forward simulation (`Rust_Impl ⊑ Coq_Spec`) and fail-closed capability tripping under zero admitted axioms (`Print Assumptions == ∅`).
 
 ### 4. Autodidactic Credential Sovereignty (Executable Reference Benchmark)
 
@@ -489,8 +506,6 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
                          │   [ Layer 0: Master Protocol Spec ]     │
                          │          LOCKED / MASTER ANCHOR         │
                          └────────────────────┬────────────────────┘
-```
-```
                                               │
          ┌───────────────────┬────────────────┼───────────────────┬───────────────────┐
          │                   │                │                   │                   │
@@ -498,14 +513,18 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
 ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
 │arcstone-triad-  │ │arcstone-        │ │arcstone-        │ │domain-          │ │autodidactic-    │
 │    system       │ │ continuity-core │ │ treasury-bind   │ │ projection-spec │ │ credential-     │
-│[Normative Suite]│ │[Path A Kernel]  │ │[Treasury Rails] │ │[Phase 8 Airlock]│ │  sovereignty    │
+│[Normative Suite]│ │[Path A Kernel]  │ │[Treasury Rails] │ │[Phase 8 Spec]   │ │  sovereignty    │
 │ v1.2.0-hardened │ │ FROZEN / ACTIVE │ │ LIVE / v0.1.0   │ │ LIVE / v0.1.0   │ │[Exec Benchmark] │
-└────────┬────────┘ └─────────────────┘ └─────────────────┘ └─────────────────┘ └─────────────────
-```
-```
-         │
-         │ (Precedence & Schemas)
-         │
+└────────┬────────┘ └─────────────────┘ └─────────────────┘ └────────┬────────┘ └─────────────────┘
+         │                                                            │
+         │ (Precedence & Schemas)                                     │ (Decoupled Airlock)
+         │                                                            ▼
+         │                                                   ┌─────────────────┐
+         │                                                   │arcstone-        │
+         │                                                   │refinement-harness│
+         │                                                   │[Sim Proof Bridge│
+         │                                                   │ LIVE / v0.1.0   │
+         │                                                   └─────────────────┘
          ├────────────────────────────────────┐
          │                                    │
          ▼                                    ▼
