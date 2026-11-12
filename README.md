@@ -364,7 +364,7 @@ All repositories and runtimes across trencinodin-stack conform strictly to ARC-E
 
 ## 📁 Public Research Repositories & Domain Network
 
-Arcstone's public research footprint forms a 11-node network anchored by a central Layer 0 master specification, normative machine contracts, and canonical web root.
+Arcstone's public research footprint forms an 11-node network anchored by a central Layer 0 master specification, normative machine contracts, and canonical web root.
 
 ### 0. Admissibility Science Canonical Root
 
@@ -436,7 +436,7 @@ A lean deterministic reference implementation preserving selected Arcstone Conti
 - **Anchor DOI:** [10.5281/zenodo.24119501](https://doi.org/10.5281/zenodo.24119501)
 - **Regulatory Profile:** Excluded from statistical ML model risk under Federal Reserve SR 26-2 & OCC Bulletin 2026-13
 
-The canonical `#[no_std]` reference implementation executing financial admission invariants. Enforces zero dynamic heap allocation (`M_alloc = 0`), a 4 KB memory ceiling (`S_max ≤ 4096 B`) in non-cacheable TCM, wire emission of 96-byte packed `ExecutionPermit` tokens, and an 10-point adversarial test corpus eliminating Time-of-Check to Time-of-Use (TOCTOU) exploits across high-value payment and treasury corridors.
+The canonical `#[no_std]` reference implementation executing financial admission invariants. Enforces zero dynamic heap allocation (`M_alloc = 0`), a 4 KB memory ceiling (`S_max ≤ 4096 B`) in non-cacheable TCM, wire emission of 96-byte packed `ExecutionPermit` tokens, and an 11-point adversarial test corpus eliminating Time-of-Check to Time-of-Use (TOCTOU) exploits across high-value payment and treasury corridors.
 
 ### 3d. Arcstone Refinement Harness (Decoupled Refinement Airlock)
 
