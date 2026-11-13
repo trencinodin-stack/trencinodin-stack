@@ -19,6 +19,7 @@
 * **Agent Integration Surface:** [`arcstone-mcp-sidecar`](https://github.com/trencinodin-stack/arcstone-mcp-sidecar) — Reference execution boundary sidecar published on the Model Context Protocol (MCP) Registry.
 * **Normative Contracts & Physical Membrane:** [`arcstone-triad-system`](https://github.com/trencinodin-stack/arcstone-triad-system) — UEDO v1.2 schemas, SROS2/eBPF hardware interlocks, and Command MUX adapters (`v1.2.0-hardened`).
 * **Decoupled Refinement Airlock (Mechanized Bridge):** [`arcstone-refinement-harness`](https://github.com/trencinodin-stack/arcstone-refinement-harness) — Downstream translation-validation harness (`v0.1.0`), Charon LLBC extraction, Aeneas Coq functional emission, and machine-checked forward simulation (`Rust_Impl ⊑ Coq_Spec`) with zero admitted axioms (`Print Assumptions == ∅`).
+* **Turnkey Refinement Airlock Blueprint (Downstream Template):** [`arcstone-airlock-blueprint`](https://github.com/trencinodin-stack/arcstone-airlock-blueprint) — Public GitHub template (`v0.1.0`) packaging a digest-pinned OCI Charon/Aeneas/Coq 8.18.0 airlock (`--network none`), semantic canary mutant testing, `coqchk -o` kernel validation, and Sigstore-attested `REFINEMENT-AUDIT.json` release receipts for bare-metal `#![no_std]` Rust crates (`C_ops = 0`).
 
 Focusing on deterministic computational spines, admissibility-first systems, execution boundaries, cyber-physical airlocks, and reproducible research into deterministic control surfaces for high-stakes computational environments.
 
@@ -131,6 +132,7 @@ A denied action guarantees zero protected state mutation.
     "arcstone-continuity-core": "v1.3.1-exec",
     "domain-projection-spec": "v0.1.0",
     "arcstone-refinement-harness": "v0.1.0",
+    "arcstone-airlock-blueprint": "v0.1.0",
     "arcstone-treasury-bind": "v0.1.0",
     "arcstone-triad-system": "v1.2.0-hardened",
     "admissibilityscience-com": "v1.3.1-exec",
@@ -192,6 +194,7 @@ To enable deterministic AI and third-party institutional verification, the crypt
     "arcstone-continuity-core": "v1.3.1-exec",
     "domain-projection-spec": "v0.1.0",
     "arcstone-refinement-harness": "v0.1.0",
+    "arcstone-airlock-blueprint": "v0.1.0",
     "arcstone-treasury-bind": "v0.1.0",
     "arcstone-triad-system": "v1.2.0-hardened",
     "admissibilityscience-com": "v1.3.1-exec",
@@ -242,6 +245,7 @@ Synthesizes Information Physics (thermodynamic bounds), Sovereign Substrate Econ
     "arcstone-continuity-core": "v1.3.1-exec",
     "domain-projection-spec": "v0.1.0",
     "arcstone-refinement-harness": "v0.1.0",
+    "arcstone-airlock-blueprint": "v0.1.0",
     "arcstone-treasury-bind": "v0.1.0",
     "arcstone-triad-system": "v1.2.0-hardened",
     "admissibilityscience-com": "v1.3.1-exec",
@@ -364,7 +368,7 @@ All repositories and runtimes across trencinodin-stack conform strictly to ARC-E
 
 ## 📁 Public Research Repositories & Domain Network
 
-Arcstone's public research footprint forms an 11-node network anchored by a central Layer 0 master specification, normative machine contracts, and canonical web root.
+Arcstone's public research footprint forms a 12-node network anchored by a central Layer 0 master specification, normative machine contracts, and canonical web root.
 
 ### 0. Admissibility Science Canonical Root
 
@@ -452,6 +456,18 @@ The canonical `#[no_std]` reference implementation executing financial admission
 
   An external, downstream verification airlock and simulation proving ground for the Arcstone Computational Spine. Absorbs formal verification maintenance drag (`C_ops > 0`) away from the frozen sovereign cores, extracting LLBC via Charon, translating to Coq 8.18.0 via Aeneas, and verifying one-way forward simulation (`Rust_Impl ⊑ Coq_Spec`) and fail-closed capability tripping under zero admitted axioms (`Print Assumptions == ∅`).
 
+  ### 3e. Arcstone Airlock Blueprint (Turnkey Downstream Verification Template)
+
+**[arcstone-airlock-blueprint](https://github.com/trencinodin-stack/arcstone-airlock-blueprint)**
+
+- **Status:** LIVE / PUBLIC REPOSITORY TEMPLATE (`C_ops = 0` Upstream)
+- **Role:** Turnkey downstream refinement airlock template for bare-metal `#![no_std]` Rust crates (`Rust_Impl ⊑ Coq_Spec`)
+- **Release:** `v0.1.0` (Immutable Release + Sigstore Provenance)
+- **Governance:** `ARC-FAQ-2026-PHASE7-01` (Q15/Q16) & `A-77-DELTA-SHIELD-LOCKED`
+- **Assurance Pipeline:** Offline digest-pinned OCI container (`--network none --cap-drop ALL --read-only`), semantic canary mutant verification, `coqchk -o` + `Print Assumptions` allowlist gate, and schema-validated `REFINEMENT-AUDIT.json` receipt minting
+
+  A ready-to-clone public template repository enabling any `#![no_std]` Rust crate to adopt the Arcstone decoupled refinement airlock with zero verification macros, zero ghost state, and zero proof dependencies in upstream Rust source code. Snapshots the target Git tree read-only, runs Charon LLBC extraction and Aeneas Coq 8.18.0 synthesis inside an air-gapped container, validates proof non-vacuity via an automated semantic canary mutant, and publishes cryptographically attested audit receipts on immutable `v*` releases.
+
 ### 4. Autodidactic Credential Sovereignty (Executable Reference Benchmark)
 
 **[autodidactic-credential-sovereignty](https://github.com/trencinodin-stack/autodidactic-credential-sovereignty)**
@@ -498,7 +514,7 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
 
 ### 🔗 Public Research Topology
 
-```
+```text
                          ┌─────────────────────────────────────────┐
                          │        admissibilityscience.com         │
                          │   [ Canonical Public Field Root ]       │
@@ -528,15 +544,15 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
          │                                                   │refinement-harness│
          │                                                   │[Sim Proof Bridge│
          │                                                   │ LIVE / v0.1.0   │
-         │                                                   └─────────────────┘
-         ├────────────────────────────────────┐
-         │                                    │
-         ▼                                    ▼
-┌─────────────────┐                  ┌─────────────────┐
-│arcstone-mcp-    │                  │arcstone-path-a- │
-│    sidecar      │                  │   ingress-lab   │
-│[Fail-Closed Prx]│                  │[Ingress Lab]    │
-│ACTIVE/CANONICAL │                  │FROZEN / v0.1.0  │
+         │                                                   └────────┬────────┘
+         ├────────────────────────────────────┐                       │ (Turnkey Template)
+         │                                    │                       ▼
+         ▼                                    ▼              ┌─────────────────┐
+┌─────────────────┐                  ┌─────────────────┐     │arcstone-airlock │
+│arcstone-mcp-    │                  │arcstone-path-a- │     │   -blueprint    │
+│    sidecar      │                  │   ingress-lab   │     │[Public Template]│
+│[Fail-Closed Prx]│                  │[Ingress Lab]    │     │ LIVE / v0.1.0   │
+│ACTIVE/CANONICAL │                  │FROZEN / v0.1.0  │     └─────────────────┘
 └────────┬────────┘                  └─────────────────┘
          │
          │ (Untrusted Proposals)
