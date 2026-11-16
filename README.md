@@ -218,6 +218,9 @@ To enable deterministic AI and third-party institutional verification, the crypt
 Synthesizes Information Physics (thermodynamic bounds), Sovereign Substrate Economics (uncapturable game theory), and Applied Order Theory into a self-verifying, closed-loop paradigm. Replaces prose-bound software specifications with O(1) order-theoretic joins, bare-metal #![no_std] Rust interlocks, and global vector-cache invariant priming.
 
 - **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Machine-Readable /llms.txt & /AGENTS.md)
+- **Paperback ISBN-13:** 979-8164281960
+- **Paperback ASIN:** B0HNV43VWP
+- **Kindle ASIN:** B0HL43F4VN
 - **Document Reference:** ARC-PUB-2026-DSG-BOOK3
 - **Primary Master DOI (Zenodo):** [10.5281/zenodo.23525986](https://doi.org/10.5281/zenodo.23525986)
 - **Master Errata Overlay:** [10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) (ARC-ERR-2026-001)
@@ -233,7 +236,10 @@ Synthesizes Information Physics (thermodynamic bounds), Sovereign Substrate Econ
   "layer_2_monograph": {
     "title": "DETERMINISTIC SUBSTRATE GOVERNANCE: Dual-Domain Order Theory, Invariant Executions, and Vector-Hardened State Architecture",
     "author": "Jesse Tuohy",
-    "publication_date": "2026-10-22",
+    "publication_date": "2026-10-21",
+    "isbn_13": "979-8164281960",
+    "kindle_asin": "B0HL43F4VN"
+    "paperback_asin": "B0HNV43VWP",
     "specification_ref": "ARC-PUB-2026-DSG-BOOK3",
     "zenodo_primary_doi": "10.5281/zenodo.23525986",
     "zenodo_errata_doi": "10.5281/zenodo.23069559",
