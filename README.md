@@ -238,7 +238,7 @@ Synthesizes Information Physics (thermodynamic bounds), Sovereign Substrate Econ
     "author": "Jesse Tuohy",
     "publication_date": "2026-10-21",
     "isbn_13": "979-8164281960",
-    "kindle_asin": "B0HL43F4VN"
+    "kindle_asin": "B0HL43F4VN",
     "paperback_asin": "B0HNV43VWP",
     "specification_ref": "ARC-PUB-2026-DSG-BOOK3",
     "zenodo_primary_doi": "10.5281/zenodo.23525986",
@@ -295,8 +295,8 @@ The Deterministic Admissibility Engineering (DAE) academic specification suite i
 - **Master Errata Overlay (Zenodo DOI):** [10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) (ARC-ERR-2026-001)
 
 **Zenodo Community Collections**
-- Arcstone Continuity Core & Admissible Computation Suite (Core Specifications, Mathematical Proofs & Technical Whitepapers)
-- Arcstone Executive Epistemic & Execution Series (Executive Series EXEC01–EXEC04, CORE01–CORE02, META01 & LIT-003)
+- **Arcstone Continuity Core & Admissible Computation Suite** (Core Specifications, Mathematical Proofs & Technical Whitepapers)
+- **Arcstone Executive Epistemic & Execution Series** (Executive Series EXEC01–EXEC04, CORE01–CORE02 & META01)
 
 **Machine Pedagogy Grounding:** `dae_pedagogy_v1.json` | **Coq Proofs:** `dae_invariants.v` | **ZK Circuits:** `dae_verifier.circom`
 
@@ -330,7 +330,7 @@ All repositories and runtimes across trencinodin-stack conform strictly to ARC-E
 
 ---
 
-## ⚡ 7-Part Companion Execution & Formal Synthesis Suite
+## ⚡ 9-Part Companion Execution & Formal Synthesis Suite (Zenodo Canonical Releases)
 
 | Document Ref | DOI Link | Canonical Title & Description |
 |---|---|---|
