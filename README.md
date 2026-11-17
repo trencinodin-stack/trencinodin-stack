@@ -529,7 +529,10 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
 
 ---
 
-┌─────────────────────────────────────────┐
+### 🔗 Public Research Topology
+
+```
+                         ┌─────────────────────────────────────────┐
                          │        admissibilityscience.com         │
                          │   [ Canonical Public Field Root ]       │
                          │    LIVE / v1.3.1-exec / SSL LOCKED      │
@@ -577,3 +580,4 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
 │[Candidate Gen]  │
 │FROZEN / v0.1.1  │
 └─────────────────┘
+```
