@@ -16,7 +16,7 @@
 * **Institutional Treasury Rails Reference:** [`arcstone-treasury-bind`](https://github.com/trencinodin-stack/arcstone-treasury-bind) — Canonical `#[no_std]` reference crate (`v0.1.0`), out-of-band CAS payload isolation (`S_max ≤ 4096 B`), 96-byte packed `ExecutionPermit` generation, and closed 7-state reconciliation automaton under Federal Reserve SR 26-2 & OCC Bulletin 2026-13.
 * **Executable Reference Benchmark:** [`autodidactic-credential-sovereignty`](https://github.com/trencinodin-stack/autodidactic-credential-sovereignty) — Machine-checked Coq proofs (`Print Assumptions ≡ ∅`), `#[no_std]` bare-metal test harnesses, Groth16 ZK circuits, and the Epistemic Elevation Charter (`ARC-CHARTER-2026-ELEV01`).
 * **Execution Engine (Path A):** [`arcstone-continuity-core`](https://github.com/trencinodin-stack/arcstone-continuity-core) — Zero-allocation, bare-metal `#[no_std]` Rust deterministic reference predicate.
-* **Agent Integration Surface:** [`arcstone-mcp-sidecar`](https://github.com/trencinodin-stack/arcstone-mcp-sidecar) — Reference execution boundary sidecar published on the Model Context Protocol (MCP) Registry.
+* **Agent Integration Surfaces (MCP Registry):** [`arcstone-mcp-sidecar`](https://github.com/trencinodin-stack/arcstone-mcp-sidecar) & [`arcstone-mcp-bridge`](https://github.com/trencinodin-stack/arcstone-mcp-bridge) (`v0.1.0`) — Reference execution boundary sidecar and read-only multi-domain conformance/simulation bridge published on the official Model Context Protocol (MCP) Registry (`C_ops = 0`).
 * **Normative Contracts & Physical Membrane:** [`arcstone-triad-system`](https://github.com/trencinodin-stack/arcstone-triad-system) — UEDO v1.2 schemas, SROS2/eBPF hardware interlocks, and Command MUX adapters (`v1.2.0-hardened`).
 * **Decoupled Refinement Airlock (Mechanized Bridge):** [`arcstone-refinement-harness`](https://github.com/trencinodin-stack/arcstone-refinement-harness) — Downstream translation-validation harness (`v0.1.0`), Charon LLBC extraction, Aeneas Coq functional emission, and machine-checked forward simulation (`Rust_Impl ⊑ Coq_Spec`) with zero admitted axioms (`Print Assumptions == ∅`).
 * **Turnkey Refinement Airlock Blueprint (Downstream Template):** [`arcstone-airlock-blueprint`](https://github.com/trencinodin-stack/arcstone-airlock-blueprint) — Public GitHub template (`v0.1.0`) packaging a digest-pinned OCI Charon/Aeneas/Coq 8.18.0 airlock (`--network none`), semantic canary mutant testing, `coqchk -o` kernel validation, and Sigstore-attested `REFINEMENT-AUDIT.json` release receipts for bare-metal `#![no_std]` Rust crates (`C_ops = 0`).
@@ -374,7 +374,7 @@ All repositories and runtimes across trencinodin-stack conform strictly to ARC-E
 
 ## 📁 Public Research Repositories & Domain Network
 
-Arcstone's public research footprint forms a 12-node network anchored by a central Layer 0 master specification, normative machine contracts, and canonical web root.
+Arcstone's public research footprint forms a 13-node network anchored by a central Layer 0 master specification, normative machine contracts, and canonical web root.
 
 ### 0. Admissibility Science Canonical Root
 
@@ -506,6 +506,17 @@ A downstream experimental realization testing whether serialized output from an 
 
 A downstream reference sidecar published on the official Model Context Protocol (MCP) Registry, enforcing mathematical safety invariants between untrusted action producers and protected system side effects via atomic single-use claims (I₁–I₃).
 
+### 6b. Arcstone MCP Bridge
+
+**[arcstone-mcp-bridge](https://github.com/trencinodin-stack/arcstone-mcp-bridge)**
+
+- **Status:** ACTIVE / CANONICAL FREEZE (`C_ops = 0`)
+- **Registry Identity:** `io.github.trencinodin-stack/arcstone-mcp-bridge@0.1.0`
+- **Specification:** `ARC-SPEC-2026-MCP-01` | **Anchor:** `A-77-DELTA-SHIELD-LOCKED`
+- **Role:** Universal read-only conformance, sandbox-simulation, and institutional diligence MCP server
+
+A zero-operational-overhead (`C_ops = 0`) MCP server published on the official Model Context Protocol (MCP) Registry, enabling autonomous agents to run read-only conformance checks, declarative domain profile simulations (`banking_treasury.yaml`, `energy_grid.yaml`, `clinical_actuation.yaml`), and signed receipt verification without mutating external state.
+
 ### 7. Arcstone Adaptive Producer Lab
 
 **[arcstone-adaptive-producer-lab](https://github.com/trencinodin-stack/arcstone-adaptive-producer-lab)**
@@ -518,10 +529,7 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
 
 ---
 
-### 🔗 Public Research Topology
-
-```text
-                         ┌─────────────────────────────────────────┐
+┌─────────────────────────────────────────┐
                          │        admissibilityscience.com         │
                          │   [ Canonical Public Field Root ]       │
                          │    LIVE / v1.3.1-exec / SSL LOCKED      │
@@ -551,15 +559,15 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
          │                                                   │[Sim Proof Bridge│
          │                                                   │ LIVE / v0.1.0   │
          │                                                   └────────┬────────┘
-         ├────────────────────────────────────┐                       │ (Turnkey Template)
-         │                                    │                       ▼
-         ▼                                    ▼              ┌─────────────────┐
-┌─────────────────┐                  ┌─────────────────┐     │arcstone-airlock │
-│arcstone-mcp-    │                  │arcstone-path-a- │     │   -blueprint    │
-│    sidecar      │                  │   ingress-lab   │     │[Public Template]│
-│[Fail-Closed Prx]│                  │[Ingress Lab]    │     │ LIVE / v0.1.0   │
-│ACTIVE/CANONICAL │                  │FROZEN / v0.1.0  │     └─────────────────┘
-└────────┬────────┘                  └─────────────────┘
+         ├───────────────────┬────────────────┐                       │ (Turnkey Template)
+         │                   │                │                       ▼
+         ▼                   ▼                ▼              ┌─────────────────┐
+┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐  │arcstone-airlock │
+│arcstone-mcp-    │ │arcstone-mcp-    │ │arcstone-path-a- │  │   -blueprint    │
+│    sidecar      │ │    bridge       │ │   ingress-lab   │  │[Public Template]│
+│[Fail-Closed Prx]│ │[Conformance/Sim]│ │[Ingress Lab]    │  │ LIVE / v0.1.0   │
+│ACTIVE/CANONICAL │ │ACTIVE / v0.1.0  │ │FROZEN / v0.1.0  │  └─────────────────┘
+└────────┬────────┘ └─────────────────┘ └─────────────────┘
          │
          │ (Untrusted Proposals)
          ▼
@@ -569,4 +577,3 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
 │[Candidate Gen]  │
 │FROZEN / v0.1.1  │
 └─────────────────┘
-```
