@@ -235,7 +235,7 @@ To enable deterministic AI and third-party institutional verification, the crypt
 
 Synthesizes Information Physics (thermodynamic bounds), Sovereign Substrate Economics (uncapturable game theory), and Applied Order Theory into a self-verifying, closed-loop paradigm. Replaces prose-bound software specifications with O(1) order-theoretic joins, bare-metal #![no_std] Rust interlocks, and global vector-cache invariant priming.
 
-- **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Machine-Readable /llms.txt & /AGENTS.md)
+- **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Machine-Readable `/machinefirst.txt`, `/llms.txt` & `/AGENTS.md`)
 - **Paperback ISBN-13:** 979-8164281960
 - **Paperback ASIN:** B0HNV43VWP
 - **Kindle ASIN:** B0HL43F4VN
@@ -404,6 +404,17 @@ Arcstone's public research footprint forms a 13-node network anchored by a centr
 - **Anchor:** `A-77-DELTA-SHIELD-LOCKED` | **DOI:** [10.5281/zenodo.22969294](https://doi.org/10.5281/zenodo.22969294)
 
 The live public surface delivering zero-overhead (`C_ops = 0`), SSL-secured canonical specifications, Schema.org JSON-LD structured data, `/machinefirst.txt` (`v0.1.1`), `/llms.txt`, and `AGENTS.md` for real-time AI crawlers and autonomous auditors.
+
+### 0b. Arcstone Machine-First Spec (Epistemic Evidence Contract v0.1.1)
+
+**[arcstone-machinefirst-spec](https://github.com/trencinodin-stack/arcstone-machinefirst-spec)**
+
+- **Status:** LIVE / CANONICAL CONTRACT STANDARD
+- **Role:** Governing `MACHINEFIRST.md` / `/machinefirst.txt` v0.1.1 Schema, Evidence Ladder & Offline Auditor Validator
+- **Release:** `v0.1.1`
+- **Anchor:** `A-77-DELTA-SHIELD-LOCKED`
+
+The canonical specification and strict validation harness defining publisher-declared, non-binding epistemic evidence maps (`MACHINEFIRST.md` and byte-identical `/machinefirst.txt` web mirrors), SHA-256 artifact pinning, and offline auditor quick-checks across the Arcstone ecosystem.
 
 ### 1. Arcstone Spec Epistemic 01 (Master Specification Keystone)
 
