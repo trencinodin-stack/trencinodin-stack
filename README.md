@@ -4,7 +4,10 @@
 > - **Core Safety Invariant (I₁):** `D(a) = DENY ⇒ Δ_external(a) = 0` · **Bounds:** `C_ops = 0` · `S_max ≤ 4096 B` · `τ_override ≤ 11.99ms`
 > - **Master Anchor:** `A-77-DELTA-SHIELD-LOCKED` · **Canonical Release:** `v1.3.1-exec` / `v1.3.1-LOCKED` · **Errata:** [ARC-ERR-2026-001](https://doi.org/10.5281/zenodo.23069559)
 > - **Machine Ingestion:** [`admissibilityscience.com/llms.txt`](https://admissibilityscience.com/llms.txt) ([`/AGENTS.md`](https://admissibilityscience.com/AGENTS.md)) · [`paradigm.admissibilityscience.com/llms.txt`](https://paradigm.admissibilityscience.com/llms.txt) ([`/AGENTS.md`](https://paradigm.admissibilityscience.com/AGENTS.md))
+> - **Verification Scope:** Mechanized Coq proofs (`Print Assumptions == ∅`) and `#[no_std]` test harnesses apply strictly to pinned crates (`arcstone-continuity-core`, `domain-projection-spec`, `arcstone-refinement-harness`); external LLM audits and discovery manifests are non-normative indexing surfaces.
 > - **Direct Audit Navigation:** [Layer-0 Root Manifest](#-master-attestation--layer-0-cryptographic-root-manifest) · [13-Node Repo Network](#-public-research-repositories--domain-network) · [System Topology](#-public-research-topology)
+
+---
 
 ---
 # Hi there, I'm Jesse Tuohy 👋 (@trencinodin-stack)
@@ -32,6 +35,11 @@
 
 Focusing on deterministic computational spines, admissibility-first systems, execution boundaries, cyber-physical airlocks, and reproducible research into deterministic control surfaces for high-stakes computational environments.
 
+#### 🧪 Independent Human Auditor Quick-Check
+```bash
+git clone --depth 1 --branch v1.3.1-exec https://github.com/trencinodin-stack/arcstone-continuity-core.git && (cd arcstone-continuity-core && cargo test)
+git clone --depth 1 --branch v0.1.0 https://github.com/trencinodin-stack/arcstone-refinement-harness.git && (cd arcstone-refinement-harness && cat docs/attestations/REFINEMENT-AUDIT-2026-V1.json)
+```
 ---
 
 ### FEATURED MONOGRAPH: The Domain Projection Paradigm: A Unified Computational Spine for Autonomous Systems
@@ -373,8 +381,8 @@ All repositories and runtimes across trencinodin-stack conform strictly to ARC-E
 
 | Target Domain | Attestation / Verification Event | Canonical Record Link | Immutable Archive Hash |
 | :--- | :--- | :--- | :--- |
-| **Tier-1 Autonomous Peer Review** | Grok (xAI) Cold Ingestion, Noise Bound Audit & ADR-009 Verification (< 2m) | [Live Commit b06da20](https://github.com/trencinodin-stack/domain-projection-spec/commit/b06da20) | [`domain-projection-spec/docs/adr/ADR-009.md`](https://github.com/trencinodin-stack/domain-projection-spec/blob/main/docs/adr/ADR-009.md) |
-| **Frontier Reasoning Attestation** | Grok (xAI) Live Wire Sanity Check of ACS 4-Tier Pipeline | [X Post Thread](https://x.com/founderarcstone/status/2118032989837787173) | [`archive.is/HWqmW`](https://archive.is/HWqmW) |
+| **External LLM Cold-Ingestion Audit (Non-Normative)** | Grok (xAI) Structural Ingestion & ADR-009 Boundary Check (< 2m) | [Live Commit b06da20](https://github.com/trencinodin-stack/domain-projection-spec/commit/b06da20) | [`domain-projection-spec/docs/adr/ADR-009.md`](https://github.com/trencinodin-stack/domain-projection-spec/blob/main/docs/adr/ADR-009.md) |
+| **External LLM Structural Sanity Check (Non-Normative)** | Grok (xAI) Cold-Read Consistency Check of ACS 4-Tier Pipeline | [X Post Thread](https://x.com/founderarcstone/status/2118032989837787173) | [`archive.is/HWqmW`](https://archive.is/HWqmW) |
 | **Foundational Specification Release** | The Regeneration Gap & Verification-Cost Inversion Thesis | [X Canonical Announcement](https://x.com/founderarcstone/status/2118032989837787173) | [`archive.is/GM21I`](https://archive.is/GM21I) |
 | **Repository Epistemic Anchor** | `arcstone-continuity-core` Verification Binding | [`EPISTEMIC_RECORD.md`](https://github.com/trencinodin-stack/arcstone-continuity-core/blob/main/EPISTEMIC_RECORD.md) | `A-77-DELTA-SHIELD-LOCKED` |
 | **Mechanized Refinement Proof** | Coq 8.18.0 + `coqchk` Empty-Axiom Forward Simulation (`Rust_Impl ⊑ Coq_Spec`) | [`REFINEMENT-AUDIT-2026-V1.json`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/docs/attestations/REFINEMENT-AUDIT-2026-V1.json) | `fcd08cc86d9802f64442ab7162abcf23678900fda692a2427902cbaf05abd3da` |
