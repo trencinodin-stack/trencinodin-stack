@@ -3,7 +3,7 @@
 >
 > - **Core Safety Invariant (I₁):** `D(a) = DENY ⇒ Δ_external(a) = 0` · **Bounds:** `C_ops = 0` · `S_max ≤ 4096 B` · `τ_override ≤ 11.99ms`
 > - **Master Anchor:** `A-77-DELTA-SHIELD-LOCKED` · **Canonical Release:** `v1.3.1-exec` / `v1.3.1-LOCKED` · **Errata:** [ARC-ERR-2026-001](https://doi.org/10.5281/zenodo.23069559)
-> - **Machine Ingestion:** [`admissibilityscience.com/llms.txt`](https://admissibilityscience.com/llms.txt) ([`/AGENTS.md`](https://admissibilityscience.com/AGENTS.md)) · [`paradigm.admissibilityscience.com/llms.txt`](https://paradigm.admissibilityscience.com/llms.txt) ([`/AGENTS.md`](https://paradigm.admissibilityscience.com/AGENTS.md))
+> - **Machine Ingestion:** [`admissibilityscience.com/machinefirst.txt`](https://admissibilityscience.com/machinefirst.txt) · [`paradigm.admissibilityscience.com/machinefirst.txt`](https://paradigm.admissibilityscience.com/machinefirst.txt) · [`/llms.txt`](https://admissibilityscience.com/llms.txt) · [`/AGENTS.md`](https://admissibilityscience.com/AGENTS.md) · [`arcstone-machinefirst-spec` (`v0.1.1`)](https://github.com/trencinodin-stack/arcstone-machinefirst-spec)
 > - **Verification Scope:** Mechanized Coq proofs (`Print Assumptions == ∅`) and `#[no_std]` test harnesses apply strictly to pinned crates (`arcstone-continuity-core`, `domain-projection-spec`, `arcstone-refinement-harness`); external LLM audits and discovery manifests are non-normative indexing surfaces.
 > - **Direct Audit Navigation:** [Layer-0 Root Manifest](#-master-attestation--layer-0-cryptographic-root-manifest) · [13-Node Repo Network](#-public-research-repositories--domain-network) · [System Topology](#-public-research-topology)
 
@@ -25,6 +25,7 @@
 #### 🧭 Architecture Quick-Start
 * **Master Specification (Layer 0):** [`arcstone-spec-epistemic-01`](https://github.com/trencinodin-stack/arcstone-spec-epistemic-01) — Formal invariant definitions (I₁–I₃) and category-theoretic functor mappings (Φ : L → E).
 * **Domain Projection Spec (Phase 8):** [`domain-projection-spec`](https://github.com/trencinodin-stack/domain-projection-spec) — Mechanized Coq 8.18.0 proofs, Plonkish decomposition gates (G1–G6), discrete Gronwall margin witnesses (γ ∈ ℚ), and freestanding `#![no_std]` reference engine (`v0.1.0` / ADR-008 & ADR-009).
+* **Machine-First Epistemic Contract (`v0.1.1`):** [`arcstone-machinefirst-spec`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) — Publisher-declared, non-binding `MACHINEFIRST.md` / `/machinefirst.txt` schema, evidence ladder, SHA-256 artifact pinning, and offline auditor quick-check validator.
 * **Institutional Treasury Rails Reference:** [`arcstone-treasury-bind`](https://github.com/trencinodin-stack/arcstone-treasury-bind) — Canonical `#![no_std]` reference crate (`v0.1.0`), out-of-band CAS payload isolation (`S_max ≤ 4096 B`), 96-byte packed `ExecutionPermit` generation, and closed 7-state reconciliation automaton under Federal Reserve SR 26-2 & OCC Bulletin 2026-13.
 * **Executable Reference Benchmark:** [`autodidactic-credential-sovereignty`](https://github.com/trencinodin-stack/autodidactic-credential-sovereignty) — Machine-checked Coq proofs (`Print Assumptions ≡ ∅`), `#![no_std]` bare-metal test harnesses, Groth16 ZK circuits, and the Epistemic Elevation Charter (`ARC-CHARTER-2026-ELEV01`).
 * **Execution Engine (Path A):** [`arcstone-continuity-core`](https://github.com/trencinodin-stack/arcstone-continuity-core) — Zero-allocation, bare-metal `#![no_std]` Rust deterministic reference predicate.
@@ -48,7 +49,7 @@ git clone --depth 1 --branch v0.1.0 https://github.com/trencinodin-stack/arcston
 
 Autonomous systems deployed across high-consequence substrates frequently experience critical state divergence when probabilistic control models interface with asynchronous, physical, or distributed environments. This monograph formalizes the alternative established by the Arcstone Computational Spine (ACS): the Domain Projection Paradigm (DPP / ARC-SPEC-2026-DPP-01). The foundational thesis posits that host-level execution safety is governed by a minimal Layer-0 Universal Kernel (I1–I3) enforcing bare-metal admission contracts on the reference monitor's own transition relation and dispatch path. Defines a formal projection operator, $\Pi_{\text{domain}}$, synthesizing specialized child invariants (I4–I11) and composite cross-domain tensor invariants (I12–I13) with mechanized Coq proofs under zero admitted axioms.
 
-- **Canonical Edge Root:** [paradigm.admissibilityscience.com](https://paradigm.admissibilityscience.com) (Machine-Readable `/llms.txt` & `/AGENTS.md`)
+- **Canonical Edge Root:** [paradigm.admissibilityscience.com](https://paradigm.admissibilityscience.com) (Machine-Readable `/machinefirst.txt`, `/llms.txt` & `/AGENTS.md`)
 - **Primary Master DOI (Zenodo):** [10.5281/zenodo.24041851](https://doi.org/10.5281/zenodo.24041851)
 - **Primary Suite Record:** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 - **Verification Harness:** [`domain-projection-spec`](https://github.com/trencinodin-stack/domain-projection-spec)
@@ -65,7 +66,7 @@ Autonomous systems deployed across high-consequence substrates frequently experi
 
 Formalizes the mathematical, microarchitectural, and operational bounds decoupling execution authority from autoregressive generative proposals. Bridges empty-axiom Coq inductive proofs (`Print Assumptions ≡ ∅`, `Admitted ≡ 0`), order-preserving covariant functors (Φ : L → E) mapping a 5-element join-semilattice to a 6-tier operational dominance hierarchy, `#[no_std]` Rust and eBPF wire-speed ingress filters, and fail-closed physical hardware clamps (*D(a) = DENY ⇒ Δ_external(a) = 0*). Eliminates the Regeneration Gap and demonstrates Verification-Cost Inversion (VCI) to reduce institutional assurance from recurring human audits to amortized *O*(1) machine checks.
 
-- **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Machine-Readable `/llms.txt` & `/AGENTS.md`)
+- **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Machine-Readable `/machinefirst.txt`, `/llms.txt` & `/AGENTS.md`)
 - **Primary Version DOI (Zenodo):** [10.5281/zenodo.23967282](https://doi.org/10.5281/zenodo.23967282)
 - **Primary Suite Record:** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 - **Academic Suite DOI:** [10.5281/zenodo.23371581](https://doi.org/10.5281/zenodo.23371581)
@@ -95,7 +96,7 @@ Resolves the **Regeneration Gap**—the structural breakdown of transport-layer 
 
 The foundational technical specification establishing order-theoretic, bare-metal mathematical foundations for deterministic, fail-closed execution boundaries operating at zero operational drag (C_ops = 0).
 
-- **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Machine-Readable `/llms.txt` & `/AGENTS.md`)
+- **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Machine-Readable `/machinefirst.txt`, `/llms.txt` & `/AGENTS.md`)
 - **Paperback ISBN-13:** 9798161524664
 - **Paperback ASIN:** B0HMNNZQTV
 - **Kindle ASIN:** B0HMNDBGL1
@@ -402,7 +403,7 @@ Arcstone's public research footprint forms a 13-node network anchored by a centr
 - **Release:** `v1.3.1-exec`
 - **Anchor:** `A-77-DELTA-SHIELD-LOCKED` | **DOI:** [10.5281/zenodo.22969294](https://doi.org/10.5281/zenodo.22969294)
 
-The live public surface delivering zero-overhead (`C_ops = 0`), SSL-secured canonical specifications, Schema.org JSON-LD structured data, and `AGENTS.md` for real-time AI crawlers and autonomous indexers.
+The live public surface delivering zero-overhead (`C_ops = 0`), SSL-secured canonical specifications, Schema.org JSON-LD structured data, `/machinefirst.txt` (`v0.1.1`), `/llms.txt`, and `AGENTS.md` for real-time AI crawlers and autonomous auditors.
 
 ### 1. Arcstone Spec Epistemic 01 (Master Specification Keystone)
 
@@ -447,7 +448,7 @@ A lean deterministic reference implementation preserving selected Arcstone Conti
 - **Release:** `v0.1.0`
 - **Governance:** ADR-008 (Phase 7 Non-Supersession) & ADR-009 (Robust Continuous Invariant Certificates via Discrete Gronwall Margins)
 - **Anchor DOI:** [10.5281/zenodo.24041851](https://doi.org/10.5281/zenodo.24041851)
-- **Machine Discovery:** `/llms.txt` and `/AGENTS.md` (Cloudflare Pages Edge)
+- **Machine Discovery:** `/machinefirst.txt` (`v0.1.1`), `/llms.txt`, and `/AGENTS.md` (Cloudflare Pages Edge)
 
   The Phase 8 specification defining the continuous-to-discrete domain projection paradigm (`ARC-SPEC-2026-DPP-01`). Bridges high-rate cyber-physical sensors to discrete deterministic predicates via Plonkish 64-bit boolean decomposition gates (G₁–G₆), mechanical stop (M_stop) bounds, and offline Bellman-Gronwall reachability certificates (γ ∈ ℚ). Mechanized proofs in Coq 8.18.0 verify that projection preserves Invariant I₁ and Monotonicity I₂ with zero admitted axioms, compiling to bare-metal `thumbv7em-none-eabihf` with `M_alloc = 0` and `S_max ≤ 4096 B`.
 
