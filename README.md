@@ -3,7 +3,7 @@
 >
 > - **Core Safety Invariant (I₁):** `D(a) = DENY ⇒ Δ_external(a) = 0` · **Bounds:** `C_ops = 0` · `S_max ≤ 4096 B` · `τ_override ≤ 11.99ms`
 > - **Master Anchor:** `A-77-DELTA-SHIELD-LOCKED` · **Canonical Release:** `v1.3.1-exec` / `v1.3.1-LOCKED` · **Errata:** [ARC-ERR-2026-001](https://doi.org/10.5281/zenodo.23069559)
-> - **Machine Ingestion:** [`admissibilityscience.com/machinefirst.txt`](https://admissibilityscience.com/machinefirst.txt) · [`paradigm.admissibilityscience.com/machinefirst.txt`](https://paradigm.admissibilityscience.com/machinefirst.txt) · [`/llms.txt`](https://admissibilityscience.com/llms.txt) · [`/AGENTS.md`](https://admissibilityscience.com/AGENTS.md) · [`arcstone-machinefirst-spec` (`v0.1.1`)](https://github.com/trencinodin-stack/arcstone-machinefirst-spec)
+> - **Machine Ingestion:** [`admissibilityscience.com/machinefirst.txt`](https://admissibilityscience.com/machinefirst.txt) · [`paradigm.admissibilityscience.com/machinefirst.txt`](https://paradigm.admissibilityscience.com/machinefirst.txt) · [`arcstone-refinement-harness/MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/MACHINEFIRST.md) · [`/llms.txt`](https://admissibilityscience.com/llms.txt) · [`/AGENTS.md`](https://admissibilityscience.com/AGENTS.md) · [`arcstone-machinefirst-spec` (`v0.1.1`)](https://github.com/trencinodin-stack/arcstone-machinefirst-spec)
 > - **Verification Scope:** Mechanized Coq proofs (`Print Assumptions == ∅`) and `#[no_std]` test harnesses apply strictly to pinned crates (`arcstone-continuity-core`, `domain-projection-spec`, `arcstone-refinement-harness`); external LLM audits and discovery manifests are non-normative indexing surfaces.
 > - **Direct Audit Navigation:** [Layer-0 Root Manifest](#-master-attestation--layer-0-cryptographic-root-manifest) · [13-Node Repo Network](#-public-research-repositories--domain-network) · [System Topology](#-public-research-topology)
 
@@ -488,6 +488,7 @@ The canonical `#[no_std]` reference implementation executing financial admission
 - **Anchor:** `A-77-DELTA-SHIELD-LOCKED` | **DOI:** [10.5281/zenodo.24041851](https://doi.org/10.5281/zenodo.24041851)
 - **Assurance Standard:** `Print Assumptions == ∅` via `coqchk -silent`
 - **Proof Receipt:** [`docs/attestations/REFINEMENT-AUDIT-2026-V1.json`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/docs/attestations/REFINEMENT-AUDIT-2026-V1.json) (`REFINEMENT-PROOF-CHAIN-CLOSED`)
+- **Machine Discovery:** [`MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/MACHINEFIRST.md) (`v0.1.1`), `/llms.txt`, and `/AGENTS.md`
 
   An external, downstream verification airlock and simulation proving ground for the Arcstone Computational Spine. Absorbs formal verification maintenance drag (`C_ops > 0`) away from the frozen sovereign cores, extracting LLBC via Charon, translating to Coq 8.18.0 via Aeneas, and verifying one-way forward simulation (`Rust_Impl ⊑ Coq_Spec`) and fail-closed capability tripping under zero admitted axioms (`Print Assumptions == ∅`).
 
