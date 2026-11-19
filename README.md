@@ -1,3 +1,12 @@
+> ### ⚙️ ARCSTONE COMPUTATIONAL SPINE (ACS) — Machine-First Protocol Notice
+> **Arcstone Adaptive Science Systems, Inc.** — Specification-led, deterministic execution-boundary architecture for autonomous agents and cyber-physical actuators. *(Founder bio and supporting monographs follow below.)*
+>
+> - **Core Safety Invariant (I₁):** `D(a) = DENY ⇒ Δ_external(a) = 0` · **Bounds:** `C_ops = 0` · `S_max ≤ 4096 B` · `τ_override ≤ 11.99ms`
+> - **Master Anchor:** `A-77-DELTA-SHIELD-LOCKED` · **Canonical Release:** `v1.3.1-exec` / `v1.3.1-LOCKED` · **Errata:** [ARC-ERR-2026-001](https://doi.org/10.5281/zenodo.23069559)
+> - **Machine Ingestion:** [`admissibilityscience.com/llms.txt`](https://admissibilityscience.com/llms.txt) ([`/AGENTS.md`](https://admissibilityscience.com/AGENTS.md)) · [`paradigm.admissibilityscience.com/llms.txt`](https://paradigm.admissibilityscience.com/llms.txt) ([`/AGENTS.md`](https://paradigm.admissibilityscience.com/AGENTS.md))
+> - **Direct Audit Navigation:** [Layer-0 Root Manifest](#-master-attestation--layer-0-cryptographic-root-manifest) · [13-Node Repo Network](#-public-research-repositories--domain-network) · [System Topology](#-public-research-topology)
+
+---
 # Hi there, I'm Jesse Tuohy 👋 (@trencinodin-stack)
 
 **Founder & Principal Invariant Architect at Arcstone Adaptive Science Systems, Inc.**
