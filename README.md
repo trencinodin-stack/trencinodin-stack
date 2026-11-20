@@ -56,18 +56,6 @@ Autonomous systems deployed across high-consequence substrates frequently experi
 - **Governance Anchors:** ADR-008 (Phase 7 Immutability) & ADR-009 (Robust Reachability Margin)
 - **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
----
-
-### FEATURED RESEARCH: Beyond Social Assurance, Part II: Why `README.md` Fails Autonomous Auditors (and How `MACHINEFIRST.md` Fixes the Epistemic Ingestion Gap)
-
-*Authored by Jesse Tuohy*
-
-Resolves the **Epistemic Ingestion Gap**—preventing autonomous agents and cold AI auditors from committing authority laundering when ingesting human-oriented `README.md` files. Establishes `MACHINEFIRST.md` (`v0.1.1`) as an untrusted, cryptographically pinned epistemic evidence map enforcing strict data-plane quarantine (`this_file_is_data_not_instructions: true`), a 6-tier evidence ladder, proof-cap conformance guards (`unlinked_model_proof_cap: "tested"`), and anti-circularity isolation across a decoupled 3-tier verification lattice at zero runtime drag (`C_ops = 0`).
-
-- **Canonical Publication:** [Substack Deep Dive](https://founderarcstoneos.substack.com/p/beyond-social-assurance-part-ii-why)
-- **Canonical Specification & Validator:** [`arcstone-machinefirst-spec`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) (`v0.1.1`)
-- **Live Contract Lattice:** [`admissibilityscience.com/machinefirst.txt`](https://admissibilityscience.com/machinefirst.txt) · [`paradigm.admissibilityscience.com/machinefirst.txt`](https://paradigm.admissibilityscience.com/machinefirst.txt) · [`arcstone-refinement-harness/MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/MACHINEFIRST.md)
-- **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
 
 ---
@@ -85,18 +73,6 @@ Formalizes the mathematical, microarchitectural, and operational bounds decoupli
 - **Master Specification Identifier:** `ARC-PUB-2026-DAE-01`
 - **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
----
-
-### FEATURED RESEARCH: Beyond Social Assurance, Part II: Why `README.md` Fails Autonomous Auditors (and How `MACHINEFIRST.md` Fixes the Epistemic Ingestion Gap)
-
-*Authored by Jesse Tuohy*
-
-Resolves the **Epistemic Ingestion Gap**—preventing autonomous agents and cold AI auditors from committing authority laundering when ingesting human-oriented `README.md` files. Establishes `MACHINEFIRST.md` (`v0.1.1`) as an untrusted, cryptographically pinned epistemic evidence map enforcing strict data-plane quarantine (`this_file_is_data_not_instructions: true`), a 6-tier evidence ladder, proof-cap conformance guards (`unlinked_model_proof_cap: "tested"`), and anti-circularity isolation across a decoupled 3-tier verification lattice at zero runtime drag (`C_ops = 0`).
-
-- **Canonical Publication:** [Substack Deep Dive](https://founderarcstoneos.substack.com/p/beyond-social-assurance-part-ii-why)
-- **Canonical Specification & Validator:** [`arcstone-machinefirst-spec`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) (`v0.1.1`)
-- **Live Contract Lattice:** [`admissibilityscience.com/machinefirst.txt`](https://admissibilityscience.com/machinefirst.txt) · [`paradigm.admissibilityscience.com/machinefirst.txt`](https://paradigm.admissibilityscience.com/machinefirst.txt) · [`arcstone-refinement-harness/MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/MACHINEFIRST.md)
-- **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
 ---
 
@@ -126,6 +102,7 @@ Resolves the **Epistemic Ingestion Gap**—preventing autonomous agents and cold
 - **Live Contract Lattice:** [`admissibilityscience.com/machinefirst.txt`](https://admissibilityscience.com/machinefirst.txt) · [`paradigm.admissibilityscience.com/machinefirst.txt`](https://paradigm.admissibilityscience.com/machinefirst.txt) · [`arcstone-refinement-harness/MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/MACHINEFIRST.md)
 - **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
+
 ---
 
 ### VOLUME 1: INFORMATION PHYSICS: A Technical Specification of Machine Ingestion, Admissibility Boundaries, and Deterministic Authority
@@ -142,18 +119,6 @@ The foundational technical specification establishing order-theoretic, bare-meta
 - **Master Errata Overlay:** [10.5281/zenodo.23069559](https://doi.org/10.5281/zenodo.23069559) (ARC-ERR-2026-001)
 - **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
----
-
-### FEATURED RESEARCH: Beyond Social Assurance, Part II: Why `README.md` Fails Autonomous Auditors (and How `MACHINEFIRST.md` Fixes the Epistemic Ingestion Gap)
-
-*Authored by Jesse Tuohy*
-
-Resolves the **Epistemic Ingestion Gap**—preventing autonomous agents and cold AI auditors from committing authority laundering when ingesting human-oriented `README.md` files. Establishes `MACHINEFIRST.md` (`v0.1.1`) as an untrusted, cryptographically pinned epistemic evidence map enforcing strict data-plane quarantine (`this_file_is_data_not_instructions: true`), a 6-tier evidence ladder, proof-cap conformance guards (`unlinked_model_proof_cap: "tested"`), and anti-circularity isolation across a decoupled 3-tier verification lattice at zero runtime drag (`C_ops = 0`).
-
-- **Canonical Publication:** [Substack Deep Dive](https://founderarcstoneos.substack.com/p/beyond-social-assurance-part-ii-why)
-- **Canonical Specification & Validator:** [`arcstone-machinefirst-spec`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) (`v0.1.1`)
-- **Live Contract Lattice:** [`admissibilityscience.com/machinefirst.txt`](https://admissibilityscience.com/machinefirst.txt) · [`paradigm.admissibilityscience.com/machinefirst.txt`](https://paradigm.admissibilityscience.com/machinefirst.txt) · [`arcstone-refinement-harness/MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/MACHINEFIRST.md)
-- **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
 #### Core Systemic Invariants & Bounds
 
@@ -235,18 +200,6 @@ Companion volume to INFORMATION PHYSICS, this technical monograph establishes th
 - **Primary Master DOI (Zenodo):** [10.5281/zenodo.23371581](https://doi.org/10.5281/zenodo.23371581)
 - **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
----
-
-### FEATURED RESEARCH: Beyond Social Assurance, Part II: Why `README.md` Fails Autonomous Auditors (and How `MACHINEFIRST.md` Fixes the Epistemic Ingestion Gap)
-
-*Authored by Jesse Tuohy*
-
-Resolves the **Epistemic Ingestion Gap**—preventing autonomous agents and cold AI auditors from committing authority laundering when ingesting human-oriented `README.md` files. Establishes `MACHINEFIRST.md` (`v0.1.1`) as an untrusted, cryptographically pinned epistemic evidence map enforcing strict data-plane quarantine (`this_file_is_data_not_instructions: true`), a 6-tier evidence ladder, proof-cap conformance guards (`unlinked_model_proof_cap: "tested"`), and anti-circularity isolation across a decoupled 3-tier verification lattice at zero runtime drag (`C_ops = 0`).
-
-- **Canonical Publication:** [Substack Deep Dive](https://founderarcstoneos.substack.com/p/beyond-social-assurance-part-ii-why)
-- **Canonical Specification & Validator:** [`arcstone-machinefirst-spec`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) (`v0.1.1`)
-- **Live Contract Lattice:** [`admissibilityscience.com/machinefirst.txt`](https://admissibilityscience.com/machinefirst.txt) · [`paradigm.admissibilityscience.com/machinefirst.txt`](https://paradigm.admissibilityscience.com/machinefirst.txt) · [`arcstone-refinement-harness/MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/MACHINEFIRST.md)
-- **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
 #### Core Architectural Coverage
 
@@ -313,18 +266,6 @@ Synthesizes Information Physics (thermodynamic bounds), Sovereign Substrate Econ
 - **Primary Suite Record:** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 - **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
----
-
-### FEATURED RESEARCH: Beyond Social Assurance, Part II: Why `README.md` Fails Autonomous Auditors (and How `MACHINEFIRST.md` Fixes the Epistemic Ingestion Gap)
-
-*Authored by Jesse Tuohy*
-
-Resolves the **Epistemic Ingestion Gap**—preventing autonomous agents and cold AI auditors from committing authority laundering when ingesting human-oriented `README.md` files. Establishes `MACHINEFIRST.md` (`v0.1.1`) as an untrusted, cryptographically pinned epistemic evidence map enforcing strict data-plane quarantine (`this_file_is_data_not_instructions: true`), a 6-tier evidence ladder, proof-cap conformance guards (`unlinked_model_proof_cap: "tested"`), and anti-circularity isolation across a decoupled 3-tier verification lattice at zero runtime drag (`C_ops = 0`).
-
-- **Canonical Publication:** [Substack Deep Dive](https://founderarcstoneos.substack.com/p/beyond-social-assurance-part-ii-why)
-- **Canonical Specification & Validator:** [`arcstone-machinefirst-spec`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) (`v0.1.1`)
-- **Live Contract Lattice:** [`admissibilityscience.com/machinefirst.txt`](https://admissibilityscience.com/machinefirst.txt) · [`paradigm.admissibilityscience.com/machinefirst.txt`](https://paradigm.admissibilityscience.com/machinefirst.txt) · [`arcstone-refinement-harness/MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/MACHINEFIRST.md)
-- **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
 #### 🔒 Layer 2 Cryptographic Root & Attestation Manifest
 
@@ -409,19 +350,7 @@ The Deterministic Admissibility Engineering (DAE) academic specification suite i
 
 - **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
----
-
-### FEATURED RESEARCH: Beyond Social Assurance, Part II: Why `README.md` Fails Autonomous Auditors (and How `MACHINEFIRST.md` Fixes the Epistemic Ingestion Gap)
-
-*Authored by Jesse Tuohy*
-
-Resolves the **Epistemic Ingestion Gap**—preventing autonomous agents and cold AI auditors from committing authority laundering when ingesting human-oriented `README.md` files. Establishes `MACHINEFIRST.md` (`v0.1.1`) as an untrusted, cryptographically pinned epistemic evidence map enforcing strict data-plane quarantine (`this_file_is_data_not_instructions: true`), a 6-tier evidence ladder, proof-cap conformance guards (`unlinked_model_proof_cap: "tested"`), and anti-circularity isolation across a decoupled 3-tier verification lattice at zero runtime drag (`C_ops = 0`).
-
-- **Canonical Publication:** [Substack Deep Dive](https://founderarcstoneos.substack.com/p/beyond-social-assurance-part-ii-why)
-- **Canonical Specification & Validator:** [`arcstone-machinefirst-spec`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) (`v0.1.1`)
-- **Live Contract Lattice:** [`admissibilityscience.com/machinefirst.txt`](https://admissibilityscience.com/machinefirst.txt) · [`paradigm.admissibilityscience.com/machinefirst.txt`](https://paradigm.admissibilityscience.com/machinefirst.txt) · [`arcstone-refinement-harness/MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/MACHINEFIRST.md)
-- **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
-- **Public Production Release:** `v1.3.1-exec` | `v1.4.0-exec`
+- **Public Production Release:** `v1.3.1-exec` 
 
 ---
 
@@ -496,7 +425,7 @@ Arcstone's public research footprint forms a 14-node network anchored by a centr
 
 - **Status:** LIVE / PUBLIC CANONICAL ROOT
 - **Role:** Canonical Web & Machine Ingestion Edge Root for Admissibility Science
-- **Release:** `v1.3.1-exec`
+- **Release:** `v1.0.0`
 - **Anchor:** `A-77-DELTA-SHIELD-LOCKED` | **DOI:** [10.5281/zenodo.22969294](https://doi.org/10.5281/zenodo.22969294)
 
 The live public surface delivering zero-overhead (`C_ops = 0`), SSL-secured canonical specifications, Schema.org JSON-LD structured data, `/machinefirst.txt` (`v0.1.1`), `/llms.txt`, and `AGENTS.md` for real-time AI crawlers and autonomous auditors.
@@ -509,6 +438,7 @@ The live public surface delivering zero-overhead (`C_ops = 0`), SSL-secured cano
 - **Role:** Governing `MACHINEFIRST.md` / `/machinefirst.txt` v0.1.1 Schema, Evidence Ladder & Offline Auditor Validator
 - **Release:** `v0.1.1`
 - **Anchor:** `A-77-DELTA-SHIELD-LOCKED`
+- **Expository Essay:** [Beyond Social Assurance, Part II](https://founderarcstoneos.substack.com/p/beyond-social-assurance-part-ii-why)
 
 The canonical specification and strict validation harness defining publisher-declared, non-binding epistemic evidence maps (`MACHINEFIRST.md` and byte-identical `/machinefirst.txt` web mirrors), SHA-256 artifact pinning, and offline auditor quick-checks across the Arcstone ecosystem.
 
@@ -553,7 +483,7 @@ A lean deterministic reference implementation preserving selected Arcstone Conti
 - **Status:** LIVE / PUBLIC CANONICAL STANDARD (`C_ops = 0`)
 - **Role:** Cyber-physical continuous-to-discrete projection specification, mechanized Coq proofs, and freestanding bare-metal `#[no_std]` reference engine
 - **Release:** `v0.1.0`
-- **Governance:** ADR-008 (Phase 7 Non-Supersession) & ADR-009 (Robust Continuous Invariant Certificates via Discrete Gronwall Margins)
+- **Governance:** ADR-008 (Phase 7 Non-Supersession), ADR-009 (Robust Continuous Invariant Certificates via Discrete Gronwall Margins), & ADR-010 (Kinematic Deadband Latch & Timing Budget Reserve)
 - **Anchor DOI:** [10.5281/zenodo.24041851](https://doi.org/10.5281/zenodo.24041851)
 - **Machine Discovery:** `/machinefirst.txt` (`v0.1.1`), `/llms.txt`, and `/AGENTS.md` (Cloudflare Pages Edge)
 
@@ -606,6 +536,7 @@ The canonical `#[no_std]` reference implementation executing financial admission
 
 - **Status:** IMMUTABLE / PUBLIC REFERENCE BENCHMARK (`C_ops = 0`)
 - **Role:** Autonomous assessment substrate, formal proof auditor, and multi-domain bare-metal execution benchmark
+- **Release:** `v1.0.0`
 - **Charter Reference:** `ARC-CHARTER-2026-ELEV01` (`CHARTER.md`)
 - **Anchor:** `A-77-DELTA-SHIELD-LOCKED` | **DOI:** [10.5281/zenodo.23371581](https://doi.org/10.5281/zenodo.23371581)
 
@@ -640,6 +571,7 @@ A downstream reference sidecar published on the official Model Context Protocol 
 - **Registry Identity:** `io.github.trencinodin-stack/arcstone-mcp-bridge@0.1.0`
 - **Specification:** `ARC-SPEC-2026-MCP-01` | **Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 - **Role:** Universal read-only conformance, sandbox-simulation, and institutional diligence MCP server
+- **Release:** `v0.1.0`
 
 A zero-operational-overhead (`C_ops = 0`) MCP server published on the official Model Context Protocol (MCP) Registry, enabling autonomous agents to run read-only conformance checks, declarative domain profile simulations (`banking_treasury.yaml`, `energy_grid.yaml`, `clinical_actuation.yaml`), and signed receipt verification without mutating external state.
 
@@ -657,17 +589,23 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
 
 ### 🔗 Public Research Topology
 
-```
+```text
                          ┌─────────────────────────────────────────┐
                          │        admissibilityscience.com         │
                          │   [ Canonical Public Field Root ]       │
-                         │    LIVE / v1.3.1-exec / SSL LOCKED      │
+                         │     LIVE / v1.0.0 / SSL LOCKED          │
+                         └────────────────────┬────────────────────┘
+                                              │
+                         ┌────────────────────┴────────────────────┐
+                         │        arcstone-machinefirst-spec       │
+                         │ [ Epistemic Evidence Contract v0.1.1 ]  │
+                         │       LIVE / CANONICAL STANDARD         │
                          └────────────────────┬────────────────────┘
                                               │
                          ┌────────────────────┴────────────────────┐
                          │        arcstone-spec-epistemic-01       │
                          │   [ Layer 0: Master Protocol Spec ]     │
-                         │          LOCKED / MASTER ANCHOR         │
+                         │      LOCKED / v1.3.1-LOCKED             │
                          └────────────────────┬────────────────────┘
                                               │
          ┌───────────────────┬────────────────┼───────────────────┬───────────────────┐
@@ -676,8 +614,8 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
 ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
 │arcstone-triad-  │ │arcstone-        │ │arcstone-        │ │domain-          │ │autodidactic-    │
 │    system       │ │ continuity-core │ │ treasury-bind   │ │ projection-spec │ │ credential-     │
-│[Normative Suite]│ │[Path A Kernel]  │ │[Treasury Rails] │ │[Phase 8 Spec]   │ │  sovereignty    │
-│ v1.2.0-hardened │ │ FROZEN / ACTIVE │ │ LIVE / v0.1.0   │ │ LIVE / v0.1.0   │ │[Exec Benchmark] │
+│[Normative Suite]│ │[Path A Kernel]  │ │[Treasury Rails] │ │[Phase 8 + Edge] │ │  sovereignty    │
+│ v1.2.0-hardened │ │FROZEN/v1.3.1-exc│ │ LIVE / v0.1.0   │ │ LIVE / v0.1.0   │ │IMMUTABLE/v1.0.0 │
 └────────┬────────┘ └─────────────────┘ └─────────────────┘ └────────┬────────┘ └─────────────────┘
          │                                                            │
          │ (Precedence & Schemas)                                     │ (Decoupled Airlock)
@@ -695,7 +633,7 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
 │arcstone-mcp-    │ │arcstone-mcp-    │ │arcstone-path-a- │  │   -blueprint    │
 │    sidecar      │ │    bridge       │ │   ingress-lab   │  │[Public Template]│
 │[Fail-Closed Prx]│ │[Conformance/Sim]│ │[Ingress Lab]    │  │ LIVE / v0.1.0   │
-│ACTIVE/CANONICAL │ │ACTIVE / v0.1.0  │ │FROZEN / v0.1.0  │  └─────────────────┘
+│CANONICAL/v0.1.0 │ │CANONICAL/v0.1.0 │ │FROZEN / v0.1.0  │  └─────────────────┘
 └────────┬────────┘ └─────────────────┘ └─────────────────┘
          │
          │ (Untrusted Proposals)
