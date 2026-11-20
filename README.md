@@ -5,7 +5,7 @@
 > - **Master Anchor:** `A-77-DELTA-SHIELD-LOCKED` · **Canonical Release:** `v1.3.1-exec` / `v1.3.1-LOCKED` · **Errata:** [ARC-ERR-2026-001](https://doi.org/10.5281/zenodo.23069559)
 > - **Machine Ingestion:** [`admissibilityscience.com/machinefirst.txt`](https://admissibilityscience.com/machinefirst.txt) · [`paradigm.admissibilityscience.com/machinefirst.txt`](https://paradigm.admissibilityscience.com/machinefirst.txt) · [`arcstone-refinement-harness/MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/MACHINEFIRST.md) · [`/llms.txt`](https://admissibilityscience.com/llms.txt) · [`/AGENTS.md`](https://admissibilityscience.com/AGENTS.md) · [`arcstone-machinefirst-spec` (`v0.1.1`)](https://github.com/trencinodin-stack/arcstone-machinefirst-spec)
 > - **Verification Scope:** Mechanized Coq proofs (`Print Assumptions == ∅`) and `#[no_std]` test harnesses apply strictly to pinned crates (`arcstone-continuity-core`, `domain-projection-spec`, `arcstone-refinement-harness`); external LLM audits and discovery manifests are non-normative indexing surfaces.
-> - **Direct Audit Navigation:** [Layer-0 Root Manifest](#-master-attestation--layer-0-cryptographic-root-manifest) · [14-Node Repo Network](#-public-research-repositories--domain-network) · [System Topology](#-public-research-topology)
+> - **Direct Audit Navigation:** [Layer-0 Root Manifest](#-master-attestation--layer-0-cryptographic-root-manifest) · [14-Repo & Web Network](#-public-research-repositories--domain-network) · [System Topology](#-public-research-topology)
 
 ---
 
@@ -46,7 +46,7 @@ git clone --depth 1 --branch v0.1.0 https://github.com/trencinodin-stack/arcston
 
 *Authored by Jesse Tuohy*
 
-Autonomous systems deployed across high-consequence substrates frequently experience critical state divergence when probabilistic control models interface with asynchronous, physical, or distributed environments. This monograph formalizes the alternative established by the Arcstone Computational Spine (ACS): the Domain Projection Paradigm (DPP / ARC-SPEC-2026-DPP-01). The foundational thesis posits that host-level execution safety is governed by a minimal Layer-0 Universal Kernel (I1–I3) enforcing bare-metal admission contracts on the reference monitor's own transition relation and dispatch path. Defines a formal projection operator, $\Pi_{\text{domain}}$, synthesizing specialized child invariants (I4–I11) and composite cross-domain tensor invariants (I12–I13) with mechanized Coq proofs under zero admitted axioms.
+Autonomous systems deployed across high-consequence substrates frequently experience critical state divergence when probabilistic control models interface with asynchronous, physical, or distributed environments. This monograph formalizes the alternative established by the Arcstone Computational Spine (ACS): the Domain Projection Paradigm (DPP / ARC-SPEC-2026-DPP-01). The foundational thesis posits that host-level execution safety is governed by a minimal Layer-0 Universal Kernel (I1–I3) enforcing bare-metal admission contracts on the reference monitor's own transition relation and dispatch path. Defines a formal projection operator, Π_domain, synthesizing specialized child invariants (I4–I11) and composite cross-domain tensor invariants (I12–I13) with mechanized Coq proofs under zero admitted axioms.
 
 - **Canonical Edge Root:** [paradigm.admissibilityscience.com](https://paradigm.admissibilityscience.com) (Machine-Readable `/machinefirst.txt`, `/llms.txt` & `/AGENTS.md`)
 - **Primary Master DOI (Zenodo):** [10.5281/zenodo.24041851](https://doi.org/10.5281/zenodo.24041851)
@@ -319,7 +319,7 @@ sha256sum "SOVEREIGN SUBSTRATE ECONOMICS_ Full Book Manuscript (V1).pdf"
 
 # Volume 3 Verification
 sha256sum "Deterministic Substrate Governance Final.pdf"
- ```
+```
 
 ## 🎓 Layer 1 Master Academic Suite & Realization Engine
 
@@ -417,7 +417,7 @@ All repositories and runtimes across trencinodin-stack conform strictly to ARC-E
 
 ## 📁 Public Research Repositories & Domain Network
 
-Arcstone's public research footprint forms a 14-node network anchored by a central Layer 0 master specification, normative machine contracts, and canonical web root.
+Arcstone's public research footprint spans 14 public repositories and a canonical web root, anchored by a central Layer 0 master specification and normative machine contracts.
 
 ### 0. Admissibility Science Canonical Root
 
@@ -573,7 +573,7 @@ A downstream reference sidecar published on the official Model Context Protocol 
 - **Role:** Universal read-only conformance, sandbox-simulation, and institutional diligence MCP server
 - **Release:** `v0.1.0`
 
-A zero-operational-overhead (`C_ops = 0`) MCP server published on the official Model Context Protocol (MCP) Registry, enabling autonomous agents to run read-only conformance checks, declarative domain profile simulations (`banking_treasury.yaml`, `energy_grid.yaml`, `clinical_actuation.yaml`), and signed receipt verification without mutating external state.
+A zero-operational-overhead (`C_ops = 0`) MCP server published on the official Model Context Protocol (MCP) Registry, enabling autonomous agents to run read-only conformance checks, declarative domain profile simulations (`banking_treasury.yaml`, `energy_grid.yaml`, `clinical_actuation.yaml`, `digital_assets.yaml`), and signed receipt verification without mutating external state.
 
 ### 7. Arcstone Adaptive Producer Lab
 
