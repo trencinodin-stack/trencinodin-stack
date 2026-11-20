@@ -26,7 +26,7 @@
 * **Domain Projection Spec (Phase 8):** [`domain-projection-spec`](https://github.com/trencinodin-stack/domain-projection-spec) — Mechanized Coq 8.18.0 proofs, Plonkish decomposition gates (G1–G6), discrete Gronwall margin witnesses (γ ∈ ℚ), and freestanding `#![no_std]` reference engine (`v0.1.0` / ADR-008 & ADR-009).
 * **Machine-First Epistemic Contract (`v0.1.1`):** [`arcstone-machinefirst-spec`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) — Publisher-declared, non-binding `MACHINEFIRST.md` / `/machinefirst.txt` schema, evidence ladder, SHA-256 artifact pinning, and offline auditor quick-check validator.
 * **Institutional Treasury Rails Reference:** [`arcstone-treasury-bind`](https://github.com/trencinodin-stack/arcstone-treasury-bind) — Canonical `#![no_std]` reference crate (`v0.1.0`), out-of-band CAS payload isolation (`S_max ≤ 4096 B`), 96-byte packed `ExecutionPermit` generation, and closed 7-state reconciliation automaton under Federal Reserve SR 26-2 & OCC Bulletin 2026-13.
-* **Executable Reference Benchmark:** [`autodidactic-credential-sovereignty`](https://github.com/trencinodin-stack/autodidactic-credential-sovereignty) — Machine-checked Coq proofs (`Print Assumptions ≡ ∅`), `#![no_std]` bare-metal test harnesses, Groth16 ZK circuits, and the Epistemic Elevation Charter (`ARC-CHARTER-2026-ELEV01`).
+* **Executable Reference Benchmark:** [`autodidactic-credential-sovereignty`](https://github.com/trencinodin-stack/autodidactic-credential-sovereignty) — Machine-checked Coq proofs (`Print Assumptions == ∅`), `#![no_std]` bare-metal test harnesses, Groth16 ZK circuits, and the Epistemic Elevation Charter (`ARC-CHARTER-2026-ELEV01`).
 * **Execution Engine (Path A):** [`arcstone-continuity-core`](https://github.com/trencinodin-stack/arcstone-continuity-core) — Zero-allocation, bare-metal `#![no_std]` Rust deterministic reference predicate.
 * **Agent Integration Surfaces (MCP Registry):** [`arcstone-mcp-sidecar`](https://github.com/trencinodin-stack/arcstone-mcp-sidecar) & [`arcstone-mcp-bridge`](https://github.com/trencinodin-stack/arcstone-mcp-bridge) (`v0.1.0`) — Reference execution boundary sidecar and read-only multi-domain conformance/simulation bridge published on the official Model Context Protocol (MCP) Registry (`C_ops = 0`).
 * **Normative Contracts & Physical Membrane:** [`arcstone-triad-system`](https://github.com/trencinodin-stack/arcstone-triad-system) — UEDO v1.2 schemas, SROS2/eBPF hardware interlocks, and Command MUX adapters (`v1.2.0-hardened`).
@@ -64,7 +64,7 @@ Autonomous systems deployed across high-consequence substrates frequently experi
 
 *Authored by Jesse Tuohy*
 
-Formalizes the mathematical, microarchitectural, and operational bounds decoupling execution authority from autoregressive generative proposals. Bridges empty-axiom Coq inductive proofs (`Print Assumptions ≡ ∅`, `Admitted ≡ 0`), order-preserving covariant functors (Φ : L → E) mapping a 5-element join-semilattice to a 6-tier operational dominance hierarchy, `#[no_std]` Rust and eBPF wire-speed ingress filters, and fail-closed physical hardware clamps (*D(a) = DENY ⇒ Δ_external(a) = 0*). Eliminates the Regeneration Gap and demonstrates Verification-Cost Inversion (VCI) to reduce institutional assurance from recurring human audits to amortized *O*(1) machine checks.
+Formalizes the mathematical, microarchitectural, and operational bounds decoupling execution authority from autoregressive generative proposals. Bridges empty-axiom Coq inductive proofs (`Print Assumptions == ∅`, `Admitted ≡ 0`), order-preserving covariant functors (Φ : L → E) mapping a 5-element join-semilattice to a 6-tier operational dominance hierarchy, `#[no_std]` Rust and eBPF wire-speed ingress filters, and fail-closed physical hardware clamps (*D(a) = DENY ⇒ Δ_external(a) = 0*). Eliminates the Regeneration Gap and demonstrates Verification-Cost Inversion (VCI) to reduce institutional assurance from recurring human audits to amortized *O*(1) machine checks.
 
 - **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Machine-Readable `/machinefirst.txt`, `/llms.txt` & `/AGENTS.md`)
 - **Primary Version DOI (Zenodo):** [10.5281/zenodo.23967282](https://doi.org/10.5281/zenodo.23967282)
@@ -175,6 +175,10 @@ A denied action guarantees zero protected state mutation.
     "arcstone-mcp-sidecar": "v0.1.0",
     "arcstone-mcp-bridge": "v0.1.0"
   },
+  "experimental_frozen_releases": {
+    "arcstone-path-a-ingress-lab": "v0.1.0",
+    "arcstone-adaptive-producer-lab": "v0.1.1-frozen"
+  },
   "operational_invariants": {
     "C_OPS_FLOOR": "C_ops = 0",
     "DELTA_EXTERNAL": "Delta_external = 0",
@@ -240,6 +244,10 @@ To enable deterministic AI and third-party institutional verification, the crypt
     "arcstone-mcp-sidecar": "v0.1.0",
     "arcstone-mcp-bridge": "v0.1.0"
   },
+  "experimental_frozen_releases": {
+    "arcstone-path-a-ingress-lab": "v0.1.0",
+    "arcstone-adaptive-producer-lab": "v0.1.1-frozen"
+  },
   "operational_invariants": {
     "C_OPS_FLOOR": "C_ops = 0",
     "VERIFICATION_INVERSION": "VCI = O(machine_time)",
@@ -299,6 +307,10 @@ Synthesizes Information Physics (thermodynamic bounds), Sovereign Substrate Econ
     "autodidactic-credential-sovereignty": "v1.0.0",
     "arcstone-mcp-sidecar": "v0.1.0",
     "arcstone-mcp-bridge": "v0.1.0"
+  },
+  "experimental_frozen_releases": {
+    "arcstone-path-a-ingress-lab": "v0.1.0",
+    "arcstone-adaptive-producer-lab": "v0.1.1-frozen"
   },
   "operational_invariants": {
     "C_OPS_FLOOR": "C_ops = 0",
@@ -540,7 +552,7 @@ The canonical `#[no_std]` reference implementation executing financial admission
 - **Charter Reference:** `ARC-CHARTER-2026-ELEV01` (`CHARTER.md`)
 - **Anchor:** `A-77-DELTA-SHIELD-LOCKED` | **DOI:** [10.5281/zenodo.23371581](https://doi.org/10.5281/zenodo.23371581)
 
-The executable realization of the DAE academic specification suite (`ARC-SPEC-2026-EDU-01..09`). Mechanizes the 4-Tier Credential Assurance Model (ACS-1 through ACS-4), enforcing empty-axiom Coq verification (`Print Assumptions ≡ ∅`), freestanding `#[no_std]` heap-free memory envelopes (`M_alloc = 0`), and Poseidon-hashed Groth16 zero-knowledge telemetry commitments (`zk/dae_verifier.circom`).
+The executable realization of the DAE academic specification suite (`ARC-SPEC-2026-EDU-01..09`). Mechanizes the 4-Tier Credential Assurance Model (ACS-1 through ACS-4), enforcing empty-axiom Coq verification (`Print Assumptions == ∅`), freestanding `#[no_std]` heap-free memory envelopes (`M_alloc = 0`), and Poseidon-hashed Groth16 zero-knowledge telemetry commitments (`zk/dae_verifier.circom`).
 
 ### 5. Arcstone Path A Ingress Lab
 
