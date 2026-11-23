@@ -613,7 +613,7 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
                                               │
                          ┌────────────────────┴────────────────────┐
                          │        arcstone-machinefirst-spec       │
-                         │ [ Epistemic Evidence Contract v0.1.1 ]  │
+                         │ [ Epistemic Evidence Contract v0.1.2 ]  │
                          │       LIVE / CANONICAL STANDARD         │
                          └────────────────────┬────────────────────┘
                                               │
