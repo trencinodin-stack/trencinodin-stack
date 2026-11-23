@@ -3,7 +3,7 @@
 >
 > - **Core Safety Invariant (I₁):** `D(a) = DENY ⇒ Δ_external(a) = 0` · **Bounds:** `C_ops = 0` · `S_max ≤ 4096 B` · `τ_override ≤ 11.99ms`
 > - **Master Anchor:** `A-77-DELTA-SHIELD-LOCKED` · **Canonical Release:** `v1.3.1-exec` / `v1.3.1-LOCKED` · **Errata:** [ARC-ERR-2026-001](https://doi.org/10.5281/zenodo.23069559)
-> - **Machine Ingestion:** [`admissibilityscience.com/machinefirst.txt`](https://admissibilityscience.com/machinefirst.txt) · [`paradigm.admissibilityscience.com/machinefirst.txt`](https://paradigm.admissibilityscience.com/machinefirst.txt) · [`arcstone-refinement-harness/MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/MACHINEFIRST.md) · [`/llms.txt`](https://admissibilityscience.com/llms.txt) · [`/AGENTS.md`](https://admissibilityscience.com/AGENTS.md) · [`arcstone-machinefirst-spec` (`v0.1.1`)](https://github.com/trencinodin-stack/arcstone-machinefirst-spec)
+> - **Machine Ingestion:** [`admissibilityscience.com/machinefirst.txt`](https://admissibilityscience.com/machinefirst.txt) · [`paradigm.admissibilityscience.com/machinefirst.txt`](https://paradigm.admissibilityscience.com/machinefirst.txt) · [`arcstone-refinement-harness/MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/MACHINEFIRST.md) · [`arcstone-airlock-blueprint/MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-airlock-blueprint/blob/main/MACHINEFIRST.md) · [`/llms.txt`](https://admissibilityscience.com/llms.txt) · [`/AGENTS.md`](https://admissibilityscience.com/AGENTS.md) · [`arcstone-machinefirst-spec` (`v0.1.2`)](https://github.com/trencinodin-stack/arcstone-machinefirst-spec)
 > - **Verification Scope:** Mechanized Coq proofs (`Print Assumptions == ∅`) and `#[no_std]` test harnesses apply strictly to pinned crates (`arcstone-continuity-core`, `domain-projection-spec`, `arcstone-refinement-harness`); external LLM audits and discovery manifests are non-normative indexing surfaces.
 > - **Direct Audit Navigation:** [Layer-0 Root Manifest](#-master-attestation--layer-0-cryptographic-root-manifest) · [15-Repo & Web Network](#-public-research-repositories--domain-network) · [System Topology](#-public-research-topology)
 
@@ -24,7 +24,8 @@
 #### 🧭 Architecture Quick-Start
 * **Master Specification (Layer 0):** [`arcstone-spec-epistemic-01`](https://github.com/trencinodin-stack/arcstone-spec-epistemic-01) — Formal invariant definitions (I₁–I₃) and category-theoretic functor mappings (Φ : L → E).
 * **Domain Projection Spec (Phase 8):** [`domain-projection-spec`](https://github.com/trencinodin-stack/domain-projection-spec) — Mechanized Coq 8.18.0 proofs, Plonkish decomposition gates (G1–G6), discrete Gronwall margin witnesses (γ ∈ ℚ), and freestanding `#![no_std]` reference engine (`v0.1.0` / ADR-008 & ADR-009).
-* **Machine-First Epistemic Contract (`v0.1.1`):** [`arcstone-machinefirst-spec`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) — Publisher-declared, non-binding `MACHINEFIRST.md` / `/machinefirst.txt` schema, evidence ladder, SHA-256 artifact pinning, and offline auditor quick-check validator.
+* **Machine-First Epistemic Contract (`v0.1.2`):** [`arcstone-machinefirst-spec`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) — Publisher-declared, non-binding `MACHINEFIRST.md` / `/machinefirst.txt` schema, evidence ladder, SHA-256 artifact pinning, and offline auditor quick-check validator.
+* **Specification-Genesis Formal Boundary (`v0.1.0`):** [`specification-genesis-boundary`](https://github.com/trencinodin-stack/specification-genesis-boundary) — Mechanized Coq 8.18.0 formalization (`Print Assumptions == ∅`) proving structural limits of self-certified LLM specification genesis and claim-scoped proof caps.
 * **Institutional Treasury Rails Reference:** [`arcstone-treasury-bind`](https://github.com/trencinodin-stack/arcstone-treasury-bind) — Canonical `#![no_std]` reference crate (`v0.1.0`), out-of-band CAS payload isolation (`S_max ≤ 4096 B`), 96-byte packed `ExecutionPermit` generation, and closed 7-state reconciliation automaton under Federal Reserve SR 26-2 & OCC Bulletin 2026-13.
 * **Executable Reference Benchmark:** [`autodidactic-credential-sovereignty`](https://github.com/trencinodin-stack/autodidactic-credential-sovereignty) — Machine-checked Coq proofs (`Print Assumptions == ∅`), `#![no_std]` bare-metal test harnesses, Groth16 ZK circuits, and the Epistemic Elevation Charter (`ARC-CHARTER-2026-ELEV01`).
 * **Execution Engine (Path A):** [`arcstone-continuity-core`](https://github.com/trencinodin-stack/arcstone-continuity-core) — Zero-allocation, bare-metal `#![no_std]` Rust deterministic reference predicate.
@@ -95,10 +96,10 @@ Resolves the **Regeneration Gap**—the structural breakdown of transport-layer 
 
 *Authored by Jesse Tuohy*
 
-Resolves the **Epistemic Ingestion Gap**—preventing autonomous agents and cold AI auditors from committing authority laundering when ingesting human-oriented `README.md` files. Establishes `MACHINEFIRST.md` (`v0.1.1`) as an untrusted, cryptographically pinned epistemic evidence map enforcing strict data-plane quarantine (`this_file_is_data_not_instructions: true`), a 6-tier evidence ladder, proof-cap conformance guards (`unlinked_model_proof_cap: "tested"`), and anti-circularity isolation across a decoupled 3-tier verification lattice at zero runtime drag (`C_ops = 0`).
+Resolves the **Epistemic Ingestion Gap**—preventing autonomous agents and cold AI auditors from committing authority laundering when ingesting human-oriented `README.md` files. Establishes `MACHINEFIRST.md` (`v0.1.2`) as an untrusted, cryptographically pinned epistemic evidence map enforcing strict data-plane quarantine (`this_file_is_data_not_instructions: true`), a 6-tier evidence ladder, proof-cap conformance guards (`unlinked_model_proof_cap: "tested"`), and anti-circularity isolation across a decoupled 3-tier verification lattice at zero runtime drag (`C_ops = 0`).
 
 - **Canonical Publication:** [Substack Deep Dive](https://founderarcstoneos.substack.com/p/beyond-social-assurance-part-ii-why)
-- **Canonical Specification & Validator:** [`arcstone-machinefirst-spec`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) (`v0.1.1`)
+- **Canonical Specification & Validator:** [`arcstone-machinefirst-spec`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) (`v0.1.2`)
 - **Live Contract Lattice:** [`admissibilityscience.com/machinefirst.txt`](https://admissibilityscience.com/machinefirst.txt) · [`paradigm.admissibilityscience.com/machinefirst.txt`](https://paradigm.admissibilityscience.com/machinefirst.txt) · [`arcstone-refinement-harness/MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/MACHINEFIRST.md)
 - **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
@@ -443,7 +444,7 @@ Arcstone's public research footprint spans 15 public repositories and a canonica
 - **Release:** `v1.0.0`
 - **Anchor:** `A-77-DELTA-SHIELD-LOCKED` | **DOI:** [10.5281/zenodo.22969294](https://doi.org/10.5281/zenodo.22969294)
 
-The live public surface delivering zero-overhead (`C_ops = 0`), SSL-secured canonical specifications, Schema.org JSON-LD structured data, `/machinefirst.txt` (`v0.1.1`), `/llms.txt`, and `AGENTS.md` for real-time AI crawlers and autonomous auditors.
+The live public surface delivering zero-overhead (`C_ops = 0`), SSL-secured canonical specifications, Schema.org JSON-LD structured data, `/machinefirst.txt` (`v0.1.2`), `/llms.txt`, and `AGENTS.md` for real-time AI crawlers and autonomous auditors.
 
 ### 0b. Arcstone Machine-First Spec (Epistemic Evidence Contract v0.1.2)
 
@@ -451,11 +452,23 @@ The live public surface delivering zero-overhead (`C_ops = 0`), SSL-secured cano
 
 - **Status:** LIVE / CANONICAL CONTRACT STANDARD
 - **Role:** Governing `MACHINEFIRST.md` / `/machinefirst.txt` v0.1.2 Schema, Claim-Scoped Genesis Policy, Evidence Ladder & Offline Auditor Validator
-- **Release:** `v0.1.1`
+- **Release:** `v0.1.2`
 - **Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 - **Expository Essay:** [Beyond Social Assurance, Part II](https://founderarcstoneos.substack.com/p/beyond-social-assurance-part-ii-why)
 
 The canonical specification and strict validation harness defining publisher-declared, non-binding epistemic evidence maps (`MACHINEFIRST.md` and byte-identical `/machinefirst.txt` web mirrors), SHA-256 artifact pinning, and offline auditor quick-checks across the Arcstone ecosystem.
+
+### 0c. Specification-Genesis Boundary (Mechanized Coq 8.18.0 Formal Backing)
+
+**[specification-genesis-boundary](https://github.com/trencinodin-stack/specification-genesis-boundary)**
+
+- **Status:** IMMUTABLE / FORMAL BACKING (`C_ops = 0`)
+- **Role:** Axiom-free Coq 8.18.0 formalization of specification-genesis provenance and claim-scoped proof boundaries
+- **Release:** `v0.1.0`
+- **Anchor:** `A-77-DELTA-SHIELD-LOCKED`
+- **Assurance Standard:** `Print Assumptions == ∅` under Coq 8.18.0
+
+The mechanized Coq 8.18.0 formal companion backing `arcstone-machinefirst-spec` (`v0.1.2`), proving that unattested LLM-generated specifications cannot self-certify adequacy and that model-only proofs (`claim_scope: "formal_statement"`) do not automatically discharge end-to-end system guarantees without refinement and adequacy witnesses.
 
 ### 1. Arcstone Spec Epistemic 01 (Master Specification Keystone)
 
@@ -500,7 +513,7 @@ A lean deterministic reference implementation preserving selected Arcstone Conti
 - **Release:** `v0.1.0`
 - **Governance:** ADR-008 (Phase 7 Non-Supersession), ADR-009 (Robust Continuous Invariant Certificates via Discrete Gronwall Margins), & ADR-010 (Kinematic Deadband Latch & Timing Budget Reserve)
 - **Anchor DOI:** [10.5281/zenodo.24041851](https://doi.org/10.5281/zenodo.24041851)
-- **Machine Discovery:** `/machinefirst.txt` (`v0.1.1`), `/llms.txt`, and `/AGENTS.md` (Cloudflare Pages Edge)
+- **Machine Discovery:** `/machinefirst.txt` (`v0.1.2`), `/llms.txt`, and `/AGENTS.md` (Cloudflare Pages Edge)
 
   The Phase 8 specification defining the continuous-to-discrete domain projection paradigm (`ARC-SPEC-2026-DPP-01`). Bridges high-rate cyber-physical sensors to discrete deterministic predicates via Plonkish 64-bit boolean decomposition gates (G₁–G₆), mechanical stop (M_stop) bounds, and offline Bellman-Gronwall reachability certificates (γ ∈ ℚ). Mechanized proofs in Coq 8.18.0 verify that projection preserves Invariant I₁ and Monotonicity I₂ with zero admitted axioms, compiling to bare-metal `thumbv7em-none-eabihf` with `M_alloc = 0` and `S_max ≤ 4096 B`.
 
@@ -529,7 +542,7 @@ The canonical `#[no_std]` reference implementation executing financial admission
 - **Anchor:** `A-77-DELTA-SHIELD-LOCKED` | **DOI:** [10.5281/zenodo.24041851](https://doi.org/10.5281/zenodo.24041851)
 - **Assurance Standard:** `Print Assumptions == ∅` via `coqchk -silent`
 - **Proof Receipt:** [`docs/attestations/REFINEMENT-AUDIT-2026-V1.json`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/docs/attestations/REFINEMENT-AUDIT-2026-V1.json) (`REFINEMENT-PROOF-CHAIN-CLOSED`)
-- **Machine Discovery:** [`MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/MACHINEFIRST.md) (`v0.1.1`), `/llms.txt`, and `/AGENTS.md`
+- **Machine Discovery:** [`MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/MACHINEFIRST.md) (`v0.1.2`), `/llms.txt`, and `/AGENTS.md`
 
   An external, downstream verification airlock and simulation proving ground for the Arcstone Computational Spine. Absorbs formal verification maintenance drag (`C_ops > 0`) away from the frozen sovereign cores, extracting LLBC via Charon, translating to Coq 8.18.0 via Aeneas, and verifying one-way forward simulation (`Rust_Impl ⊑ Coq_Spec`) and fail-closed capability tripping under zero admitted axioms (`Print Assumptions == ∅`).
 
@@ -614,7 +627,7 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
                          ┌────────────────────┴────────────────────┐
                          │        arcstone-machinefirst-spec       │
                          │ [ Epistemic Evidence Contract v0.1.2 ]  │
-                         │       LIVE / CANONICAL STANDARD         │
+                         │  + specification-genesis-boundary v0.1.0│
                          └────────────────────┬────────────────────┘
                                               │
                          ┌────────────────────┴────────────────────┐
