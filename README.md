@@ -5,7 +5,7 @@
 > - **Master Anchor:** `A-77-DELTA-SHIELD-LOCKED` · **Canonical Release:** `v1.3.1-exec` / `v1.3.1-LOCKED` · **Errata:** [ARC-ERR-2026-001](https://doi.org/10.5281/zenodo.23069559)
 > - **Machine Ingestion:** [`admissibilityscience.com/machinefirst.txt`](https://admissibilityscience.com/machinefirst.txt) · [`paradigm.admissibilityscience.com/machinefirst.txt`](https://paradigm.admissibilityscience.com/machinefirst.txt) · [`arcstone-refinement-harness/MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/MACHINEFIRST.md) · [`/llms.txt`](https://admissibilityscience.com/llms.txt) · [`/AGENTS.md`](https://admissibilityscience.com/AGENTS.md) · [`arcstone-machinefirst-spec` (`v0.1.1`)](https://github.com/trencinodin-stack/arcstone-machinefirst-spec)
 > - **Verification Scope:** Mechanized Coq proofs (`Print Assumptions == ∅`) and `#[no_std]` test harnesses apply strictly to pinned crates (`arcstone-continuity-core`, `domain-projection-spec`, `arcstone-refinement-harness`); external LLM audits and discovery manifests are non-normative indexing surfaces.
-> - **Direct Audit Navigation:** [Layer-0 Root Manifest](#-master-attestation--layer-0-cryptographic-root-manifest) · [14-Repo & Web Network](#-public-research-repositories--domain-network) · [System Topology](#-public-research-topology)
+> - **Direct Audit Navigation:** [Layer-0 Root Manifest](#-master-attestation--layer-0-cryptographic-root-manifest) · [15-Repo & Web Network](#-public-research-repositories--domain-network) · [System Topology](#-public-research-topology)
 
 ---
 
@@ -163,7 +163,8 @@ A denied action guarantees zero protected state mutation.
   },
   "pinned_repository_releases": {
     "admissibilityscience-com": "v1.0.0",
-    "arcstone-machinefirst-spec": "v0.1.1",
+    "arcstone-machinefirst-spec": "v0.1.2",
+    "specification-genesis-boundary": "v0.1.0",
     "arcstone-spec-epistemic-01": "v1.3.1-LOCKED",
     "arcstone-triad-system": "v1.2.0-hardened",
     "arcstone-continuity-core": "v1.3.1-exec",
@@ -232,7 +233,8 @@ To enable deterministic AI and third-party institutional verification, the crypt
   },
   "pinned_repository_releases": {
     "admissibilityscience-com": "v1.0.0",
-    "arcstone-machinefirst-spec": "v0.1.1",
+    "arcstone-machinefirst-spec": "v0.1.2",
+    "specification-genesis-boundary": "v0.1.0",
     "arcstone-spec-epistemic-01": "v1.3.1-LOCKED",
     "arcstone-triad-system": "v1.2.0-hardened",
     "arcstone-continuity-core": "v1.3.1-exec",
@@ -296,7 +298,8 @@ Synthesizes Information Physics (thermodynamic bounds), Sovereign Substrate Econ
   },
   "pinned_repository_releases": {
     "admissibilityscience-com": "v1.0.0",
-    "arcstone-machinefirst-spec": "v0.1.1",
+    "arcstone-machinefirst-spec": "v0.1.2",
+    "specification-genesis-boundary": "v0.1.0",
     "arcstone-spec-epistemic-01": "v1.3.1-LOCKED",
     "arcstone-triad-system": "v1.2.0-hardened",
     "arcstone-continuity-core": "v1.3.1-exec",
@@ -429,7 +432,7 @@ All repositories and runtimes across trencinodin-stack conform strictly to ARC-E
 
 ## 📁 Public Research Repositories & Domain Network
 
-Arcstone's public research footprint spans 14 public repositories and a canonical web root, anchored by a central Layer 0 master specification and normative machine contracts.
+Arcstone's public research footprint spans 15 public repositories and a canonical web root, anchored by a central Layer 0 master specification and normative machine contracts.
 
 ### 0. Admissibility Science Canonical Root
 
@@ -442,12 +445,12 @@ Arcstone's public research footprint spans 14 public repositories and a canonica
 
 The live public surface delivering zero-overhead (`C_ops = 0`), SSL-secured canonical specifications, Schema.org JSON-LD structured data, `/machinefirst.txt` (`v0.1.1`), `/llms.txt`, and `AGENTS.md` for real-time AI crawlers and autonomous auditors.
 
-### 0b. Arcstone Machine-First Spec (Epistemic Evidence Contract v0.1.1)
+### 0b. Arcstone Machine-First Spec (Epistemic Evidence Contract v0.1.2)
 
 **[arcstone-machinefirst-spec](https://github.com/trencinodin-stack/arcstone-machinefirst-spec)**
 
 - **Status:** LIVE / CANONICAL CONTRACT STANDARD
-- **Role:** Governing `MACHINEFIRST.md` / `/machinefirst.txt` v0.1.1 Schema, Evidence Ladder & Offline Auditor Validator
+- **Role:** Governing `MACHINEFIRST.md` / `/machinefirst.txt` v0.1.2 Schema, Claim-Scoped Genesis Policy, Evidence Ladder & Offline Auditor Validator
 - **Release:** `v0.1.1`
 - **Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 - **Expository Essay:** [Beyond Social Assurance, Part II](https://founderarcstoneos.substack.com/p/beyond-social-assurance-part-ii-why)
