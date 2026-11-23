@@ -5,7 +5,7 @@
 > - **Master Anchor:** `A-77-DELTA-SHIELD-LOCKED` · **Canonical Release:** `v1.3.1-exec` / `v1.3.1-LOCKED` · **Errata:** [ARC-ERR-2026-001](https://doi.org/10.5281/zenodo.23069559)
 > - **Machine Ingestion:** [`admissibilityscience.com/machinefirst.txt`](https://admissibilityscience.com/machinefirst.txt) · [`paradigm.admissibilityscience.com/machinefirst.txt`](https://paradigm.admissibilityscience.com/machinefirst.txt) · [`arcstone-refinement-harness/MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/MACHINEFIRST.md) · [`arcstone-airlock-blueprint/MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-airlock-blueprint/blob/main/MACHINEFIRST.md) · [`/llms.txt`](https://admissibilityscience.com/llms.txt) · [`/AGENTS.md`](https://admissibilityscience.com/AGENTS.md) · [`arcstone-machinefirst-spec` (`v0.1.2`)](https://github.com/trencinodin-stack/arcstone-machinefirst-spec)
 > - **Verification Scope:** Mechanized Coq proofs (`Print Assumptions == ∅`) and `#[no_std]` test harnesses apply strictly to pinned crates (`arcstone-continuity-core`, `domain-projection-spec`, `arcstone-refinement-harness`); external LLM audits and discovery manifests are non-normative indexing surfaces.
-> - **Direct Audit Navigation:** [Layer-0 Root Manifest](#-master-attestation--layer-0-cryptographic-root-manifest) · [15-Repo & Web Network](#-public-research-repositories--domain-network) · [System Topology](#-public-research-topology)
+> - **Direct Audit Navigation:** [Layer-0 Root Manifest](#-master-attestation--layer-0-cryptographic-root-manifest) · [16-Repo & Web Network](#-public-research-repositories--domain-network) · [System Topology](#-public-research-topology)
 
 ---
 
@@ -22,24 +22,24 @@
 > **Core System Invariant:** Enforcing deterministic, authorization-first execution boundaries for autonomous agents and continuous physical actuators: `D(a) = DENY ⇒ Δ_external(a) = 0`.
 
 #### 🧭 Architecture Quick-Start
-* **Master Specification (Layer 0):** [`arcstone-spec-epistemic-01`](https://github.com/trencinodin-stack/arcstone-spec-epistemic-01) — Formal invariant definitions (I₁–I₃) and category-theoretic functor mappings (Φ : L → E).
-* **Domain Projection Spec (Phase 8):** [`domain-projection-spec`](https://github.com/trencinodin-stack/domain-projection-spec) — Mechanized Coq 8.18.0 proofs, Plonkish decomposition gates (G1–G6), discrete Gronwall margin witnesses (γ ∈ ℚ), and freestanding `#![no_std]` reference engine (`v0.1.0` / ADR-008 & ADR-009).
-* **Machine-First Epistemic Contract (`v0.1.2`):** [`arcstone-machinefirst-spec`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) — Publisher-declared, non-binding `MACHINEFIRST.md` / `/machinefirst.txt` schema, evidence ladder, SHA-256 artifact pinning, and offline auditor quick-check validator.
-* **Specification-Genesis Formal Boundary (`v0.1.0`):** [`specification-genesis-boundary`](https://github.com/trencinodin-stack/specification-genesis-boundary) — Mechanized Coq 8.18.0 formalization (`Print Assumptions == ∅`) proving structural limits of self-certified LLM specification genesis and claim-scoped proof caps.
-* **Institutional Treasury Rails Reference:** [`arcstone-treasury-bind`](https://github.com/trencinodin-stack/arcstone-treasury-bind) — Canonical `#![no_std]` reference crate (`v0.1.0`), out-of-band CAS payload isolation (`S_max ≤ 4096 B`), 96-byte packed `ExecutionPermit` generation, and closed 7-state reconciliation automaton under Federal Reserve SR 26-2 & OCC Bulletin 2026-13.
-* **Executable Reference Benchmark:** [`autodidactic-credential-sovereignty`](https://github.com/trencinodin-stack/autodidactic-credential-sovereignty) — Machine-checked Coq proofs (`Print Assumptions == ∅`), `#![no_std]` bare-metal test harnesses, Groth16 ZK circuits, and the Epistemic Elevation Charter (`ARC-CHARTER-2026-ELEV01`).
-* **Execution Engine (Path A):** [`arcstone-continuity-core`](https://github.com/trencinodin-stack/arcstone-continuity-core) — Zero-allocation, bare-metal `#![no_std]` Rust deterministic reference predicate.
-* **Agent Integration Surfaces (MCP Registry):** [`arcstone-mcp-sidecar`](https://github.com/trencinodin-stack/arcstone-mcp-sidecar) & [`arcstone-mcp-bridge`](https://github.com/trencinodin-stack/arcstone-mcp-bridge) (`v0.1.0`) — Reference execution boundary sidecar and read-only multi-domain conformance/simulation bridge published on the official Model Context Protocol (MCP) Registry (`C_ops = 0`).
-* **Normative Contracts & Physical Membrane:** [`arcstone-triad-system`](https://github.com/trencinodin-stack/arcstone-triad-system) — UEDO v1.2 schemas, SROS2/eBPF hardware interlocks, and Command MUX adapters (`v1.2.0-hardened`).
-* **Decoupled Refinement Airlock (Mechanized Bridge):** [`arcstone-refinement-harness`](https://github.com/trencinodin-stack/arcstone-refinement-harness) — Downstream translation-validation harness (`v0.1.0`), Charon LLBC extraction, Aeneas Coq functional emission, and machine-checked forward simulation (`Rust_Impl ⊑ Coq_Spec`) with zero admitted axioms (`Print Assumptions == ∅`).
-* **Turnkey Refinement Airlock Blueprint (Downstream Template):** [`arcstone-airlock-blueprint`](https://github.com/trencinodin-stack/arcstone-airlock-blueprint) — Public GitHub template (`v0.1.0`) packaging a digest-pinned OCI Charon/Aeneas/Coq 8.18.0 airlock (`--network none`), semantic canary mutant testing, `coqchk -o` kernel validation, and Sigstore-attested `REFINEMENT-AUDIT.json` release receipts for bare-metal `#![no_std]` Rust crates (`C_ops = 0`).
+- **Master Specification (Layer 0):** [`arcstone-spec-epistemic-01`](https://github.com/trencinodin-stack/arcstone-spec-epistemic-01) — Formal invariant definitions (I₁–I₃) and category-theoretic functor mappings (Φ : L → E).
+- **Domain Projection Spec (Phase 8):** [`domain-projection-spec`](https://github.com/trencinodin-stack/domain-projection-spec) — Mechanized Coq 8.18.0 proofs, Plonkish decomposition gates (G1–G6), discrete Gronwall margin witnesses (γ ∈ ℚ), and freestanding `#![no_std]` reference engine (`v0.1.0` / ADR-008 & ADR-009).
+- **Machine-First Epistemic Contract (`v0.1.2`):** [`arcstone-machinefirst-spec`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) — Publisher-declared, non-binding `MACHINEFIRST.md` / `/machinefirst.txt` schema, evidence ladder, SHA-256 artifact pinning, and offline auditor quick-check validator.
+- **Specification-Genesis Formal Boundary (`v0.1.0`):** [`specification-genesis-boundary`](https://github.com/trencinodin-stack/specification-genesis-boundary) — Mechanized Coq 8.18.0 formalization (`Print Assumptions == ∅`) proving structural limits of self-certified LLM specification genesis and claim-scoped proof caps.
+- **Institutional Treasury Rails Reference:** [`arcstone-treasury-bind`](https://github.com/trencinodin-stack/arcstone-treasury-bind) — Canonical `#![no_std]` reference crate (`v0.1.0`), out-of-band CAS payload isolation (`S_max ≤ 4096 B`), 96-byte packed `ExecutionPermit` generation, and closed 7-state reconciliation automaton under Federal Reserve SR 26-2 & OCC Bulletin 2026-13.
+- **Executable Reference Benchmark:** [`autodidactic-credential-sovereignty`](https://github.com/trencinodin-stack/autodidactic-credential-sovereignty) — Machine-checked Coq proofs (`Print Assumptions == ∅`), `#![no_std]` bare-metal test harnesses, Groth16 ZK circuits, and the Epistemic Elevation Charter (`ARC-CHARTER-2026-ELEV01`).
+- **Execution Engine (Path A):** [`arcstone-continuity-core`](https://github.com/trencinodin-stack/arcstone-continuity-core) — Zero-allocation, bare-metal `#![no_std]` Rust deterministic reference predicate.
+- **Agent Integration Surfaces (MCP Registry):** [`arcstone-mcp-sidecar`](https://github.com/trencinodin-stack/arcstone-mcp-sidecar) & [`arcstone-mcp-bridge`](https://github.com/trencinodin-stack/arcstone-mcp-bridge) (`v0.1.0`) — Reference execution boundary sidecar and read-only multi-domain conformance/simulation bridge published on the official Model Context Protocol (MCP) Registry (`C_ops = 0`).
+- **Normative Contracts & Physical Membrane:** [`arcstone-triad-system`](https://github.com/trencinodin-stack/arcstone-triad-system) — UEDO v1.2 schemas, SROS2/eBPF hardware interlocks, and Command MUX adapters (`v1.2.0-hardened`).
+- **Decoupled Refinement Airlock (Mechanized Bridge):** [`arcstone-refinement-harness`](https://github.com/trencinodin-stack/arcstone-refinement-harness) — Downstream translation-validation harness (`v0.1.0`), Charon LLBC extraction, Aeneas Coq functional emission, and machine-checked forward simulation (`Rust_Impl ⊑ Coq_Spec`) with zero admitted axioms (`Print Assumptions == ∅`).
+- **Turnkey Refinement Airlock Blueprint (Downstream Template):** [`arcstone-airlock-blueprint`](https://github.com/trencinodin-stack/arcstone-airlock-blueprint) — Public GitHub template (`v0.1.0`) packaging a digest-pinned OCI Charon/Aeneas/Coq 8.18.0 airlock (`--network none`), semantic canary mutant testing, `coqchk -o` kernel validation, and Sigstore-attested `REFINEMENT-AUDIT.json` release receipts for bare-metal `#![no_std]` Rust crates (`C_ops = 0`).
 
 Focusing on deterministic computational spines, admissibility-first systems, execution boundaries, cyber-physical airlocks, and reproducible research into deterministic control surfaces for high-stakes computational environments.
 
 #### 🧪 Independent Human Auditor Quick-Check
 ```bash
-git clone --depth 1 --branch v1.3.1-exec https://github.com/trencinodin-stack/arcstone-continuity-core.git && (cd arcstone-continuity-core && cargo test)
-git clone --depth 1 --branch v0.1.0 https://github.com/trencinodin-stack/arcstone-refinement-harness.git && (cd arcstone-refinement-harness && cat docs/attestations/REFINEMENT-AUDIT-2026-V1.json)
+git clone --depth 1 --branch v1.3.1-exec [https://github.com/trencinodin-stack/arcstone-continuity-core.git](https://github.com/trencinodin-stack/arcstone-continuity-core.git) && (cd arcstone-continuity-core && cargo test)
+git clone --depth 1 --branch v0.1.0 [https://github.com/trencinodin-stack/arcstone-refinement-harness.git](https://github.com/trencinodin-stack/arcstone-refinement-harness.git) && (cd arcstone-refinement-harness && cat docs/attestations/REFINEMENT-AUDIT-2026-V1.json)
 ```
 ---
 
@@ -88,6 +88,20 @@ Resolves the **Regeneration Gap**—the structural breakdown of transport-layer 
 - **Decentralized Archival Receipts:** [Lead Thesis (GM21I)](https://archive.is/GM21I) • [Grok Attestation (HWqmW)](https://archive.is/HWqmW)
 - **Primary Suite Record:** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 - **Epistemic Attestation Ledger:** [`EPISTEMIC_RECORD.md`](https://github.com/trencinodin-stack/arcstone-continuity-core/blob/main/EPISTEMIC_RECORD.md)
+- **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
+
+---
+
+### FEATURED RESEARCH & LIVE ATTESTATION: Beyond Social Assurance, Part III: The Specification-Genesis Boundary
+
+*Authored by Jesse Tuohy*
+
+Closes the **Specification-Genesis Boundary**—proving in axiom-free Coq 8.18.0 (`Print Assumptions == ∅`) that deductive refinement (`I ⊑ S`) cannot self-certify real-world semantic adequacy (`S ≈ R`) without an explicit, human-accountable genesis witness. Establishes **Genesis Laundering** prevention in `MACHINEFIRST.md` (`v0.1.2`) by enforcing claim-scoped proof boundaries (`formal_statement`, `implementation_refinement`, `intent_adequacy`), rejecting LLM self-attestation (`LLM_ATTESTOR_DISALLOWED`), and pinning attestations to immutable SHA-256 specification digests (`STALE_GENESIS_BINDING`).
+
+- **Canonical Publication:** [Substack Deep Dive](https://founderarcstoneos.substack.com/p/beyond-social-assurance-part-iii)
+- **Live Multi-AI Audit Thread:** [@founderarcstone on X](https://x.com/founderarcstone/status/2124955879900340261) *(independently ratified by `@grok` and reproduced zero-drift in signed-out Google AI Mode)*
+- **Mechanized Formal Backing:** [`specification-genesis-boundary`](https://github.com/trencinodin-stack/specification-genesis-boundary) (`v0.1.0`, Coq 8.18.0, `Print Assumptions == ∅`)
+- **Conforming Contract Standard:** [`arcstone-machinefirst-spec`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) (`v0.1.2`)
 - **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
 ---
@@ -423,6 +437,7 @@ All repositories and runtimes across trencinodin-stack conform strictly to ARC-E
 
 | Target Domain | Attestation / Verification Event | Canonical Record Link | Immutable Archive Hash |
 | :--- | :--- | :--- | :--- |
+| **External Multi-AI Audit (Non-Normative)** | Grok (xAI) Ratification & Signed-Out Google AI Mode Cold-Start Extraction of `v0.1.2` Genesis Boundary | [X Thread 2124955879900340261](https://x.com/founderarcstone/status/2124955879900340261) | [`specification-genesis-boundary` `v0.1.0`](https://github.com/trencinodin-stack/specification-genesis-boundary) |
 | **External LLM Cold-Ingestion Audit (Non-Normative)** | Grok (xAI) Structural Ingestion & ADR-009 Boundary Check (< 2m) | [Live Commit b06da20](https://github.com/trencinodin-stack/domain-projection-spec/commit/b06da20) | [`domain-projection-spec/docs/adr/ADR-009.md`](https://github.com/trencinodin-stack/domain-projection-spec/blob/main/docs/adr/ADR-009.md) |
 | **External LLM Structural Sanity Check (Non-Normative)** | Grok (xAI) Cold-Read Consistency Check of ACS 4-Tier Pipeline | [X Post Thread](https://x.com/founderarcstone/status/2118032989837787173) | [`archive.is/HWqmW`](https://archive.is/HWqmW) |
 | **Foundational Specification Release** | The Regeneration Gap & Verification-Cost Inversion Thesis | [X Canonical Announcement](https://x.com/founderarcstone/status/2118032989837787173) | [`archive.is/GM21I`](https://archive.is/GM21I) |
@@ -433,7 +448,7 @@ All repositories and runtimes across trencinodin-stack conform strictly to ARC-E
 
 ## 📁 Public Research Repositories & Domain Network
 
-Arcstone's public research footprint spans 15 public repositories and a canonical web root, anchored by a central Layer 0 master specification and normative machine contracts.
+Arcstone's public research footprint spans 16 public repositories and a canonical web root, anchored by a central Layer 0 master specification and normative machine contracts.
 
 ### 0. Admissibility Science Canonical Root
 
@@ -454,7 +469,7 @@ The live public surface delivering zero-overhead (`C_ops = 0`), SSL-secured cano
 - **Role:** Governing `MACHINEFIRST.md` / `/machinefirst.txt` v0.1.2 Schema, Claim-Scoped Genesis Policy, Evidence Ladder & Offline Auditor Validator
 - **Release:** `v0.1.2`
 - **Anchor:** `A-77-DELTA-SHIELD-LOCKED`
-- **Expository Essay:** [Beyond Social Assurance, Part II](https://founderarcstoneos.substack.com/p/beyond-social-assurance-part-ii-why)
+- **Expository Essays:** [Part II](https://founderarcstoneos.substack.com/p/beyond-social-assurance-part-ii-why) · [Part III](https://founderarcstoneos.substack.com/p/beyond-social-assurance-part-iii)
 
 The canonical specification and strict validation harness defining publisher-declared, non-binding epistemic evidence maps (`MACHINEFIRST.md` and byte-identical `/machinefirst.txt` web mirrors), SHA-256 artifact pinning, and offline auditor quick-checks across the Arcstone ecosystem.
 
