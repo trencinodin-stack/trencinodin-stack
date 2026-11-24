@@ -6,7 +6,7 @@
 > - **Machine Ingestion:** [`admissibilityscience.com/machinefirst.txt`](https://admissibilityscience.com/machinefirst.txt) · [`paradigm.admissibilityscience.com/machinefirst.txt`](https://paradigm.admissibilityscience.com/machinefirst.txt) · [`arcstone-refinement-harness/MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/MACHINEFIRST.md) · [`arcstone-airlock-blueprint/MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-airlock-blueprint/blob/main/MACHINEFIRST.md) · [`/llms.txt`](https://admissibilityscience.com/llms.txt) · [`/AGENTS.md`](https://admissibilityscience.com/AGENTS.md) · [`arcstone-machinefirst-spec` (`v0.1.2`)](https://github.com/trencinodin-stack/arcstone-machinefirst-spec)
 > - **Verification Scope:** Mechanized Coq proofs (`Print Assumptions == ∅`) and `#[no_std]` test harnesses apply strictly to pinned crates (`arcstone-continuity-core`, `domain-projection-spec`, `arcstone-refinement-harness`); external LLM audits and discovery manifests are non-normative indexing surfaces.
 > - **Direct Audit Navigation:** [Layer-0 Root Manifest](#-master-attestation--layer-0-cryptographic-root-manifest) · [16-Repo & Web Network](#-public-research-repositories--domain-network) · [System Topology](#-public-research-topology)
-> - **Architectural Overview:** [The Map and the Gates: Why Specifications and Execution Boundaries Are AI’s Real Moat](https://founderarcstoneos.substack.com/p/the-map-and-the-gates-why-specifications) *(Executive & Technical Monograph)*
+> - **Architectural Overview:** [The Map and the Gates: Why Specifications and Execution Boundaries Are AI’s Real Moat](https://founderarcstoneos.substack.com/p/the-map-and-the-gates-why-specifications) *(Executive & Technical Monograph)* · [Existence ≠ Permission: An Execution-Boundary Architecture for Autonomous AI](https://founderarcstoneos.substack.com/p/existence-permission-an-execution) *(Executive Overview)* · [Complete 129-Essay Archive](./SUBSTACK_INDEX.md)
 
 ---
 
@@ -84,7 +84,7 @@ Formalizes the mathematical, microarchitectural, and operational bounds decoupli
 
 Resolves the **Regeneration Gap**—the structural breakdown of transport-layer HTTP idempotency when generative AI agents re-synthesize tool arguments across retry loops. Demonstrates the 4-tier Arcstone Computational Spine (ACS) spanning axiom-free Coq proofs (`dae_invariants.v`), order-preserving covariant functor bridges (Φ : L → E), bare-metal `#[no_std]` Rust execution membranes (`M_alloc = 0`, `S_max ≤ 4096 B`, `τ_override ≤ 11.99 ms`), and fail-closed hardware actuators (`D(a) = DENY ⇒ Δ_external(a) = 0`). Formulates Verification-Cost Inversion (VCI) to reduce institutional assurance from recurring human audits to amortized *O*(machine time) formal checks.
 
-- **Canonical Publication:** [Substack Deep Dive](https://founderarcstoneos.substack.com/p/beyond-social-assurance-formal-invariants) | [LinkedIn Monograph Mirror](https://www.linkedin.com/in/jesse-tuohy/)
+- **Canonical Publication:** [Substack Deep Dive](https://founderarcstoneos.substack.com/p/beyond-social-assurance-formal-invariants) | [LinkedIn Profile](https://www.linkedin.com/in/jesse-tuohy/)
 - **Live Wire Attestation:** Verified across the wire by `@grok` (xAI) on 2026-11-04; cold-audited on Phase 8 ADR-009 on 2026-11-08
 - **Decentralized Archival Receipts:** [Lead Thesis (GM21I)](https://archive.is/GM21I) • [Grok Attestation (HWqmW)](https://archive.is/HWqmW)
 - **Primary Suite Record:** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
@@ -99,7 +99,7 @@ Resolves the **Regeneration Gap**—the structural breakdown of transport-layer 
 
 Replaces slow institutional PDF-first waterfalls with direct content-addressed code anchoring and immediate cross-model representation-fidelity checks. Maps binary horizontal **Deductive Refinement** (`I ⊑ S`, checked offline via Coq / Charon-Aeneas / `#![no_std]` Rust under `Print Assumptions == ∅`) against binary vertical **Semantic Adequacy** (`S ≈ R`, human-accountable under `MACHINEFIRST.md` `v0.1.2`) across a **4-Quadrant Admissibility Topology (X × Y)**—isolating **Q2 ("Genesis Laundering")** where verified code executes an unverified or AI-drafted rulebook (`(I ⊑ S) ⇏ (S ≈ R)`). Enforces four explicit execution-boundary exclusions (semantic adequacy, complete mediation, liveness/availability, broader TCB safety) and rejects LLM self-attestation (`LLM_ATTESTOR_DISALLOWED`).
 
-- **Canonical Publication:** [Substack Architectural Note](https://founderarcstoneos.substack.com/p/inverted-formalism-orthogonal-topology) · [LinkedIn Article Mirror](https://www.linkedin.com/in/jesse-tuohy/)
+- **Canonical Publication:** [Substack Architectural Note](https://founderarcstoneos.substack.com/p/inverted-formalism-orthogonal-topology) · [LinkedIn Profile](https://www.linkedin.com/in/jesse-tuohy/)
 - **Live Multi-AI Audit Thread:** [@founderarcstone on X](https://x.com/founderarcstone/status/2125297096072864245) *(in-graph loop closed by `@grok` and reproduced zero-drift in signed-out Google AI Mode)*
 - **Mechanized Formal & Airlock Backing:** [`arcstone-refinement-harness`](https://github.com/trencinodin-stack/arcstone-refinement-harness) (`v0.1.0`) · [`specification-genesis-boundary`](https://github.com/trencinodin-stack/specification-genesis-boundary) (`v0.1.0`, Coq 8.18.0, `Print Assumptions == ∅`)
 - **Conforming Contract Standard:** [`arcstone-machinefirst-spec`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) (`v0.1.2`)
@@ -112,7 +112,7 @@ Replaces slow institutional PDF-first waterfalls with direct content-addressed c
 
 Exposes the two-stage boundary inside AI-verified systems—separating downstream **Deductive Refinement** (`I ⊑ S`, checked by Lean or Coq kernels under `Print Assumptions == ∅`) from upstream **Semantic Adequacy** (`S ≈ R`, whether the formal specification actually captures human intent). Demonstrates how autoformalized specification drift (such as omitting `signer_1 != signer_2` on a dual-key treasury rule) enables **Genesis Laundering**, turning an unreviewed premise into apparent mathematical authority. Operationalizes a 3-question Buyer & Auditor Checklist backed by SHA-256 specification pinning (`spec_digest` / `STALE_GENESIS_BINDING`), explicit claim scoping (`formal_statement`, `implementation_refinement`, `intent_adequacy`), and non-delegable human accountability (`LLM_ATTESTOR_DISALLOWED`).
 
-- **Canonical Publication:** [Substack Essay](https://founderarcstoneos.substack.com/p/the-invisible-puzzle-box-what-a-verified) · [LinkedIn Article Mirror](https://www.linkedin.com/in/jesse-tuohy/)
+- **Canonical Publication:** [Substack Essay](https://founderarcstoneos.substack.com/p/the-invisible-puzzle-box-what-a-verified) · [LinkedIn Profile](https://www.linkedin.com/in/jesse-tuohy/)
 - **Live Multi-AI Audit Thread:** [@founderarcstone on X](https://x.com/founderarcstone/status/2125011931316486293) *(independently synthesized by `@grok` and reproduced zero-drift in signed-out Google AI Mode)*
 - **Mechanized Formal Backing:** [`specification-genesis-boundary`](https://github.com/trencinodin-stack/specification-genesis-boundary) (`v0.1.0`, Coq 8.18.0, `Print Assumptions == ∅`)
 - **Conforming Contract Standard:** [`arcstone-machinefirst-spec`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) (`v0.1.2`)
@@ -134,7 +134,7 @@ Closes the **Specification-Genesis Boundary**—proving in axiom-free Coq 8.18.0
 
 ---
 
-### FEATURED RESEARCH: Beyond Social Assurance, Part II: Why `README.md` Fails Autonomous Auditors (and How `MACHINEFIRST.md` Fixes the Epistemic Ingestion Gap)
+### FEATURED RESEARCH: Beyond Social Assurance, Part II: Why README.md Is an Epistemic Hazard (and How MACHINEFIRST.md Replaces Prose with a Verifiable Lattice)
 
 *Authored by Jesse Tuohy*
 
@@ -443,7 +443,7 @@ All repositories and runtimes across trencinodin-stack conform strictly to ARC-E
 | ARC-SPEC-AGENT-HCE-001 | [10.5281/zenodo.23076445](https://doi.org/10.5281/zenodo.23076445) | Arcstone Systems Architecture Specification: Deterministic Deployment of an Autonomous AI Agent in a High-Consequence Environment |
 | ARC-ANL-INJ-002 | [10.5281/zenodo.23076559](https://doi.org/10.5281/zenodo.23076559) | Prompt Injection Under the Invariant Taxonomy: Failure-Mode Analysis and Proof of Hallucination-Independent State Conservation |
 | ARC-LIT-003 | [10.5281/zenodo.23076692](https://doi.org/10.5281/zenodo.23076692) | AI Execution Safety Literature vs. the Arcstone Invariant Substrate: Downstream Actuation Mechanics, Tier Mapping, and Citation-Tree Synthesis |
-| ARC-MONO-2026-REFINEMENT-01 | [10.5281/zenodo.24041851](https://doi.org/10.5281/zenodo.24041851) | **The Decoupled Refinement Airlock: Preserving Zero Operational Drag (C_ops = 0) in High-Assurance Systems via Downstream Mechanized Simulation** — Downstream Charon/Aeneas/Coq 8.18.0 translation-validation harness (`v0.1.0`), one-way forward simulation (`Rust_Impl ⊑ Coq_Spec`), and empty-axiom kernel audit (`Print Assumptions == ∅`). |
+| ARC-MONO-2026-REFINEMENT-01 | [10.5281/zenodo.24041851](https://doi.org/10.5281/zenodo.24041851) *(shared Zenodo record)* | **The Decoupled Refinement Airlock: Preserving Zero Operational Drag (C_ops = 0) in High-Assurance Systems via Downstream Mechanized Simulation** — Downstream Charon/Aeneas/Coq 8.18.0 translation-validation harness (`v0.1.0`), one-way forward simulation (`Rust_Impl ⊑ Coq_Spec`), and empty-axiom kernel audit (`Print Assumptions == ∅`). |
 
 ---
 
@@ -633,6 +633,7 @@ A downstream experimental realization testing whether serialized output from an 
 - **Status:** ACTIVE / CANONICAL FREEZE
 - **Registry Identity:** `io.github.trencinodin-stack/arcstone-mcp-sidecar@0.1.0`
 - **Crate:** `arcstone-execution-boundary` (v0.1.0)
+- **Release:** `v0.1.0`
 - **Role:** Reference downstream execution boundary sidecar for the Arcstone Security Stack
 
 A downstream reference sidecar published on the official Model Context Protocol (MCP) Registry, enforcing mathematical safety invariants between untrusted action producers and protected system side effects via atomic single-use claims (I₁–I₃).
