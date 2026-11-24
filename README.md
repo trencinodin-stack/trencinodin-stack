@@ -92,6 +92,20 @@ Resolves the **Regeneration Gap**—the structural breakdown of transport-layer 
 
 ---
 
+### FEATURED RESEARCH & LIVE ATTESTATION: The Invisible Puzzle Box: What a Verified AI System Actually Proves
+
+*Authored by Jesse Tuohy*
+
+Exposes the two-stage boundary inside AI-verified systems—separating downstream **Deductive Refinement** (`I ⊑ S`, checked by Lean or Coq kernels under `Print Assumptions == ∅`) from upstream **Semantic Adequacy** (`S ≈ R`, whether the formal specification actually captures human intent). Demonstrates how autoformalized specification drift (such as omitting `signer_1 != signer_2` on a dual-key treasury rule) enables **Genesis Laundering**, turning an unreviewed premise into apparent mathematical authority. Operationalizes a 3-question Buyer & Auditor Checklist backed by SHA-256 specification pinning (`spec_digest` / `STALE_GENESIS_BINDING`), explicit claim scoping (`formal_statement`, `implementation_refinement`, `intent_adequacy`), and non-delegable human accountability (`LLM_ATTESTOR_DISALLOWED`).
+
+- **Canonical Publication:** [Substack Essay](https://founderarcstoneos.substack.com/p/the-invisible-puzzle-box-what-a-verified) · [LinkedIn Article Mirror](https://www.linkedin.com/in/jesse-tuohy/)
+- **Live Multi-AI Audit Thread:** [@founderarcstone on X](https://x.com/founderarcstone/status/2125011931316486293) *(independently synthesized by `@grok` and reproduced zero-drift in signed-out Google AI Mode)*
+- **Mechanized Formal Backing:** [`specification-genesis-boundary`](https://github.com/trencinodin-stack/specification-genesis-boundary) (`v0.1.0`, Coq 8.18.0, `Print Assumptions == ∅`)
+- **Conforming Contract Standard:** [`arcstone-machinefirst-spec`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) (`v0.1.2`)
+- **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
+
+---
+
 ### FEATURED RESEARCH & LIVE ATTESTATION: Beyond Social Assurance, Part III: The Specification-Genesis Boundary
 
 *Authored by Jesse Tuohy*
@@ -437,6 +451,7 @@ All repositories and runtimes across trencinodin-stack conform strictly to ARC-E
 
 | Target Domain | Attestation / Verification Event | Canonical Record Link | Immutable Archive Hash |
 | :--- | :--- | :--- | :--- |
+| **Canonical Essay & Multi-AI Synthesis (Non-Normative)** | *The Invisible Puzzle Box: What a Verified AI System Actually Proves* (`I ⊑ S` vs. `S ≈ R`, Genesis Laundering & 3-Question Buyer Checklist) · Grok (xAI) Synthesis & Signed-Out Google AI Mode Extraction | [Substack Essay](https://founderarcstoneos.substack.com/p/the-invisible-puzzle-box-what-a-verified) · [X Thread 2125011931316486293](https://x.com/founderarcstone/status/2125011931316486293) | [`specification-genesis-boundary` `v0.1.0`](https://github.com/trencinodin-stack/specification-genesis-boundary) · [`arcstone-machinefirst-spec` `v0.1.2`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) |
 | **External Multi-AI Audit (Non-Normative)** | Grok (xAI) Ratification & Signed-Out Google AI Mode Cold-Start Extraction of `v0.1.2` Genesis Boundary | [X Thread 2124955879900340261](https://x.com/founderarcstone/status/2124955879900340261) | [`specification-genesis-boundary` `v0.1.0`](https://github.com/trencinodin-stack/specification-genesis-boundary) |
 | **External LLM Cold-Ingestion Audit (Non-Normative)** | Grok (xAI) Structural Ingestion & ADR-009 Boundary Check (< 2m) | [Live Commit b06da20](https://github.com/trencinodin-stack/domain-projection-spec/commit/b06da20) | [`domain-projection-spec/docs/adr/ADR-009.md`](https://github.com/trencinodin-stack/domain-projection-spec/blob/main/docs/adr/ADR-009.md) |
 | **External LLM Structural Sanity Check (Non-Normative)** | Grok (xAI) Cold-Read Consistency Check of ACS 4-Tier Pipeline | [X Post Thread](https://x.com/founderarcstone/status/2118032989837787173) | [`archive.is/HWqmW`](https://archive.is/HWqmW) |
@@ -469,7 +484,7 @@ The live public surface delivering zero-overhead (`C_ops = 0`), SSL-secured cano
 - **Role:** Governing `MACHINEFIRST.md` / `/machinefirst.txt` v0.1.2 Schema, Claim-Scoped Genesis Policy, Evidence Ladder & Offline Auditor Validator
 - **Release:** `v0.1.2`
 - **Anchor:** `A-77-DELTA-SHIELD-LOCKED`
-- **Expository Essays:** [Part II](https://founderarcstoneos.substack.com/p/beyond-social-assurance-part-ii-why) · [Part III](https://founderarcstoneos.substack.com/p/beyond-social-assurance-part-iii)
+- **Expository Essays:** [Part II](https://founderarcstoneos.substack.com/p/beyond-social-assurance-part-ii-why) · [Part III](https://founderarcstoneos.substack.com/p/beyond-social-assurance-part-iii) · [The Invisible Puzzle Box](https://founderarcstoneos.substack.com/p/the-invisible-puzzle-box-what-a-verified)
 
 The canonical specification and strict validation harness defining publisher-declared, non-binding epistemic evidence maps (`MACHINEFIRST.md` and byte-identical `/machinefirst.txt` web mirrors), SHA-256 artifact pinning, and offline auditor quick-checks across the Arcstone ecosystem.
 
@@ -482,6 +497,7 @@ The canonical specification and strict validation harness defining publisher-dec
 - **Release:** `v0.1.0`
 - **Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 - **Assurance Standard:** `Print Assumptions == ∅` under Coq 8.18.0
+- **Expository Essays:** [Part III](https://founderarcstoneos.substack.com/p/beyond-social-assurance-part-iii) · [The Invisible Puzzle Box](https://founderarcstoneos.substack.com/p/the-invisible-puzzle-box-what-a-verified)
 
 The mechanized Coq 8.18.0 formal companion backing `arcstone-machinefirst-spec` (`v0.1.2`), proving that unattested LLM-generated specifications cannot self-certify adequacy and that model-only proofs (`claim_scope: "formal_statement"`) do not automatically discharge end-to-end system guarantees without refinement and adequacy witnesses.
 
