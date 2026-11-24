@@ -93,6 +93,19 @@ Resolves the **Regeneration Gap**—the structural breakdown of transport-layer 
 
 ---
 
+### FEATURED RESEARCH & LIVE ATTESTATION: Inverted Formalism, Orthogonal Topology, and Repeatable Representation-Fidelity Provenance
+
+*Authored by Jesse Tuohy*
+
+Replaces slow institutional PDF-first waterfalls with direct content-addressed code anchoring and immediate cross-model representation-fidelity checks. Maps binary horizontal **Deductive Refinement** (`I ⊑ S`, checked offline via Coq / Charon-Aeneas / `#![no_std]` Rust under `Print Assumptions == ∅`) against binary vertical **Semantic Adequacy** (`S ≈ R`, human-accountable under `MACHINEFIRST.md` `v0.1.2`) across a **4-Quadrant Admissibility Topology (X × Y)**—isolating **Q2 ("Genesis Laundering")** where verified code executes an unverified or AI-drafted rulebook (`(I ⊑ S) ⇏ (S ≈ R)`). Enforces four explicit execution-boundary exclusions (semantic adequacy, complete mediation, liveness/availability, broader TCB safety) and rejects LLM self-attestation (`LLM_ATTESTOR_DISALLOWED`).
+
+- **Canonical Publication:** [Substack Architectural Note](https://founderarcstoneos.substack.com/p/inverted-formalism-orthogonal-topology) · [LinkedIn Article Mirror](https://www.linkedin.com/in/jesse-tuohy/)
+- **Live Multi-AI Audit Thread:** [@founderarcstone on X](https://x.com/founderarcstone/status/2125297096072864245) *(in-graph loop closed by `@grok` and reproduced zero-drift in signed-out Google AI Mode)*
+- **Mechanized Formal & Airlock Backing:** [`arcstone-refinement-harness`](https://github.com/trencinodin-stack/arcstone-refinement-harness) (`v0.1.0`) · [`specification-genesis-boundary`](https://github.com/trencinodin-stack/specification-genesis-boundary) (`v0.1.0`, Coq 8.18.0, `Print Assumptions == ∅`)
+- **Conforming Contract Standard:** [`arcstone-machinefirst-spec`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) (`v0.1.2`)
+- **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
+
+---
 ### FEATURED RESEARCH & LIVE ATTESTATION: The Invisible Puzzle Box: What a Verified AI System Actually Proves
 
 *Authored by Jesse Tuohy*
@@ -452,6 +465,7 @@ All repositories and runtimes across trencinodin-stack conform strictly to ARC-E
 
 | Target Domain | Attestation / Verification Event | Canonical Record Link | Immutable Archive Hash |
 | :--- | :--- | :--- | :--- |
+| **Canonical Architectural Note & Closed Fidelity Loop (Non-Normative)** | *Inverted Formalism, Orthogonal Topology, and Repeatable Representation-Fidelity Provenance* (`I ⊑ S` vs. `S ≈ R`, 4-Quadrant Topology Q1–Q4, Q2 Genesis Laundering & 4 Explicit Exclusions) · Grok (xAI) In-Graph Loop Closure & Signed-Out Google AI Mode Bare-URL Extraction | [Substack Note](https://founderarcstoneos.substack.com/p/inverted-formalism-orthogonal-topology) · [X Thread 2125297096072864245](https://x.com/founderarcstone/status/2125297096072864245) | [`arcstone-refinement-harness` `v0.1.0`](https://github.com/trencinodin-stack/arcstone-refinement-harness) · [`specification-genesis-boundary` `v0.1.0`](https://github.com/trencinodin-stack/specification-genesis-boundary) · [`arcstone-machinefirst-spec` `v0.1.2`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) |
 | **Canonical Essay & Multi-AI Synthesis (Non-Normative)** | *The Invisible Puzzle Box: What a Verified AI System Actually Proves* (`I ⊑ S` vs. `S ≈ R`, Genesis Laundering & 3-Question Buyer Checklist) · Grok (xAI) Synthesis & Signed-Out Google AI Mode Extraction | [Substack Essay](https://founderarcstoneos.substack.com/p/the-invisible-puzzle-box-what-a-verified) · [X Thread 2125011931316486293](https://x.com/founderarcstone/status/2125011931316486293) | [`specification-genesis-boundary` `v0.1.0`](https://github.com/trencinodin-stack/specification-genesis-boundary) · [`arcstone-machinefirst-spec` `v0.1.2`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) |
 | **External Multi-AI Audit (Non-Normative)** | Grok (xAI) Ratification & Signed-Out Google AI Mode Cold-Start Extraction of `v0.1.2` Genesis Boundary | [X Thread 2124955879900340261](https://x.com/founderarcstone/status/2124955879900340261) | [`specification-genesis-boundary` `v0.1.0`](https://github.com/trencinodin-stack/specification-genesis-boundary) |
 | **External LLM Cold-Ingestion Audit (Non-Normative)** | Grok (xAI) Structural Ingestion & ADR-009 Boundary Check (< 2m) | [Live Commit b06da20](https://github.com/trencinodin-stack/domain-projection-spec/commit/b06da20) | [`domain-projection-spec/docs/adr/ADR-009.md`](https://github.com/trencinodin-stack/domain-projection-spec/blob/main/docs/adr/ADR-009.md) |
