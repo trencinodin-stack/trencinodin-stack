@@ -38,8 +38,8 @@ Focusing on deterministic computational spines, admissibility-first systems, exe
 
 #### 🧪 Independent Human Auditor Quick-Check
 ```bash
-git clone --depth 1 --branch v1.3.1-exec [https://github.com/trencinodin-stack/arcstone-continuity-core.git](https://github.com/trencinodin-stack/arcstone-continuity-core.git) && (cd arcstone-continuity-core && cargo test)
-git clone --depth 1 --branch v0.1.0 [https://github.com/trencinodin-stack/arcstone-refinement-harness.git](https://github.com/trencinodin-stack/arcstone-refinement-harness.git) && (cd arcstone-refinement-harness && cat docs/attestations/REFINEMENT-AUDIT-2026-V1.json)
+git clone --depth 1 --branch v1.3.1-exec https://github.com/trencinodin-stack/arcstone-continuity-core.git && (cd arcstone-continuity-core && cargo test)
+git clone --depth 1 --branch v0.1.0 https://github.com/trencinodin-stack/arcstone-refinement-harness.git && (cd arcstone-refinement-harness && cat docs/attestations/REFINEMENT-AUDIT-2026-V1.json)
 ```
 ---
 
