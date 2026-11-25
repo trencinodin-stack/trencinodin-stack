@@ -55,7 +55,7 @@ Autonomous systems deployed across high-consequence substrates frequently experi
 - **Primary Suite Record:** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 - **Verification Harness:** [`domain-projection-spec`](https://github.com/trencinodin-stack/domain-projection-spec)
 - **Refinement Airlock:** [`arcstone-refinement-harness`](https://github.com/trencinodin-stack/arcstone-refinement-harness)
-- **Governance Anchors:** ADR-008 (Phase 7 Immutability) & ADR-009 (Robust Reachability Margin)
+- **Governance Anchors:** ADR-008 (Phase 7 Immutability), ADR-009 (Robust Reachability Margin) & ADR-010 (Kinematic Deadband Latch & Timing Budget Reserve)
 - **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
 
@@ -142,7 +142,7 @@ Resolves the **Epistemic Ingestion Gap**—preventing autonomous agents and cold
 
 - **Canonical Publication:** [Substack Deep Dive](https://founderarcstoneos.substack.com/p/beyond-social-assurance-part-ii-why)
 - **Canonical Specification & Validator:** [`arcstone-machinefirst-spec`](https://github.com/trencinodin-stack/arcstone-machinefirst-spec) (`v0.1.2`)
-- **Live Contract Lattice:** [`admissibilityscience.com/machinefirst.txt`](https://admissibilityscience.com/machinefirst.txt) · [`paradigm.admissibilityscience.com/machinefirst.txt`](https://paradigm.admissibilityscience.com/machinefirst.txt) · [`arcstone-refinement-harness/MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/MACHINEFIRST.md)
+- **Live Contract Lattice:** [`admissibilityscience.com/machinefirst.txt`](https://admissibilityscience.com/machinefirst.txt) · [`paradigm.admissibilityscience.com/machinefirst.txt`](https://paradigm.admissibilityscience.com/machinefirst.txt) · [`arcstone-refinement-harness/MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-refinement-harness/blob/main/MACHINEFIRST.md) · [`arcstone-airlock-blueprint/MACHINEFIRST.md`](https://github.com/trencinodin-stack/arcstone-airlock-blueprint/blob/main/MACHINEFIRST.md)
 - **Master Hash Anchor:** `A-77-DELTA-SHIELD-LOCKED`
 
 
@@ -155,7 +155,7 @@ Resolves the **Epistemic Ingestion Gap**—preventing autonomous agents and cold
 The foundational technical specification establishing order-theoretic, bare-metal mathematical foundations for deterministic, fail-closed execution boundaries operating at zero operational drag (C_ops = 0).
 
 - **Canonical Web Root:** [admissibilityscience.com](https://admissibilityscience.com) (Machine-Readable `/machinefirst.txt`, `/llms.txt` & `/AGENTS.md`)
-- **Paperback ISBN-13:** 9798161524664
+- **Paperback ISBN-13:** 979-8161524664
 - **Paperback ASIN:** B0HMNNZQTV
 - **Kindle ASIN:** B0HMNDBGL1
 - **Primary Master DOI (Zenodo):** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
@@ -191,6 +191,7 @@ A denied action guarantees zero protected state mutation.
   "layer_0_monographs": {
     "information_physics": {
       "title": "INFORMATION PHYSICS: A Technical Specification of Machine Ingestion, Admissibility Boundaries, and Deterministic Authority",
+      "author": "Jesse Tuohy",
       "isbn_13": "979-8161524664",
       "kindle_asin": "B0HMNDBGL1",
       "zenodo_primary_doi": "10.5281/zenodo.22665852"
@@ -201,7 +202,7 @@ A denied action guarantees zero protected state mutation.
       "publication_date": "2026-11-07",
       "version": "1.0",
       "zenodo_primary_doi": "10.5281/zenodo.24041851",
-      "governance": ["ADR-008", "ADR-009"]
+      "governance": ["ADR-008", "ADR-009", "ADR-010"]
     }
   },
   "pinned_repository_releases": {
@@ -388,7 +389,7 @@ The Deterministic Admissibility Engineering (DAE) academic specification suite i
 - **Active Epistemic Anchoring Proof (Zenodo DOI):** [10.5281/zenodo.23602191](https://doi.org/10.5281/zenodo.23602191)
 - **Bare-Metal State Gatekeeping Spec (Zenodo DOI):** [10.5281/zenodo.23602603](https://doi.org/10.5281/zenodo.23602603) (ARC-SPEC-DETERM-SCHEMA-005)
 - **Inverse Specification Monograph (Zenodo DOI):** [10.5281/zenodo.23574285](https://doi.org/10.5281/zenodo.23574285)
-- **Functorial Order Dynamics Monograph (Zenodo DOI):** [10.5281/zenodo.23525986](https://doi.org/10.5281/zenodo.23525986)
+- **Functorial Order Dynamics Monograph (Zenodo DOI):** [10.5281/zenodo.23525986](https://doi.org/10.5281/zenodo.23525986) *(shared Zenodo record)*
 - **Layer 1 Academic Realization Suite (Zenodo DOI):** [10.5281/zenodo.23371581](https://doi.org/10.5281/zenodo.23371581) (ARC-SPEC-2026-EDU-01..09)
 - **Layer 0 Primary Authority (Zenodo DOI):** [10.5281/zenodo.22665852](https://doi.org/10.5281/zenodo.22665852)
 - **Supreme Capstone Synthesis Authority (Zenodo DOI):** [10.5281/zenodo.24093739](https://doi.org/10.5281/zenodo.24093739) (ARC-CAPSTONE-2026-SYNTH-01-REV19)
@@ -687,12 +688,12 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
          ┌───────────────────┬────────────────┼───────────────────┬───────────────────┐
          │                   │                │                   │                   │
          ▼                   ▼                ▼                   ▼                   ▼
-┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
+┌─────────────────┐ ┌──────────────────┐ ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
 │arcstone-triad-  │ │arcstone-        │ │arcstone-        │ │domain-          │ │autodidactic-    │
 │    system       │ │ continuity-core │ │ treasury-bind   │ │ projection-spec │ │ credential-     │
 │[Normative Suite]│ │[Path A Kernel]  │ │[Treasury Rails] │ │[Phase 8 + Edge] │ │  sovereignty    │
-│ v1.2.0-hardened │ │FROZEN/v1.3.1-exc│ │ LIVE / v0.1.0   │ │ LIVE / v0.1.0   │ │IMMUTABLE/v1.0.0 │
-└────────┬────────┘ └─────────────────┘ └─────────────────┘ └────────┬────────┘ └─────────────────┘
+│ v1.2.0-hardened │ │FROZEN/v1.3.1-exec│ │ LIVE / v0.1.0   │ │ LIVE / v0.1.0   │ │IMMUTABLE/v1.0.0 │
+└────────┬────────┘ └──────────────────┘ └─────────────────┘ └────────┬────────┘ └─────────────────┘
          │                                                            │
          │ (Precedence & Schemas)                                     │ (Decoupled Airlock)
          │                                                            ▼
@@ -714,10 +715,10 @@ A downstream research laboratory testing closed-loop adaptive proposal generatio
          │
          │ (Untrusted Proposals)
          ▼
-┌─────────────────┐
-│arcstone-adaptive│
-│  -producer-lab  │
-│[Candidate Gen]  │
-│FROZEN / v0.1.1  │
-└─────────────────┘
+┌────────────────────┐
+│arcstone-adaptive   │
+│  -producer-lab     │
+│[Candidate Gen]     │
+│FROZEN/v0.1.1-frozen│
+└────────────────────┘
 ```
