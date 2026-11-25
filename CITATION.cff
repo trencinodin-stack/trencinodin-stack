@@ -1,0 +1,69 @@
+cff-version: 1.2.0
+title: "Arcstone Research: Admissibility Science & The Arcstone Computational Spine"
+message: "If you reference the Arcstone Computational Spine (ACS), Verification-Cost Inversion, or any monograph in the Arcstone Research series, please cite the corpus below and/or the specific essay entry in CITATIONS.bib."
+type: dataset
+authors:
+  - name: "Arcstone Founder"
+    alias: "founderarcstone"
+    website: "https://founderarcstoneos.substack.com/"
+repository-code: "https://github.com/trencinodin-stack"
+url: "https://founderarcstoneos.substack.com/"
+abstract: "Canonical index, architectural specifications, and 133 expository and technical monographs establishing Admissibility Science, the Arcstone Computational Spine (ACS), Verification-Cost Inversion, and the Specification-Genesis Boundary under master baseline A-77-DELTA-SHIELD-LOCKED."
+keywords:
+  - "AI Safety"
+  - "Admissibility Science"
+  - "Formal Verification"
+  - "Coq"
+  - "Deterministic Execution"
+  - "Arcstone Computational Spine"
+  - "Verification-Cost Inversion"
+version: "A-77-DELTA-SHIELD-LOCKED"
+date-released: "2026-11-25"
+identifiers:
+  - type: url
+    value: "https://founderarcstoneos.substack.com/"
+    description: "Canonical Substack Publication"
+  - type: other
+    value: "A-77-DELTA-SHIELD-LOCKED"
+    description: "Master Architectural Anchor"
+references:
+  - type: article
+    title: "Downstream of Infinity: Why P ≠ NP Isn’t the Bottleneck Blocking Safe AI"
+    authors:
+      - name: "Arcstone Founder"
+    year: 2026
+    month: 11
+    url: "https://founderarcstoneos.substack.com/p/downstream-of-infinity-why-p-np-isnt"
+    notes: "Document ID: ARC-ESSAY-2026-133; Baseline: A-77-DELTA-SHIELD-LOCKED"
+  - type: article
+    title: "Beyond Closed-Model Verification: Open-World Adequacy and Risk-Tiered Actuation Gates for Autonomous AI Bio-Design"
+    authors:
+      - name: "Arcstone Founder"
+    year: 2026
+    month: 11
+    url: "https://founderarcstoneos.substack.com/p/beyond-closed-model-verification"
+    notes: "Document ID: ARC-ESSAY-2026-132; Baseline: A-77-DELTA-SHIELD-LOCKED"
+  - type: article
+    title: "Proof Is Not Permission: The Specification-Genesis Boundary in AI Biology"
+    authors:
+      - name: "Arcstone Founder"
+    year: 2026
+    month: 11
+    url: "https://founderarcstoneos.substack.com/p/proof-is-not-permission-the-specification"
+    notes: "Document ID: ARC-ESSAY-2026-131; Baseline: A-77-DELTA-SHIELD-LOCKED"
+  - type: article
+    title: "The Four Quadrants of Machine Authority: Why Legacy Gatekeepers Are Cracking"
+    authors:
+      - name: "Arcstone Founder"
+    year: 2026
+    month: 11
+    url: "https://founderarcstoneos.substack.com/p/the-four-quadrants-of-machine-authority"
+    notes: "Baseline: A-77-DELTA-SHIELD-LOCKED"
+  - type: article
+    title: "Existence ≠ Permission: An Execution-Boundary Architecture for Autonomous AI"
+    authors:
+      - name: "Arcstone Founder"
+    year: 2026
+    month: 11
+    url: "https://founderarcstoneos.substack.com/p/existence-permission-an-execution"
+    notes: "Baseline: A-77-DELTA-SHIELD-LOCKED"
