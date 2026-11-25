@@ -1,13 +1,14 @@
 # Arcstone Research — Substack Index (`founderarcstoneos.substack.com`)
 
 > **Master Anchor:** `A-77-DELTA-SHIELD-LOCKED` · **Canonical Publication:** [founderarcstoneos.substack.com](https://founderarcstoneos.substack.com/) · **Profile Root:** [`README.md`](./README.md)  
-> **Coverage:** 130 Published Essays (February 16, 2026 – November 24, 2026) · **Scope:** Non-normative expository, architectural, and synthesis essays supporting the Arcstone Computational Spine (ACS). All links below are verified directly against the canonical `posts.csv` slug export.
+> **Coverage:** 133 Published Essays (February 16, 2026 – November 25, 2026) · **Scope:** Non-normative expository, architectural, and synthesis essays supporting the Arcstone Computational Spine (ACS). All links below are verified directly against the canonical `posts.csv` slug export.
 
 ---
 
 ## 🧭 Curated Reading Tracks
 
 ### Track 1: Start Here — Executive Overviews & Core Thesis
+- **2026-11-25** — [Downstream of Infinity: Why P ≠ NP Isn’t the Bottleneck Blocking Safe AI](https://founderarcstoneos.substack.com/p/downstream-of-infinity-why-p-np-isnt) *(Verification-Cost Inversion: decoupling offline Coq 8.18.0 refinement `I ⊑ S` and bare-metal `O(1)` runtime gatekeeping `C_ops = 0, M_alloc = 0, S_max ≤ 4096 B, τ_override ≤ 11.99 ms` from downstream `P vs. NP` proposal generation and upstream human specification ownership `S ≈ R` · `ARC-ESSAY-2026-133`)*
 - **2026-11-24** — [The Four Quadrants of Machine Authority: Why Legacy Gatekeepers Are Cracking](https://founderarcstoneos.substack.com/p/the-four-quadrants-of-machine-authority) *(2×2 classification of Verification Regime `I ⊑ S` vs. Runtime Verification Drag `C_ops = 0`, separating bounded execution gates and offline Coq refinement from upstream human intent)*
 - **2026-11-24** — [Existence ≠ Permission: An Execution-Boundary Architecture for Autonomous AI](https://founderarcstoneos.substack.com/p/existence-permission-an-execution) *(Non-normative executive overview of Admissibility Science and the Arcstone Computational Spine)*
 - **2026-11-24** — [The Map and the Gates: Why Specifications and Execution Boundaries Are AI’s Real Moat](https://founderarcstoneos.substack.com/p/the-map-and-the-gates-why-specifications) *(Why durable trust shifts from abundant generated code toward verifiable specs and deterministic gates)*
@@ -57,9 +58,12 @@
 
 ---
 
-## 📚 Complete Chronological Archive (All 130 Published Essays)
+## 📚 Complete Chronological Archive (All 133 Published Essays)
 
-### November 2026 (34 Essays)
+### November 2026 (37 Essays)
+- **2026-11-25** — [Downstream of Infinity: Why P ≠ NP Isn’t the Bottleneck Blocking Safe AI](https://founderarcstoneos.substack.com/p/downstream-of-infinity-why-p-np-isnt)
+- **2026-11-25** — [Beyond Closed-Model Verification: Open-World Adequacy and Risk-Tiered Actuation Gates for Autonomous AI Bio-Design](https://founderarcstoneos.substack.com/p/beyond-closed-model-verification)
+- **2026-11-25** — [Proof Is Not Permission: The Specification-Genesis Boundary in AI Biology](https://founderarcstoneos.substack.com/p/proof-is-not-permission-the-specification)
 - **2026-11-24** — [The Four Quadrants of Machine Authority: Why Legacy Gatekeepers Are Cracking](https://founderarcstoneos.substack.com/p/the-four-quadrants-of-machine-authority)
 - **2026-11-24** — [Inverted Formalism, Orthogonal Topology, and Repeatable Representation-Fidelity Provenance](https://founderarcstoneos.substack.com/p/inverted-formalism-orthogonal-topology)
 - **2026-11-24** — [The Map and the Gates: Why Specifications and Execution Boundaries Are AI’s Real Moat](https://founderarcstoneos.substack.com/p/the-map-and-the-gates-why-specifications)
