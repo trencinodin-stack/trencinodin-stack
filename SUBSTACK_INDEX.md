@@ -1,7 +1,7 @@
 # Arcstone Research — Substack Index (`founderarcstoneos.substack.com`)
 
 > **Master Anchor:** `A-77-DELTA-SHIELD-LOCKED` · **Canonical Publication:** [founderarcstoneos.substack.com](https://founderarcstoneos.substack.com/) · **Profile Root:** [`README.md`](./README.md)  
-> **Coverage:** 133 Published Essays (February 16, 2026 – November 25, 2026) · **Scope:** Non-normative expository, architectural, and synthesis essays supporting the Arcstone Computational Spine (ACS). All links below are verified directly against the canonical `posts.csv` slug export.
+> **Coverage:** 134 Published Essays (February 16, 2026 – November 26, 2026) · **Scope:** Non-normative expository, architectural, and synthesis essays supporting the Arcstone Computational Spine (ACS). All links below are verified directly against the canonical `posts.csv` slug export.
 
 ---
 
@@ -17,6 +17,7 @@
 - **2026-02-16** — [An Orientation for Readers: Scope, Epistemic Discipline, and What This Publication Is](https://founderarcstoneos.substack.com/p/an-orientation-for-readers-scope) *(Original scope and epistemic orientation for the publication)*
 
 ### Track 2: The Specification-Genesis Boundary & Epistemic Hygiene
+- **2026-11-26** — [The Summit of Fifteen: What History’s Greatest Minds Would Tell World Leaders About Deterministic AI Governance](https://founderarcstoneos.substack.com/p/the-summit-of-fifteen) *(Interpretive synthesis of the Arcstone Computational Spine and Specification-Genesis Boundary: separating deductive refinement `(I ⊑ S)` from human semantic adequacy `(S ≈ R)`, fail-closed `#![no_std]` Rust execution gates `D(a) = DENY ⇒ Δ_external(a) = 0` with `M_alloc = 0, S_max ≤ 4096 B, τ_override ≤ 11.99 ms`, and offline Verification-Cost Inversion `C_ops = 0` · `ARC-ESSAY-2026-134`)*
 - **2026-11-25** – [Beyond Closed-Model Verification: Open-World Adequacy and Risk-Tiered Actuation Gates for Autonomous AI Bio-Design](https://founderarcstoneos.substack.com/p/beyond-closed-model-verification) *(Formal engineering companion to Proof Is Not Permission, separating Closed-Model Refinement `I ⊑ₘ S` from Open-World Empirical Adequacy `Adequate(S, E; P, D)` and specifying risk-tiered default-DENY actuation gates `Γ`, taxonomy-anchored Exclusion Manifests, and scoped capability tokens)*
 - **2026-11-25** — [Proof Is Not Permission: The Specification-Genesis Boundary in AI Biology](https://founderarcstoneos.substack.com/p/proof-is-not-permission-the-specification) *(Why deductive assurance inside a biological model cannot authorize physical wet-lab actuation, and how risk-tiered default-DENY gates and assumption manifests prevent epistemic laundering)*
 - **2026-11-24** — [Inverted Formalism, Orthogonal Topology, and Repeatable Representation-Fidelity Provenance](https://founderarcstoneos.substack.com/p/inverted-formalism-orthogonal-topology) *(Separating deductive refinement `I ⊑ S` from semantic adequacy `S ≈ R` across a 4-quadrant topology)*
@@ -58,9 +59,10 @@
 
 ---
 
-## 📚 Complete Chronological Archive (All 133 Published Essays)
+## 📚 Complete Chronological Archive (All 134 Published Essays)
 
-### November 2026 (37 Essays)
+### November 2026 (38 Essays)
+- **2026-11-26** — [The Summit of Fifteen: What History’s Greatest Minds Would Tell World Leaders About Deterministic AI Governance](https://founderarcstoneos.substack.com/p/the-summit-of-fifteen)
 - **2026-11-25** — [Downstream of Infinity: Why P ≠ NP Isn’t the Bottleneck Blocking Safe AI](https://founderarcstoneos.substack.com/p/downstream-of-infinity-why-p-np-isnt)
 - **2026-11-25** — [Beyond Closed-Model Verification: Open-World Adequacy and Risk-Tiered Actuation Gates for Autonomous AI Bio-Design](https://founderarcstoneos.substack.com/p/beyond-closed-model-verification)
 - **2026-11-25** — [Proof Is Not Permission: The Specification-Genesis Boundary in AI Biology](https://founderarcstoneos.substack.com/p/proof-is-not-permission-the-specification)
